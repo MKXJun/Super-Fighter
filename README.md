@@ -160,20 +160,7 @@ Enter：暂停后按继续游戏<br>
 卡的BOSS战，系统会送你一个'P'和一个'S'。
 
 【游戏UI布局】<br>
-Lives    生命数                          Score  得分<br>
-Credits  剩余硬币数                      Combo  当前倍率<br>
-Shields  护盾数<br>
-Bombs    大招数<br>
-
-
-
-
-
-
-FrameCount    当前总帧数<br>
-EnemyPlanes   敌机在屏幕的数目<br>
-EnemyBullets  敌机子弹总数<br>
-PlayerBullets 玩家子弹总数               Stage  关卡/阶段<br>
+![image](https://github.com/MKXJun/Super-Fighter/blob/master/pic.png)
 
 左下角的信息若不想显示可以在设置界面中关掉调试信息。<br>
 
