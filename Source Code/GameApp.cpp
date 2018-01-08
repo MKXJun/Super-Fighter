@@ -377,7 +377,7 @@ void GameApp::DrawMenu()
 		PostQuitMessage(0);
 	}
 
-	std::wstring wstr = L"重制Ver1.0 X_Jun";
+	std::wstring wstr = L"重制Ver1.1 X_Jun";
 	m_MidFont.DrawString(wstr.c_str(), ToScreenRectF(D2D1_RECT_F{ 200.0f, 830.0f, 550.0f, 890.0f }));
 	m_MidFont.SetTextAlign(DWRITE_TEXT_ALIGNMENT_LEADING);
 }

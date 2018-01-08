@@ -1,0 +1,2196 @@
+typeID: 1   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+35   SetVelY           0.0
+35   ShootToPlayer     50 95 4.0 0.0
+35   ShootToPlayer     50 95 6.0 0.0
+35   ShootToPlayer     50 95 8.0 0.0
+125  SetVelY           10.0
+125  ShootToPlayer     50 95 4.0 0.0
+125  ShootToPlayer     50 95 6.0 0.0
+125  ShootToPlayer     50 95 8.0 0.0
+/////////////////////////
+typeID: 2   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+70   SetVelY           0.0
+70   SetVelX           2.0
+76   ShootToPlayerRand 56  175 5.0 8.0 1
+76   ShootToPlayerRand 105 175 5.0 8.0 1
+82   ShootToPlayerRand 56  175 5.0 8.0 1
+82   ShootToPlayerRand 105 175 5.0 8.0 1
+88   ShootToPlayerRand 56  175 5.0 8.0 1
+88   ShootToPlayerRand 105 175 5.0 8.0 1
+94   ShootToPlayerRand 56  175 5.0 8.0 1
+94   ShootToPlayerRand 105 175 5.0 8.0 1
+100  ShootToPlayerRand 56  175 5.0 8.0 1
+100  ShootToPlayerRand 105 175 5.0 8.0 1
+106  ShootToPlayerRand 56  175 5.0 8.0 1
+106  ShootToPlayerRand 105 175 5.0 8.0 1
+112  ShootToPlayerRand 56  175 5.0 8.0 1
+112  ShootToPlayerRand 105 175 5.0 8.0 1
+118  ShootToPlayerRand 56  175 5.0 8.0 1
+118  ShootToPlayerRand 105 175 5.0 8.0 1
+124  ShootToPlayerRand 56  175 5.0 8.0 1
+124  ShootToPlayerRand 105 175 5.0 8.0 1
+130  ShootToPlayerRand 56  175 5.0 8.0 1
+130  ShootToPlayerRand 105 175 5.0 8.0 1
+130  SetVelX           0.0
+130  SetVelY           -2.0             
+/////////////////////////
+typeID: 3   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+90   SetVelY           -2.0
+98   ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+106  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+114  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+122  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+130  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+140  SetVelY           4.0
+140  SetVelX           2.0
+200  SetVelY           -2.0
+200  SetVelX           0.0
+208  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+216  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+224  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+232  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+240  ShootToPlayer     95  170 8.0 -45.0 -22.5 0.0 22.5 45.0
+240  SetVelY           4.0
+/////////////////////////
+typeID: 4   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+30   ShootToPlayer     25  80 5.0 0.0
+42   ShootToPlayer     25  80 5.2 0.0
+54   ShootToPlayer     25  80 5.4 0.0
+66   ShootToPlayer     25  80 5.6 0.0
+78   ShootToPlayer     25  80 5.8 0.0
+90   ShootToPlayer     25  80 6.0 0.0
+/////////////////////////
+typeID: 5   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+35   SetVelY           0.0
+35   ShootToPlayer     50  95 6.0 -45.0 -22.5 0.0 22.5 45.0
+125  SetVelY           -5.0
+125  SetAwayVelX       2.5
+125  ShootToPlayer     50  95 6.0 -45.0 -22.5 0.0 22.5 45.0
+/////////////////////////
+typeID: 6   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+40   SetVelY            0.0
+40   Charge             0
+80   ShootLaser         23  220 16.0
+80   ShootLaser         115 220 16.0
+86   ShootLaser         23  220 16.0
+86   ShootLaser         115 220 16.0
+92   ShootLaser         23  220 16.0
+92   ShootLaser         115 220 16.0
+98   ShootLaser         23  220 16.0
+98   ShootLaser         115 220 16.0
+104  ShootLaser         23  220 16.0
+104  ShootLaser         115 220 16.0
+110  ShootLaser         23  220 16.0
+110  ShootLaser         115 220 16.0
+116  ShootLaser         23  220 16.0
+116  ShootLaser         115 220 16.0
+122  ShootLaser         23  220 16.0
+122  ShootLaser         115 220 16.0
+128  ShootLaser         23  220 16.0
+128  ShootLaser         115 220 16.0
+134  ShootLaser         23  220 16.0
+134  ShootLaser         115 220 16.0
+140  SetVelY            -2.0
+140  ShootToPlayerRand  23  190 6.0 20.0 1
+140  ShootToPlayerRand  115 190 6.0 20.0 1
+148  ShootToPlayerRand  23  190 6.0 20.0 1
+148  ShootToPlayerRand  115 190 6.0 20.0 1
+156  ShootToPlayerRand  23  190 6.0 20.0 1
+156  ShootToPlayerRand  115 190 6.0 20.0 1
+164  ShootToPlayerRand  23  190 6.0 20.0 1
+164  ShootToPlayerRand  115 190 6.0 20.0 1
+172  ShootToPlayerRand  23  190 6.0 20.0 1
+172  ShootToPlayerRand  115 190 6.0 20.0 1
+180  ShootToPlayerRand  23  190 6.0 20.0 1
+180  ShootToPlayerRand  115 190 6.0 20.0 1
+188  ShootToPlayerRand  23  190 6.0 20.0 1
+188  ShootToPlayerRand  115 190 6.0 20.0 1
+196  ShootToPlayerRand  23  190 6.0 20.0 1
+196  ShootToPlayerRand  115 190 6.0 20.0 1
+204  ShootToPlayerRand  23  190 6.0 20.0 1
+204  ShootToPlayerRand  115 190 6.0 20.0 1
+212  ShootToPlayerRand  23  190 6.0 20.0 1
+212  ShootToPlayerRand  115 190 6.0 20.0 1
+220  ShootToPlayerRand  23  190 6.0 20.0 1
+220  ShootToPlayerRand  115 190 6.0 20.0 1
+228  ShootToPlayerRand  23  190 6.0 20.0 1
+228  ShootToPlayerRand  115 190 6.0 20.0 1
+/////////////////////////
+typeID: 7   cmdCount: 1
+MainCmd
+0    SetCmd            0
+160  SetFrame          40
+=========================
+50   SetVelX             0.0
+50   SetVelY             0.0
+56   ShootToPlayerRand   55  40  5.0 20.0 2
+62   ShootToPlayerRand   55  40  5.0 20.0 2
+68   ShootToPlayerRand   55  40  5.0 20.0 2
+74   ShootToPlayerRand   55  40  5.0 20.0 2
+80   ShootToPlayerRand   55  40  5.0 20.0 2
+86   ShootToPlayerRand   55  40  5.0 20.0 2
+92   ShootToPlayerRand   55  40  5.0 20.0 2
+98   ShootToPlayerRand   55  40  5.0 20.0 2
+140  SetVelX             5.0
+140  SetVelY             3.0
+/////////////////////////
+typeID: 8   cmdCount: 1
+MainCmd
+0    SetCmd             0
+=========================
+70   SetVelY            -3.0
+70   SetAwayVelX        -4.5
+90   ShootLaser         37  100 12.0
+150  ShootLaser         37  100 12.0
+/////////////////////////
+typeID: 9   cmdCount: 1
+MainCmd
+0    SetCmd             0
+=========================
+40   SetVelY            0.0
+40   Charge             0
+80   ShootRand          30  240 8.0 90.0 30.0 5
+86   ShootRand          30  240 8.0 90.0 30.0 5
+92   ShootRand          30  240 8.0 90.0 30.0 5
+98   ShootRand          30  240 8.0 90.0 30.0 5
+104  ShootRand          30  240 8.0 90.0 30.0 5
+110  ShootRand          30  240 8.0 90.0 30.0 5
+116  ShootRand          30  240 8.0 90.0 30.0 5
+122  ShootRand          30  240 8.0 90.0 30.0 5
+128  ShootRand          30  240 8.0 90.0 30.0 5
+134  ShootRand          30  240 8.0 90.0 30.0 5
+140  ShootRand          30  240 8.0 90.0 30.0 5
+146  ShootRand          30  240 8.0 90.0 30.0 5
+152  ShootRand          30  240 8.0 90.0 30.0 5
+158  ShootRand          30  240 8.0 90.0 30.0 5
+164  ShootRand          30  240 8.0 90.0 30.0 5
+180  SetVelY            -3.0
+/////////////////////////
+typeID: 10   cmdCount: 1
+MainCmd
+0   SetCmd              0
+340 SetFrame            60
+=========================
+80   ShootRand          78  110 5.0  135.0 47.0 8
+80   ShootRand          161 110 5.0  45.0  47.0 8
+90   ShootRand          78  110 5.0  135.0 47.0 8
+90   ShootRand          161 110 5.0  45.0  47.0 8
+100  ShootRand          78  110 5.0  135.0 47.0 8
+100  ShootRand          161 110 5.0  45.0  47.0 8
+110  ShootRand          78  110 5.0  135.0 47.0 8
+110  ShootRand          161 110 5.0  45.0  47.0 8
+120  ShootRand          78  110 5.0  135.0 47.0 8
+120  ShootRand          161 110 5.0  45.0  47.0 8
+130  ShootRand          78  110 5.0  135.0 47.0 8
+130  ShootRand          161 110 5.0  45.0  47.0 8
+140  ShootRand          78  110 5.0  135.0 47.0 8
+140  ShootRand          161 110 5.0  45.0  47.0 8
+150  ShootRand          78  110 5.0  135.0 47.0 8
+150  ShootRand          161 110 5.0  45.0  47.0 8
+
+200  Charge             0
+200  SetVelX            0.0
+200  SetVelY            0.0
+240  ShootLaser         119 200 16.0
+246  ShootLaser         119 200 16.0
+252  ShootLaser         119 200 16.0
+258  ShootLaser         119 200 16.0
+264  ShootLaser         119 200 16.0
+270  ShootLaser         119 200 16.0
+276  ShootLaser         119 200 16.0
+282  ShootLaser         119 200 16.0
+288  ShootLaser         119 200 16.0
+294  ShootLaser         119 200 16.0
+330  SetVelX            0.5
+330  SetVelY            1.5
+//////////////////////////
+typeID: 11   cmdCount: 1
+MainCmd
+0    SetCmd             0
+==========================
+40   SetVelY            0.0
+40   Charge             0
+
+80   Shoot              30  240 8.0 17.0 20.0 23.0 
+83   Shoot              30  240 8.0 31.0 34.0 37.0 
+86   Shoot              30  240 8.0 45.0 48.0 51.0 
+89   Shoot              30  240 8.0 59.0 62.0 65.0 
+92   Shoot              30  240 8.0 73.0 76.0 79.0 
+95   Shoot              30  240 8.0 87.0 90.0 93.0 
+98   Shoot              30  240 8.0 101.0 104.0 107.0 
+101  Shoot              30  240 8.0 115.0 118.0 121.0 
+104  Shoot              30  240 8.0 129.0 132.0 135.0 
+107  Shoot              30  240 8.0 143.0 146.0 149.0 
+110  Shoot              30  240 8.0 163.0 160.0 157.0 
+113  Shoot              30  240 8.0 149.0 146.0 143.0 
+116  Shoot              30  240 8.0 135.0 132.0 129.0 
+119  Shoot              30  240 8.0 121.0 118.0 115.0 
+122  Shoot              30  240 8.0 107.0 104.0 101.0 
+125  Shoot              30  240 8.0 93.0 90.0 87.0 
+128  Shoot              30  240 8.0 79.0 76.0 73.0 
+131  Shoot              30  240 8.0 65.0 62.0 59.0 
+134  Shoot              30  240 8.0 51.0 48.0 45.0 
+137  Shoot              30  240 8.0 37.0 34.0 31.0 
+140  Shoot              30  240 8.0 17.0 20.0 23.0 
+143  Shoot              30  240 8.0 31.0 34.0 37.0 
+146  Shoot              30  240 8.0 45.0 48.0 51.0 
+149  Shoot              30  240 8.0 59.0 62.0 65.0 
+152  Shoot              30  240 8.0 73.0 76.0 79.0 
+155  Shoot              30  240 8.0 87.0 90.0 93.0 
+158  Shoot              30  240 8.0 101.0 104.0 107.0 
+161  Shoot              30  240 8.0 115.0 118.0 121.0 
+164  Shoot              30  240 8.0 129.0 132.0 135.0 
+167  Shoot              30  240 8.0 143.0 146.0 149.0 
+
+180  SetVelY            -3.0
+///////////////////////////
+typeID: 14   cmdCount: 18
+MainCmd
+0    SetCmd             0
+115  SetCmd             1 2
+598  SetCmd             3
+
+180  SetFrameIfHPLess   4500 999
+270  SetFrameIfHPLess   4500 999
+360  SetFrameIfHPLess   4500 999
+450  SetFrameIfHPLess   4500 999
+540  SetFrameIfHPLess   4500 999
+630  SetFrameIfHPLess   4500 999
+720  SetFrameIfHPLess   4500 999
+810  SetFrameIfHPLess   4500 999
+
+900  SetFrame           110
+
+
+
+1000 SetCmd             4
+1180 SetCmd             5 6 7
+1680 SetCmd             8
+
+1200 SetFrameIfHPLess   2500 2199
+1290 SetFrameIfHPLess   2500 2199
+1380 SetFrameIfHPLess   2500 2199
+1470 SetFrameIfHPLess   2500 2199
+1560 SetFrameIfHPLess   2500 2199
+1650 SetFrameIfHPLess   2500 2199
+1740 SetFrameIfHPLess   2500 2199
+1830 SetFrameIfHPLess   2500 2199
+1920 SetFrameIfHPLess   2500 2199
+2010 SetFrameIfHPLess   2500 2199
+2100 SetFrameIfHPLess   2500 2199
+
+2120 SetFrame           1170
+
+2200 SetCmd             9
+2375 SetCmd             10 11
+2890 SetCmd             12
+3600 SetCmd             13 14 15 16
+4150 SetCmd             17 
+4960 SetFrame           2370            
+
+===========Cmd0===========
+105  SetVelY            0.0
+===========Cmd1===========
+120  SetVelX            1.5
+
+120  ShootToPlayer     160 123 6.0 -60.0 -58.0 -56.0 -50.0 -48.0 -46.0 -40.0 -38.0 -36.0 -30.0 -28.0 -26.0 -20.0 -18.0 -16.0 -10.0 -8.0 -6.0 0.0 2.0 4.0 10.0 12.0 14.0 45.0 30.0 22.0 24.0 30.0 32.0 34.0 40.0 42.0 44.0 50.0 52.0 54.0 60.0 62.0 64.0 
+160  ShootToPlayer     160 123 6.0 -59.0 -57.0 -55.0 -49.0 -47.0 -45.0 -39.0 -37.0 -35.0 -29.0 -27.0 -25.0 -19.0 -17.0 -15.0 -9.0 -7.0 -5.0 1.0 3.0 5.0 11.0 13.0 15.0 21.0 23.0 25.0 31.0 33.0 35.0 41.0 43.0 45.0 51.0 53.0 55.0 61.0 63.0 65.0 
+200  ShootToPlayer     160 123 6.0 -59.0 -57.0 -55.0 -49.0 -47.0 -45.0 -39.0 -37.0 -35.0 -29.0 -27.0 -25.0 -19.0 -17.0 -15.0 -9.0 -7.0 -5.0 1.0 3.0 5.0 11.0 13.0 15.0 21.0 23.0 25.0 31.0 33.0 35.0 41.0 43.0 45.0 51.0 53.0 55.0 61.0 63.0 65.0 
+240  ShootToPlayer     160 123 6.0 -67.0 -65.0 -63.0 -57.0 -55.0 -53.0 -47.0 -45.0 -43.0 -37.0 -35.0 -33.0 -27.0 -25.0 -23.0 -17.0 -15.0 -13.0 -7.0 -5.0 -3.0 3.0 5.0 7.0 13.0 15.0 17.0 23.0 25.0 27.0 33.0 35.0 37.0 43.0 45.0 47.0 53.0 55.0 57.0 
+280  ShootToPlayer     160 123 6.0 -61.0 -59.0 -57.0 -51.0 -49.0 -47.0 -41.0 -39.0 -37.0 -31.0 -29.0 -27.0 -21.0 -19.0 -17.0 -11.0 -9.0 -7.0 -1.0 1.0 3.0 9.0 11.0 13.0 19.0 21.0 23.0 29.0 31.0 33.0 39.0 41.0 43.0 49.0 51.0 53.0 59.0 61.0 63.0 
+320  ShootToPlayer     160 123 6.0 -63.0 -61.0 -59.0 -53.0 -51.0 -49.0 -43.0 -41.0 -39.0 -33.0 -31.0 -29.0 -23.0 -21.0 -19.0 -13.0 -11.0 -9.0 -3.0 -1.0 1.0 7.0 9.0 11.0 17.0 19.0 21.0 27.0 29.0 31.0 37.0 39.0 41.0 47.0 49.0 51.0 57.0 59.0 61.0 
+360  ShootToPlayer     160 123 6.0 -63.0 -61.0 -59.0 -53.0 -51.0 -49.0 -43.0 -41.0 -39.0 -33.0 -31.0 -29.0 -23.0 -21.0 -19.0 -13.0 -11.0 -9.0 -3.0 -1.0 1.0 7.0 9.0 11.0 17.0 19.0 21.0 27.0 29.0 31.0 37.0 39.0 41.0 47.0 49.0 51.0 57.0 59.0 61.0 
+400  ShootToPlayer     160 123 6.0 -58.0 -56.0 -54.0 -48.0 -46.0 -44.0 -38.0 -36.0 -34.0 -28.0 -26.0 -24.0 -18.0 -16.0 -14.0 -8.0 -6.0 -4.0 45.0 3.0 4.0 6.0 12.0 14.0 16.0 22.0 24.0 45.0 36.0 32.0 34.0 36.0 42.0 44.0 46.0 52.0 54.0 56.0 62.0 64.0 66.0 
+440  ShootToPlayer     160 123 6.0 -67.0 -65.0 -63.0 -57.0 -55.0 -53.0 -47.0 -45.0 -43.0 -37.0 -35.0 -33.0 -27.0 -25.0 -23.0 -17.0 -15.0 -13.0 -7.0 -5.0 -3.0 3.0 5.0 7.0 13.0 15.0 17.0 23.0 25.0 27.0 33.0 35.0 37.0 43.0 45.0 47.0 53.0 55.0 57.0 
+480  ShootToPlayer     160 123 6.0 -68.0 -66.0 -64.0 -58.0 -56.0 -54.0 -48.0 -46.0 -44.0 -38.0 -36.0 -34.0 -28.0 -26.0 -24.0 -18.0 -16.0 -14.0 -8.0 -6.0 -4.0 45.0 3.0 4.0 6.0 12.0 14.0 16.0 22.0 24.0 45.0 36.0 32.0 34.0 36.0 42.0 44.0 46.0 52.0 54.0 56.0 
+520  ShootToPlayer     160 123 6.0 -61.0 -59.0 -57.0 -51.0 -49.0 -47.0 -41.0 -39.0 -37.0 -31.0 -29.0 -27.0 -21.0 -19.0 -17.0 -11.0 -9.0 -7.0 -1.0 1.0 3.0 9.0 11.0 13.0 19.0 21.0 23.0 29.0 31.0 33.0 39.0 41.0 43.0 49.0 51.0 53.0 59.0 61.0 63.0 
+560  ShootToPlayer     160 123 6.0 -61.0 -59.0 -57.0 -51.0 -49.0 -47.0 -41.0 -39.0 -37.0 -31.0 -29.0 -27.0 -21.0 -19.0 -17.0 -11.0 -9.0 -7.0 -1.0 1.0 3.0 9.0 11.0 13.0 19.0 21.0 23.0 29.0 31.0 33.0 39.0 41.0 43.0 49.0 51.0 53.0 59.0 61.0 63.0 
+===========Cmd2===========
+120  SetVelX           1.5
+
+120  ShootToPlayerRand 15  75 4.0 45.0 2
+120  ShootToPlayerRand 304 75 4.0 45.0 2
+129  ShootToPlayerRand 15  75 4.0 45.0 2
+129  ShootToPlayerRand 304 75 4.0 45.0 2
+138  ShootToPlayerRand 15  75 4.0 45.0 2
+138  ShootToPlayerRand 304 75 4.0 45.0 2
+147  ShootToPlayerRand 15  75 4.0 45.0 2
+147  ShootToPlayerRand 304 75 4.0 45.0 2
+156  ShootToPlayerRand 15  75 4.0 45.0 2
+156  ShootToPlayerRand 304 75 4.0 45.0 2
+165  ShootToPlayerRand 15  75 4.0 45.0 2
+165  ShootToPlayerRand 304 75 4.0 45.0 2
+174  ShootToPlayerRand 15  75 4.0 45.0 2
+174  ShootToPlayerRand 304 75 4.0 45.0 2
+183  ShootToPlayerRand 15  75 4.0 45.0 2
+183  ShootToPlayerRand 304 75 4.0 45.0 2
+192  ShootToPlayerRand 15  75 4.0 45.0 2
+192  ShootToPlayerRand 304 75 4.0 45.0 2
+201  ShootToPlayerRand 15  75 4.0 45.0 2
+201  ShootToPlayerRand 304 75 4.0 45.0 2
+210  ShootToPlayerRand 15  75 4.0 45.0 2
+210  ShootToPlayerRand 304 75 4.0 45.0 2
+219  ShootToPlayerRand 15  75 4.0 45.0 2
+219  ShootToPlayerRand 304 75 4.0 45.0 2
+228  ShootToPlayerRand 15  75 4.0 45.0 2
+228  ShootToPlayerRand 304 75 4.0 45.0 2
+237  ShootToPlayerRand 15  75 4.0 45.0 2
+237  ShootToPlayerRand 304 75 4.0 45.0 2
+246  ShootToPlayerRand 15  75 4.0 45.0 2
+246  ShootToPlayerRand 304 75 4.0 45.0 2
+255  ShootToPlayerRand 15  75 4.0 45.0 2
+255  ShootToPlayerRand 304 75 4.0 45.0 2
+264  ShootToPlayerRand 15  75 4.0 45.0 2
+264  ShootToPlayerRand 304 75 4.0 45.0 2
+273  ShootToPlayerRand 15  75 4.0 45.0 2
+273  ShootToPlayerRand 304 75 4.0 45.0 2
+282  ShootToPlayerRand 15  75 4.0 45.0 2
+282  ShootToPlayerRand 304 75 4.0 45.0 2
+291  ShootToPlayerRand 15  75 4.0 45.0 2
+291  ShootToPlayerRand 304 75 4.0 45.0 2
+300  ShootToPlayerRand 15  75 4.0 45.0 2
+300  ShootToPlayerRand 304 75 4.0 45.0 2
+309  ShootToPlayerRand 15  75 4.0 45.0 2
+309  ShootToPlayerRand 304 75 4.0 45.0 2
+318  ShootToPlayerRand 15  75 4.0 45.0 2
+318  ShootToPlayerRand 304 75 4.0 45.0 2
+327  ShootToPlayerRand 15  75 4.0 45.0 2
+327  ShootToPlayerRand 304 75 4.0 45.0 2
+336  ShootToPlayerRand 15  75 4.0 45.0 2
+336  ShootToPlayerRand 304 75 4.0 45.0 2
+345  ShootToPlayerRand 15  75 4.0 45.0 2
+345  ShootToPlayerRand 304 75 4.0 45.0 2
+354  ShootToPlayerRand 15  75 4.0 45.0 2
+354  ShootToPlayerRand 304 75 4.0 45.0 2
+363  ShootToPlayerRand 15  75 4.0 45.0 2
+363  ShootToPlayerRand 304 75 4.0 45.0 2
+372  ShootToPlayerRand 15  75 4.0 45.0 2
+372  ShootToPlayerRand 304 75 4.0 45.0 2
+381  ShootToPlayerRand 15  75 4.0 45.0 2
+381  ShootToPlayerRand 304 75 4.0 45.0 2
+390  ShootToPlayerRand 15  75 4.0 45.0 2
+390  ShootToPlayerRand 304 75 4.0 45.0 2
+399  ShootToPlayerRand 15  75 4.0 45.0 2
+399  ShootToPlayerRand 304 75 4.0 45.0 2
+408  ShootToPlayerRand 15  75 4.0 45.0 2
+408  ShootToPlayerRand 304 75 4.0 45.0 2
+417  ShootToPlayerRand 15  75 4.0 45.0 2
+417  ShootToPlayerRand 304 75 4.0 45.0 2
+426  ShootToPlayerRand 15  75 4.0 45.0 2
+426  ShootToPlayerRand 304 75 4.0 45.0 2
+435  ShootToPlayerRand 15  75 4.0 45.0 2
+435  ShootToPlayerRand 304 75 4.0 45.0 2
+444  ShootToPlayerRand 15  75 4.0 45.0 2
+444  ShootToPlayerRand 304 75 4.0 45.0 2
+453  ShootToPlayerRand 15  75 4.0 45.0 2
+453  ShootToPlayerRand 304 75 4.0 45.0 2
+462  ShootToPlayerRand 15  75 4.0 45.0 2
+462  ShootToPlayerRand 304 75 4.0 45.0 2
+471  ShootToPlayerRand 15  75 4.0 45.0 2
+471  ShootToPlayerRand 304 75 4.0 45.0 2
+480  ShootToPlayerRand 15  75 4.0 45.0 2
+480  ShootToPlayerRand 304 75 4.0 45.0 2
+489  ShootToPlayerRand 15  75 4.0 45.0 2
+489  ShootToPlayerRand 304 75 4.0 45.0 2
+498  ShootToPlayerRand 15  75 4.0 45.0 2
+498  ShootToPlayerRand 304 75 4.0 45.0 2
+507  ShootToPlayerRand 15  75 4.0 45.0 2
+507  ShootToPlayerRand 304 75 4.0 45.0 2
+516  ShootToPlayerRand 15  75 4.0 45.0 2
+516  ShootToPlayerRand 304 75 4.0 45.0 2
+525  ShootToPlayerRand 15  75 4.0 45.0 2
+525  ShootToPlayerRand 304 75 4.0 45.0 2
+534  ShootToPlayerRand 15  75 4.0 45.0 2
+534  ShootToPlayerRand 304 75 4.0 45.0 2
+543  ShootToPlayerRand 15  75 4.0 45.0 2
+543  ShootToPlayerRand 304 75 4.0 45.0 2
+552  ShootToPlayerRand 15  75 4.0 45.0 2
+552  ShootToPlayerRand 304 75 4.0 45.0 2
+============Cmd3==========
+600  Charge            0
+600  SetVelX           0.0
+600  SetVelY           0.0
+
+640  Shoot             15  75  6.0 182.0 180.0 178.0
+640  Shoot             34  125 6.0 12.0 10.0 8.0
+640  Shoot             285 125 6.0 172.0 170.0 168.0
+640  Shoot             304 75  6.0 2.0 0.0 -2.0
+650  Shoot             15  75  6.0 166.0 164.0 162.0
+650  Shoot             34  125 6.0 28.0 26.0 24.0
+650  Shoot             285 125 6.0 156.0 154.0 152.0
+650  Shoot             304 75  6.0 18.0 16.0 14.0
+660  Shoot             15  75  6.0 150.0 148.0 146.0
+660  Shoot             34  125 6.0 44.0 42.0 40.0
+660  Shoot             285 125 6.0 140.0 138.0 136.0
+660  Shoot             304 75  6.0 34.0 32.0 30.0
+670  Shoot             15  75  6.0 134.0 132.0 130.0
+670  Shoot             34  125 6.0 60.0 58.0 56.0
+670  Shoot             285 125 6.0 124.0 122.0 120.0
+670  Shoot             304 75  6.0 50.0 48.0 46.0
+680  Shoot             15  75  6.0 118.0 116.0 114.0
+680  Shoot             34  125 6.0 76.0 74.0 72.0
+680  Shoot             285 125 6.0 108.0 106.0 104.0
+680  Shoot             304 75  6.0 66.0 64.0 62.0
+690  Shoot             15  75  6.0 102.0 100.0 98.0
+690  Shoot             34  125 6.0 92.0 90.0 88.0
+690  Shoot             285 125 6.0 92.0 90.0 88.0
+690  Shoot             304 75  6.0 82.0 80.0 78.0
+700  Shoot             15  75  6.0 86.0 84.0 82.0
+700  Shoot             34  125 6.0 108.0 106.0 104.0
+700  Shoot             285 125 6.0 76.0 74.0 72.0
+700  Shoot             304 75  6.0 98.0 96.0 94.0
+710  Shoot             15  75  6.0 70.0 68.0 66.0
+710  Shoot             34  125 6.0 124.0 122.0 120.0
+710  Shoot             285 125 6.0 60.0 58.0 56.0
+710  Shoot             304 75  6.0 114.0 112.0 110.0
+720  Shoot             15  75  6.0 54.0 52.0 50.0
+720  Shoot             34  125 6.0 140.0 138.0 136.0
+720  Shoot             285 125 6.0 44.0 42.0 40.0
+720  Shoot             304 75  6.0 130.0 128.0 126.0
+730  Shoot             15  75  6.0 38.0 36.0 34.0
+730  Shoot             34  125 6.0 156.0 154.0 152.0
+730  Shoot             285 125 6.0 28.0 26.0 24.0
+730  Shoot             304 75  6.0 146.0 144.0 142.0
+740  Shoot             15  75  6.0 12.0 10.0 8.0
+740  Shoot             34  125 6.0 182.0 180.0 178.0
+740  Shoot             285 125 6.0 2.0 0.0 -2.0
+740  Shoot             304 75  6.0 172.0 170.0 168.0
+750  Shoot             15  75  6.0 28.0 26.0 24.0
+750  Shoot             34  125 6.0 166.0 164.0 162.0
+750  Shoot             285 125 6.0 18.0 16.0 14.0
+750  Shoot             304 75  6.0 156.0 154.0 152.0
+760  Shoot             15  75  6.0 44.0 42.0 40.0
+760  Shoot             34  125 6.0 150.0 148.0 146.0
+760  Shoot             285 125 6.0 34.0 32.0 30.0
+760  Shoot             304 75  6.0 140.0 138.0 136.0
+770  Shoot             15  75  6.0 60.0 58.0 56.0
+770  Shoot             34  125 6.0 134.0 132.0 130.0
+770  Shoot             285 125 6.0 50.0 48.0 46.0
+770  Shoot             304 75  6.0 124.0 122.0 120.0
+780  Shoot             15  75  6.0 76.0 74.0 72.0
+780  Shoot             34  125 6.0 118.0 116.0 114.0
+780  Shoot             285 125 6.0 66.0 64.0 62.0
+780  Shoot             304 75  6.0 108.0 106.0 104.0
+790  Shoot             15  75  6.0 92.0 90.0 88.0
+790  Shoot             34  125 6.0 102.0 100.0 98.0
+790  Shoot             285 125 6.0 82.0 80.0 78.0
+790  Shoot             304 75  6.0 92.0 90.0 88.0
+800  Shoot             15  75  6.0 108.0 106.0 104.0
+800  Shoot             34  125 6.0 86.0 84.0 82.0
+800  Shoot             285 125 6.0 98.0 96.0 94.0
+800  Shoot             304 75  6.0 76.0 74.0 72.0
+810  Shoot             15  75  6.0 124.0 122.0 120.0
+810  Shoot             34  125 6.0 70.0 68.0 66.0
+810  Shoot             285 125 6.0 114.0 112.0 110.0
+810  Shoot             304 75  6.0 60.0 58.0 56.0
+820  Shoot             15  75  6.0 140.0 138.0 136.0
+820  Shoot             34  125 6.0 54.0 52.0 50.0
+820  Shoot             285 125 6.0 130.0 128.0 126.0
+820  Shoot             304 75  6.0 44.0 42.0 40.0
+830  Shoot             15  75  6.0 156.0 154.0 152.0
+830  Shoot             34  125 6.0 38.0 36.0 34.0
+830  Shoot             285 125 6.0 146.0 144.0 142.0
+830  Shoot             304 75  6.0 28.0 26.0 24.0
+============Cmd4==========
+1001 SetVelX           0.0
+1001 SetVelY           0.0
+============Cmd5==========
+1190 SetVelX           2.0
+
+1200 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1207 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1214 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1221 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1228 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1235 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1242 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1249 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1256 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1263 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+
+1370 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1377 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1384 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1391 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1398 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1405 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1412 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1419 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1426 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1433 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+
+1540 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1547 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1554 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1561 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1568 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1575 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1582 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1589 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1596 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+1603 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+
+===========Cmd6===========
+1190 SetVelX           3.0
+1200 ShootLaser        34  125 12.0
+1200 ShootLaser        85  145 12.0
+1200 ShootLaser        234 145 12.0
+1200 ShootLaser        285 125 12.0
+1224 ShootLaser        34  125 12.0
+1224 ShootLaser        85  145 12.0
+1224 ShootLaser        234 145 12.0
+1224 ShootLaser        285 125 12.0
+1248 ShootLaser        34  125 12.0
+1248 ShootLaser        85  145 12.0
+1248 ShootLaser        234 145 12.0
+1248 ShootLaser        285 125 12.0
+1272 ShootLaser        34  125 12.0
+1272 ShootLaser        85  145 12.0
+1272 ShootLaser        234 145 12.0
+1272 ShootLaser        285 125 12.0
+1296 ShootLaser        34  125 12.0
+1296 ShootLaser        85  145 12.0
+1296 ShootLaser        234 145 12.0
+1296 ShootLaser        285 125 12.0
+1320 ShootLaser        34  125 12.0
+1320 ShootLaser        85  145 12.0
+1320 ShootLaser        234 145 12.0
+1320 ShootLaser        285 125 12.0
+1344 ShootLaser        34  125 12.0
+1344 ShootLaser        85  145 12.0
+1344 ShootLaser        234 145 12.0
+1344 ShootLaser        285 125 12.0
+1368 ShootLaser        34  125 12.0
+1368 ShootLaser        85  145 12.0
+1368 ShootLaser        234 145 12.0
+1368 ShootLaser        285 125 12.0
+1392 ShootLaser        34  125 12.0
+1392 ShootLaser        85  145 12.0
+1392 ShootLaser        234 145 12.0
+1392 ShootLaser        285 125 12.0
+1416 ShootLaser        34  125 12.0
+1416 ShootLaser        85  145 12.0
+1416 ShootLaser        234 145 12.0
+1416 ShootLaser        285 125 12.0
+1440 ShootLaser        34  125 12.0
+1440 ShootLaser        85  145 12.0
+1440 ShootLaser        234 145 12.0
+1440 ShootLaser        285 125 12.0
+1464 ShootLaser        34  125 12.0
+1464 ShootLaser        85  145 12.0
+1464 ShootLaser        234 145 12.0
+1464 ShootLaser        285 125 12.0
+1488 ShootLaser        34  125 12.0
+1488 ShootLaser        85  145 12.0
+1488 ShootLaser        234 145 12.0
+1488 ShootLaser        285 125 12.0
+1512 ShootLaser        34  125 12.0
+1512 ShootLaser        85  145 12.0
+1512 ShootLaser        234 145 12.0
+1512 ShootLaser        285 125 12.0
+1536 ShootLaser        34  125 12.0
+1536 ShootLaser        85  145 12.0
+1536 ShootLaser        234 145 12.0
+1536 ShootLaser        285 125 12.0
+1560 ShootLaser        34  125 12.0
+1560 ShootLaser        85  145 12.0
+1560 ShootLaser        234 145 12.0
+1560 ShootLaser        285 125 12.0
+1584 ShootLaser        34  125 12.0
+1584 ShootLaser        85  145 12.0
+1584 ShootLaser        234 145 12.0
+1584 ShootLaser        285 125 12.0
+1608 ShootLaser        34  125 12.0
+1608 ShootLaser        85  145 12.0
+1608 ShootLaser        234 145 12.0
+1608 ShootLaser        285 125 12.0
+===========Cmd7===========
+1190 SetVelX           2.0
+
+1200 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1200 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1260 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1260 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1320 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1320 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1380 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1380 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1440 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1440 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1500 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1500 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1560 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1560 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+1620 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+1620 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+
+
+
+===========Cmd8===========
+1700 Charge            0
+1700 SetVelX           0.0
+1700 SetVelY           0.0
+
+1740 ShootLaser        15  75  16.0
+1740 ShootLaser        304 75  16.0
+1746 ShootLaser        15  75  16.0
+1746 ShootLaser        304 75  16.0
+1752 ShootLaser        15  75  16.0
+1752 ShootLaser        304 75  16.0
+1758 ShootLaser        15  75  16.0
+1758 ShootLaser        304 75  16.0
+1764 ShootLaser        15  75  16.0
+1764 ShootLaser        304 75  16.0
+1770 ShootLaser        15  75  16.0
+1770 ShootLaser        304 75  16.0
+1776 ShootLaser        15  75  16.0
+1776 ShootLaser        304 75  16.0
+1782 ShootLaser        15  75  16.0
+1782 ShootLaser        304 75  16.0
+1788 ShootLaser        15  75  16.0
+1788 ShootLaser        304 75  16.0
+1794 ShootLaser        15  75  16.0
+1794 ShootLaser        304 75  16.0
+1800 ShootLaser        15  75  16.0
+1800 ShootLaser        304 75  16.0
+1806 ShootLaser        15  75  16.0
+1806 ShootLaser        304 75  16.0
+1812 ShootLaser        15  75  16.0
+1812 ShootLaser        304 75  16.0
+1818 ShootLaser        15  75  16.0
+1818 ShootLaser        304 75  16.0
+1824 ShootLaser        15  75  16.0
+1824 ShootLaser        304 75  16.0
+1830 ShootLaser        15  75  16.0
+1830 ShootLaser        304 75  16.0
+1836 ShootLaser        15  75  16.0
+1836 ShootLaser        304 75  16.0
+1842 ShootLaser        15  75  16.0
+1842 ShootLaser        304 75  16.0
+1848 ShootLaser        15  75  16.0
+1848 ShootLaser        304 75  16.0
+1854 ShootLaser        15  75  16.0
+1854 ShootLaser        304 75  16.0
+1860 ShootLaser        15  75  16.0
+1860 ShootLaser        304 75  16.0
+1866 ShootLaser        15  75  16.0
+1866 ShootLaser        304 75  16.0
+1872 ShootLaser        15  75  16.0
+1872 ShootLaser        304 75  16.0
+1878 ShootLaser        15  75  16.0
+1878 ShootLaser        304 75  16.0
+1884 ShootLaser        15  75  16.0
+1884 ShootLaser        304 75  16.0
+1890 ShootLaser        15  75  16.0
+1890 ShootLaser        304 75  16.0
+1896 ShootLaser        15  75  16.0
+1896 ShootLaser        304 75  16.0
+1902 ShootLaser        15  75  16.0
+1902 ShootLaser        304 75  16.0
+1908 ShootLaser        15  75  16.0
+1908 ShootLaser        304 75  16.0
+1914 ShootLaser        15  75  16.0
+1914 ShootLaser        304 75  16.0
+1920 ShootLaser        15  75  16.0
+1920 ShootLaser        304 75  16.0
+1926 ShootLaser        15  75  16.0
+1926 ShootLaser        304 75  16.0
+1932 ShootLaser        15  75  16.0
+1932 ShootLaser        304 75  16.0
+1938 ShootLaser        15  75  16.0
+1938 ShootLaser        304 75  16.0
+1944 ShootLaser        15  75  16.0
+1944 ShootLaser        304 75  16.0
+1950 ShootLaser        15  75  16.0
+1950 ShootLaser        304 75  16.0
+1956 ShootLaser        15  75  16.0
+1956 ShootLaser        304 75  16.0
+1962 ShootLaser        15  75  16.0
+1962 ShootLaser        304 75  16.0
+1968 ShootLaser        15  75  16.0
+1968 ShootLaser        304 75  16.0
+1974 ShootLaser        15  75  16.0
+1974 ShootLaser        304 75  16.0
+1980 ShootLaser        15  75  16.0
+1980 ShootLaser        304 75  16.0
+1986 ShootLaser        15  75  16.0
+1986 ShootLaser        304 75  16.0
+1992 ShootLaser        15  75  16.0
+1992 ShootLaser        304 75  16.0
+1998 ShootLaser        15  75  16.0
+1998 ShootLaser        304 75  16.0
+2004 ShootLaser        15  75  16.0
+2004 ShootLaser        304 75  16.0
+2010 ShootLaser        15  75  16.0
+2010 ShootLaser        304 75  16.0
+2016 ShootLaser        15  75  16.0
+2016 ShootLaser        304 75  16.0
+2022 ShootLaser        15  75  16.0
+2022 ShootLaser        304 75  16.0
+2028 ShootLaser        15  75  16.0
+2028 ShootLaser        304 75  16.0
+2034 ShootLaser        15  75  16.0
+2034 ShootLaser        304 75  16.0
+
+1740 ShootToPlayerRand 160 123 5.0 18.0 3
+1750 ShootToPlayerRand 160 123 5.0 18.0 3
+1760 ShootToPlayerRand 160 123 5.0 18.0 3
+1770 ShootToPlayerRand 160 123 5.0 18.0 3
+1780 ShootToPlayerRand 160 123 5.0 18.0 3
+1790 ShootToPlayerRand 160 123 5.0 18.0 3
+1800 ShootToPlayerRand 160 123 5.0 18.0 3
+1810 ShootToPlayerRand 160 123 5.0 18.0 3
+1820 ShootToPlayerRand 160 123 5.0 18.0 3
+1830 ShootToPlayerRand 160 123 5.0 18.0 3
+1840 ShootToPlayerRand 160 123 5.0 18.0 3
+1850 ShootToPlayerRand 160 123 5.0 18.0 3
+1860 ShootToPlayerRand 160 123 5.0 18.0 3
+1870 ShootToPlayerRand 160 123 5.0 18.0 3
+1880 ShootToPlayerRand 160 123 5.0 18.0 3
+1890 ShootToPlayerRand 160 123 5.0 18.0 3
+1900 ShootToPlayerRand 160 123 5.0 18.0 3
+1910 ShootToPlayerRand 160 123 5.0 18.0 3
+1920 ShootToPlayerRand 160 123 5.0 18.0 3
+1930 ShootToPlayerRand 160 123 5.0 18.0 3
+1940 ShootToPlayerRand 160 123 5.0 18.0 3
+1950 ShootToPlayerRand 160 123 5.0 18.0 3
+1960 ShootToPlayerRand 160 123 5.0 18.0 3
+1970 ShootToPlayerRand 160 123 5.0 18.0 3
+1980 ShootToPlayerRand 160 123 5.0 18.0 3
+1990 ShootToPlayerRand 160 123 5.0 18.0 3
+2000 ShootToPlayerRand 160 123 5.0 18.0 3
+2010 ShootToPlayerRand 160 123 5.0 18.0 3
+2020 ShootToPlayerRand 160 123 5.0 18.0 3
+2030 ShootToPlayerRand 160 123 5.0 18.0 3
+============Cmd9==========
+2201 SetVelX           0.0
+2201 SetVelY           0.0    
+============Cmd10=========
+2380 SetVelX            1.5
+
+2380 ShootToPlayer     160 123 6.0 -60.0 -58.0 -56.0 -50.0 -48.0 -46.0 -40.0 -38.0 -36.0 -30.0 -28.0 -26.0 -20.0 -18.0 -16.0 -10.0 -8.0 -6.0 0.0 2.0 4.0 10.0 12.0 14.0 45.0 30.0 22.0 24.0 30.0 32.0 34.0 40.0 42.0 44.0 50.0 52.0 54.0 60.0 62.0 64.0 
+2420 ShootToPlayer     160 123 6.0 -59.0 -57.0 -55.0 -49.0 -47.0 -45.0 -39.0 -37.0 -35.0 -29.0 -27.0 -25.0 -19.0 -17.0 -15.0 -9.0 -7.0 -5.0 1.0 3.0 5.0 11.0 13.0 15.0 21.0 23.0 25.0 31.0 33.0 35.0 41.0 43.0 45.0 51.0 53.0 55.0 61.0 63.0 65.0 
+2460 ShootToPlayer     160 123 6.0 -59.0 -57.0 -55.0 -49.0 -47.0 -45.0 -39.0 -37.0 -35.0 -29.0 -27.0 -25.0 -19.0 -17.0 -15.0 -9.0 -7.0 -5.0 1.0 3.0 5.0 11.0 13.0 15.0 21.0 23.0 25.0 31.0 33.0 35.0 41.0 43.0 45.0 51.0 53.0 55.0 61.0 63.0 65.0 
+2500 ShootToPlayer     160 123 6.0 -67.0 -65.0 -63.0 -57.0 -55.0 -53.0 -47.0 -45.0 -43.0 -37.0 -35.0 -33.0 -27.0 -25.0 -23.0 -17.0 -15.0 -13.0 -7.0 -5.0 -3.0 3.0 5.0 7.0 13.0 15.0 17.0 23.0 25.0 27.0 33.0 35.0 37.0 43.0 45.0 47.0 53.0 55.0 57.0 
+2540 ShootToPlayer     160 123 6.0 -61.0 -59.0 -57.0 -51.0 -49.0 -47.0 -41.0 -39.0 -37.0 -31.0 -29.0 -27.0 -21.0 -19.0 -17.0 -11.0 -9.0 -7.0 -1.0 1.0 3.0 9.0 11.0 13.0 19.0 21.0 23.0 29.0 31.0 33.0 39.0 41.0 43.0 49.0 51.0 53.0 59.0 61.0 63.0 
+2580 ShootToPlayer     160 123 6.0 -63.0 -61.0 -59.0 -53.0 -51.0 -49.0 -43.0 -41.0 -39.0 -33.0 -31.0 -29.0 -23.0 -21.0 -19.0 -13.0 -11.0 -9.0 -3.0 -1.0 1.0 7.0 9.0 11.0 17.0 19.0 21.0 27.0 29.0 31.0 37.0 39.0 41.0 47.0 49.0 51.0 57.0 59.0 61.0 
+2620 ShootToPlayer     160 123 6.0 -63.0 -61.0 -59.0 -53.0 -51.0 -49.0 -43.0 -41.0 -39.0 -33.0 -31.0 -29.0 -23.0 -21.0 -19.0 -13.0 -11.0 -9.0 -3.0 -1.0 1.0 7.0 9.0 11.0 17.0 19.0 21.0 27.0 29.0 31.0 37.0 39.0 41.0 47.0 49.0 51.0 57.0 59.0 61.0 
+2660 ShootToPlayer     160 123 6.0 -58.0 -56.0 -54.0 -48.0 -46.0 -44.0 -38.0 -36.0 -34.0 -28.0 -26.0 -24.0 -18.0 -16.0 -14.0 -8.0 -6.0 -4.0 45.0 3.0 4.0 6.0 12.0 14.0 16.0 22.0 24.0 45.0 36.0 32.0 34.0 36.0 42.0 44.0 46.0 52.0 54.0 56.0 62.0 64.0 66.0 
+2700 ShootToPlayer     160 123 6.0 -67.0 -65.0 -63.0 -57.0 -55.0 -53.0 -47.0 -45.0 -43.0 -37.0 -35.0 -33.0 -27.0 -25.0 -23.0 -17.0 -15.0 -13.0 -7.0 -5.0 -3.0 3.0 5.0 7.0 13.0 15.0 17.0 23.0 25.0 27.0 33.0 35.0 37.0 43.0 45.0 47.0 53.0 55.0 57.0 
+2740 ShootToPlayer     160 123 6.0 -68.0 -66.0 -64.0 -58.0 -56.0 -54.0 -48.0 -46.0 -44.0 -38.0 -36.0 -34.0 -28.0 -26.0 -24.0 -18.0 -16.0 -14.0 -8.0 -6.0 -4.0 45.0 3.0 4.0 6.0 12.0 14.0 16.0 22.0 24.0 45.0 36.0 32.0 34.0 36.0 42.0 44.0 46.0 52.0 54.0 56.0 
+2780 ShootToPlayer     160 123 6.0 -61.0 -59.0 -57.0 -51.0 -49.0 -47.0 -41.0 -39.0 -37.0 -31.0 -29.0 -27.0 -21.0 -19.0 -17.0 -11.0 -9.0 -7.0 -1.0 1.0 3.0 9.0 11.0 13.0 19.0 21.0 23.0 29.0 31.0 33.0 39.0 41.0 43.0 49.0 51.0 53.0 59.0 61.0 63.0 
+2820 ShootToPlayer     160 123 6.0 -61.0 -59.0 -57.0 -51.0 -49.0 -47.0 -41.0 -39.0 -37.0 -31.0 -29.0 -27.0 -21.0 -19.0 -17.0 -11.0 -9.0 -7.0 -1.0 1.0 3.0 9.0 11.0 13.0 19.0 21.0 23.0 29.0 31.0 33.0 39.0 41.0 43.0 49.0 51.0 53.0 59.0 61.0 63.0 
+============Cmd11=========
+2380 SetVelX           1.5
+
+2380 ShootToPlayerRand 15  75 4.0 45.0 2
+2380 ShootToPlayerRand 304 75 4.0 45.0 2
+2389 ShootToPlayerRand 15  75 4.0 45.0 2
+2389 ShootToPlayerRand 304 75 4.0 45.0 2
+2398 ShootToPlayerRand 15  75 4.0 45.0 2
+2398 ShootToPlayerRand 304 75 4.0 45.0 2
+2407 ShootToPlayerRand 15  75 4.0 45.0 2
+2407 ShootToPlayerRand 304 75 4.0 45.0 2
+2416 ShootToPlayerRand 15  75 4.0 45.0 2
+2416 ShootToPlayerRand 304 75 4.0 45.0 2
+2425  ShootToPlayerRand 15  75 4.0 45.0 2
+2425  ShootToPlayerRand 304 75 4.0 45.0 2
+2434  ShootToPlayerRand 15  75 4.0 45.0 2
+2434  ShootToPlayerRand 304 75 4.0 45.0 2
+2443  ShootToPlayerRand 15  75 4.0 45.0 2
+2443  ShootToPlayerRand 304 75 4.0 45.0 2
+2452  ShootToPlayerRand 15  75 4.0 45.0 2
+2452  ShootToPlayerRand 304 75 4.0 45.0 2
+2461  ShootToPlayerRand 15  75 4.0 45.0 2
+2461  ShootToPlayerRand 304 75 4.0 45.0 2
+2470  ShootToPlayerRand 15  75 4.0 45.0 2
+2470  ShootToPlayerRand 304 75 4.0 45.0 2
+2479  ShootToPlayerRand 15  75 4.0 45.0 2
+2479  ShootToPlayerRand 304 75 4.0 45.0 2
+2488  ShootToPlayerRand 15  75 4.0 45.0 2
+2488  ShootToPlayerRand 304 75 4.0 45.0 2
+2497  ShootToPlayerRand 15  75 4.0 45.0 2
+2497  ShootToPlayerRand 304 75 4.0 45.0 2
+2506  ShootToPlayerRand 15  75 4.0 45.0 2
+2506  ShootToPlayerRand 304 75 4.0 45.0 2
+2515  ShootToPlayerRand 15  75 4.0 45.0 2
+2515  ShootToPlayerRand 304 75 4.0 45.0 2
+2524  ShootToPlayerRand 15  75 4.0 45.0 2
+2524  ShootToPlayerRand 304 75 4.0 45.0 2
+2533  ShootToPlayerRand 15  75 4.0 45.0 2
+2533  ShootToPlayerRand 304 75 4.0 45.0 2
+2542  ShootToPlayerRand 15  75 4.0 45.0 2
+2542  ShootToPlayerRand 304 75 4.0 45.0 2
+2551  ShootToPlayerRand 15  75 4.0 45.0 2
+2551  ShootToPlayerRand 304 75 4.0 45.0 2
+2560  ShootToPlayerRand 15  75 4.0 45.0 2
+2560  ShootToPlayerRand 304 75 4.0 45.0 2
+2569  ShootToPlayerRand 15  75 4.0 45.0 2
+2569  ShootToPlayerRand 304 75 4.0 45.0 2
+2578  ShootToPlayerRand 15  75 4.0 45.0 2
+2578  ShootToPlayerRand 304 75 4.0 45.0 2
+2587  ShootToPlayerRand 15  75 4.0 45.0 2
+2587  ShootToPlayerRand 304 75 4.0 45.0 2
+2596  ShootToPlayerRand 15  75 4.0 45.0 2
+2596  ShootToPlayerRand 304 75 4.0 45.0 2
+2605  ShootToPlayerRand 15  75 4.0 45.0 2
+2605  ShootToPlayerRand 304 75 4.0 45.0 2
+2614  ShootToPlayerRand 15  75 4.0 45.0 2
+2614  ShootToPlayerRand 304 75 4.0 45.0 2
+2623  ShootToPlayerRand 15  75 4.0 45.0 2
+2623  ShootToPlayerRand 304 75 4.0 45.0 2
+2632  ShootToPlayerRand 15  75 4.0 45.0 2
+2632  ShootToPlayerRand 304 75 4.0 45.0 2
+2641  ShootToPlayerRand 15  75 4.0 45.0 2
+2641  ShootToPlayerRand 304 75 4.0 45.0 2
+2650  ShootToPlayerRand 15  75 4.0 45.0 2
+2650  ShootToPlayerRand 304 75 4.0 45.0 2
+2659  ShootToPlayerRand 15  75 4.0 45.0 2
+2659  ShootToPlayerRand 304 75 4.0 45.0 2
+2668  ShootToPlayerRand 15  75 4.0 45.0 2
+2668  ShootToPlayerRand 304 75 4.0 45.0 2
+2677  ShootToPlayerRand 15  75 4.0 45.0 2
+2677  ShootToPlayerRand 304 75 4.0 45.0 2
+2686  ShootToPlayerRand 15  75 4.0 45.0 2
+2686  ShootToPlayerRand 304 75 4.0 45.0 2
+2695  ShootToPlayerRand 15  75 4.0 45.0 2
+2695  ShootToPlayerRand 304 75 4.0 45.0 2
+2704  ShootToPlayerRand 15  75 4.0 45.0 2
+2704  ShootToPlayerRand 304 75 4.0 45.0 2
+2713  ShootToPlayerRand 15  75 4.0 45.0 2
+2713  ShootToPlayerRand 304 75 4.0 45.0 2
+2722  ShootToPlayerRand 15  75 4.0 45.0 2
+2722  ShootToPlayerRand 304 75 4.0 45.0 2
+2731  ShootToPlayerRand 15  75 4.0 45.0 2
+2731  ShootToPlayerRand 304 75 4.0 45.0 2
+2740  ShootToPlayerRand 15  75 4.0 45.0 2
+2740  ShootToPlayerRand 304 75 4.0 45.0 2
+2749  ShootToPlayerRand 15  75 4.0 45.0 2
+2749  ShootToPlayerRand 304 75 4.0 45.0 2
+2758  ShootToPlayerRand 15  75 4.0 45.0 2
+2758  ShootToPlayerRand 304 75 4.0 45.0 2
+2767  ShootToPlayerRand 15  75 4.0 45.0 2
+2767  ShootToPlayerRand 304 75 4.0 45.0 2
+2776  ShootToPlayerRand 15  75 4.0 45.0 2
+2776  ShootToPlayerRand 304 75 4.0 45.0 2
+2785  ShootToPlayerRand 15  75 4.0 45.0 2
+2785  ShootToPlayerRand 304 75 4.0 45.0 2
+2794  ShootToPlayerRand 15  75 4.0 45.0 2
+2794  ShootToPlayerRand 304 75 4.0 45.0 2
+2803  ShootToPlayerRand 15  75 4.0 45.0 2
+2803  ShootToPlayerRand 304 75 4.0 45.0 2
+2812  ShootToPlayerRand 15  75 4.0 45.0 2
+2812  ShootToPlayerRand 304 75 4.0 45.0 2
+============Cmd12=========
+2900  SetVelX           0.0
+2900  SetVelY           -2.0
+2930  SetVelY           0.0
+3000  SetVelY           6.0
+3110  SetVelY           0.0  
+3300  SetVelY           -6.0
+3400  SetVelY           0.0
+
+3010 Shoot             15  75 5.0 86.0 94.0
+3010 Shoot             224 75 5.0 86.0 94.0
+3013 Shoot             15  75 5.0 78.0 102.0
+3013 Shoot             224 75 5.0 78.0 102.0
+3016 Shoot             15  75 5.0 70.0 110.0
+3016 Shoot             224 75 5.0 70.0 110.0
+3019 Shoot             15  75 5.0 62.0 118.0
+3019 Shoot             224 75 5.0 62.0 118.0
+3022 Shoot             15  75 5.0 54.0 126.0
+3022 Shoot             224 75 5.0 54.0 126.0
+3025 Shoot             15  75 5.0 46.0 134.0
+3025 Shoot             224 75 5.0 46.0 134.0
+3028 Shoot             15  75 5.0 38.0 142.0
+3028 Shoot             224 75 5.0 38.0 142.0
+3031 Shoot             15  75 5.0 30.0 150.0
+3031 Shoot             224 75 5.0 30.0 150.0
+3034 Shoot             15  75 5.0 22.0 158.0
+3034 Shoot             224 75 5.0 22.0 158.0
+3037 Shoot             15  75 5.0 14.0 166.0
+3037 Shoot             224 75 5.0 14.0 166.0
+3040 Shoot             15  75 5.0 6.0 174.0
+3040 Shoot             224 75 5.0 6.0 174.0
+3043 Shoot             15  75 5.0 -2.0 182.0
+3043 Shoot             224 75 5.0 -2.0 182.0
+3046 Shoot             15  75 5.0 -10.0 190.0
+3046 Shoot             224 75 5.0 -10.0 190.0
+3049 Shoot             15  75 5.0 -18.0 198.0
+3049 Shoot             224 75 5.0 -18.0 198.0
+3052 Shoot             15  75 5.0 -26.0 206.0
+3052 Shoot             224 75 5.0 -26.0 206.0
+3055 Shoot             15  75 5.0 -34.0 214.0
+3055 Shoot             224 75 5.0 -34.0 214.0
+3058 Shoot             15  75 5.0 -42.0 222.0
+3058 Shoot             224 75 5.0 -42.0 222.0
+3061 Shoot             15  75 5.0 -50.0 230.0
+3061 Shoot             224 75 5.0 -50.0 230.0
+3064 Shoot             15  75 5.0 -58.0 238.0
+3064 Shoot             224 75 5.0 -58.0 238.0
+3067 Shoot             15  75 5.0 -66.0 246.0
+3067 Shoot             224 75 5.0 -66.0 246.0
+3070 Shoot             15  75 5.0 -74.0 254.0
+3070 Shoot             224 75 5.0 -74.0 254.0
+3073 Shoot             15  75 5.0 -82.0 262.0
+3073 Shoot             224 75 5.0 -82.0 262.0
+3076 Shoot             15  75 5.0 -90.0 270.0
+3076 Shoot             224 75 5.0 -90.0 270.0
+
+3016 Shoot             15  75 6.0 86.0 94.0
+3016 Shoot             224 75 6.0 86.0 94.0
+3019 Shoot             15  75 6.0 78.0 102.0
+3019 Shoot             224 75 6.0 78.0 102.0
+3022 Shoot             15  75 6.0 70.0 110.0
+3022 Shoot             224 75 6.0 70.0 110.0
+3025 Shoot             15  75 6.0 62.0 118.0
+3025 Shoot             224 75 6.0 62.0 118.0
+3028 Shoot             15  75 6.0 54.0 126.0
+3028 Shoot             224 75 6.0 54.0 126.0
+3031 Shoot             15  75 6.0 46.0 134.0
+3031 Shoot             224 75 6.0 46.0 134.0
+3034 Shoot             15  75 6.0 38.0 142.0
+3034 Shoot             224 75 6.0 38.0 142.0
+3037 Shoot             15  75 6.0 30.0 150.0
+3037 Shoot             224 75 6.0 30.0 150.0
+3040 Shoot             15  75 6.0 22.0 158.0
+3040 Shoot             224 75 6.0 22.0 158.0
+3043 Shoot             15  75 6.0 14.0 166.0
+3043 Shoot             224 75 6.0 14.0 166.0
+3046 Shoot             15  75 6.0 6.0 174.0
+3046 Shoot             224 75 6.0 6.0 174.0
+3049 Shoot             15  75 6.0 -2.0 182.0
+3049 Shoot             224 75 6.0 -2.0 182.0
+3052 Shoot             15  75 6.0 -10.0 190.0
+3052 Shoot             224 75 6.0 -10.0 190.0
+3055 Shoot             15  75 6.0 -18.0 198.0
+3055 Shoot             224 75 6.0 -18.0 198.0
+3058 Shoot             15  75 6.0 -26.0 206.0
+3058 Shoot             224 75 6.0 -26.0 206.0
+3061 Shoot             15  75 6.0 -34.0 214.0
+3061 Shoot             224 75 6.0 -34.0 214.0
+3064 Shoot             15  75 6.0 -42.0 222.0
+3064 Shoot             224 75 6.0 -42.0 222.0
+3067 Shoot             15  75 6.0 -50.0 230.0
+3067 Shoot             224 75 6.0 -50.0 230.0
+3070 Shoot             15  75 6.0 -58.0 238.0
+3070 Shoot             224 75 6.0 -58.0 238.0
+3073 Shoot             15  75 6.0 -66.0 246.0
+3073 Shoot             224 75 6.0 -66.0 246.0
+3076 Shoot             15  75 6.0 -74.0 254.0
+3076 Shoot             224 75 6.0 -74.0 254.0
+3079 Shoot             15  75 6.0 -82.0 262.0
+3079 Shoot             224 75 6.0 -82.0 262.0
+3082 Shoot             15  75 6.0 -90.0 270.0
+3082 Shoot             224 75 6.0 -90.0 270.0
+
+
+3300 Shoot             15  75 5.0 266.0 274.0
+3300 Shoot             224 75 5.0 266.0 274.0
+3303 Shoot             15  75 5.0 258.0 282.0
+3303 Shoot             224 75 5.0 258.0 282.0
+3306 Shoot             15  75 5.0 250.0 290.0
+3306 Shoot             224 75 5.0 250.0 290.0
+3309 Shoot             15  75 5.0 242.0 298.0
+3309 Shoot             224 75 5.0 242.0 298.0
+3312 Shoot             15  75 5.0 234.0 306.0
+3312 Shoot             224 75 5.0 234.0 306.0
+3315 Shoot             15  75 5.0 226.0 314.0
+3315 Shoot             224 75 5.0 226.0 314.0
+3318 Shoot             15  75 5.0 218.0 322.0
+3318 Shoot             224 75 5.0 218.0 322.0
+3321 Shoot             15  75 5.0 210.0 330.0
+3321 Shoot             224 75 5.0 210.0 330.0
+3324 Shoot             15  75 5.0 202.0 338.0
+3324 Shoot             224 75 5.0 202.0 338.0
+3327 Shoot             15  75 5.0 194.0 346.0
+3327 Shoot             224 75 5.0 194.0 346.0
+3330 Shoot             15  75 5.0 186.0 354.0
+3330 Shoot             224 75 5.0 186.0 354.0
+3333 Shoot             15  75 5.0 178.0 362.0
+3333 Shoot             224 75 5.0 178.0 362.0
+3336 Shoot             15  75 5.0 170.0 370.0
+3336 Shoot             224 75 5.0 170.0 370.0
+3339 Shoot             15  75 5.0 162.0 378.0
+3339 Shoot             224 75 5.0 162.0 378.0
+3342 Shoot             15  75 5.0 154.0 386.0
+3342 Shoot             224 75 5.0 154.0 386.0
+3345 Shoot             15  75 5.0 146.0 394.0
+3345 Shoot             224 75 5.0 146.0 394.0
+3348 Shoot             15  75 5.0 138.0 402.0
+3348 Shoot             224 75 5.0 138.0 402.0
+3351 Shoot             15  75 5.0 130.0 410.0
+3351 Shoot             224 75 5.0 130.0 410.0
+3354 Shoot             15  75 5.0 122.0 418.0
+3354 Shoot             224 75 5.0 122.0 418.0
+3357 Shoot             15  75 5.0 114.0 426.0
+3357 Shoot             224 75 5.0 114.0 426.0
+3360 Shoot             15  75 5.0 106.0 434.0
+3360 Shoot             224 75 5.0 106.0 434.0
+3363 Shoot             15  75 5.0 98.0 442.0
+3363 Shoot             224 75 5.0 98.0 442.0
+3366 Shoot             15  75 5.0 90.0 450.0
+3366 Shoot             224 75 5.0 90.0 450.0
+
+3306 Shoot             15  75 6.0 266.0 274.0
+3306 Shoot             224 75 6.0 266.0 274.0
+3309 Shoot             15  75 6.0 258.0 282.0
+3309 Shoot             224 75 6.0 258.0 282.0
+3312 Shoot             15  75 6.0 250.0 290.0
+3312 Shoot             224 75 6.0 250.0 290.0
+3315 Shoot             15  75 6.0 242.0 298.0
+3315 Shoot             224 75 6.0 242.0 298.0
+3318 Shoot             15  75 6.0 234.0 306.0
+3318 Shoot             224 75 6.0 234.0 306.0
+3321 Shoot             15  75 6.0 226.0 314.0
+3321 Shoot             224 75 6.0 226.0 314.0
+3324 Shoot             15  75 6.0 218.0 322.0
+3324 Shoot             224 75 6.0 218.0 322.0
+3327 Shoot             15  75 6.0 210.0 330.0
+3327 Shoot             224 75 6.0 210.0 330.0
+3330 Shoot             15  75 6.0 202.0 338.0
+3330 Shoot             224 75 6.0 202.0 338.0
+3333 Shoot             15  75 6.0 194.0 346.0
+3333 Shoot             224 75 6.0 194.0 346.0
+3336 Shoot             15  75 6.0 186.0 354.0
+3336 Shoot             224 75 6.0 186.0 354.0
+3339 Shoot             15  75 6.0 178.0 362.0
+3339 Shoot             224 75 6.0 178.0 362.0
+3342 Shoot             15  75 6.0 170.0 370.0
+3342 Shoot             224 75 6.0 170.0 370.0
+3345 Shoot             15  75 6.0 162.0 378.0
+3345 Shoot             224 75 6.0 162.0 378.0
+3348 Shoot             15  75 6.0 154.0 386.0
+3348 Shoot             224 75 6.0 154.0 386.0
+3351 Shoot             15  75 6.0 146.0 394.0
+3351 Shoot             224 75 6.0 146.0 394.0
+3354 Shoot             15  75 6.0 138.0 402.0
+3354 Shoot             224 75 6.0 138.0 402.0
+3357 Shoot             15  75 6.0 130.0 410.0
+3357 Shoot             224 75 6.0 130.0 410.0
+3360 Shoot             15  75 6.0 122.0 418.0
+3360 Shoot             224 75 6.0 122.0 418.0
+3363 Shoot             15  75 6.0 114.0 426.0
+3363 Shoot             224 75 6.0 114.0 426.0
+3366 Shoot             15  75 6.0 106.0 434.0
+3366 Shoot             224 75 6.0 106.0 434.0
+3369 Shoot             15  75 6.0 98.0 442.0
+3369 Shoot             224 75 6.0 98.0 442.0
+3372 Shoot             15  75 6.0 90.0 450.0
+3372 Shoot             224 75 6.0 90.0 450.0
+
+
+============Cmd13=========
+3610 SetVelX           2.0
+
+3620 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3627 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3634 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3641 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3648 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3655 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3662 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3669 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3676 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3683 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+
+3790 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3797 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3804 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3811 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3818 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3825 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3832 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3839 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3846 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3853 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+
+3960 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3967 ShootToPlayer     160 123 4.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3974 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3981 ShootToPlayer     160 123 5.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3988 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+3995 ShootToPlayer     160 123 6.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+4002 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+4009 ShootToPlayer     160 123 7.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+4016 ShootToPlayer     160 123 8.0 -42.0 15-35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+4023 ShootToPlayer     160 123 8.0 -42.0 -35.0 -28.0 -21.0 -14.0 -7.0 0.0 7.0 14.0 21.0 28.0 35.0 42.0 
+
+===========Cmd14==========
+3610 SetVelX           3.0
+3620 ShootLaser        34  125 12.0
+3620 ShootLaser        85  145 12.0
+3620 ShootLaser        234 145 12.0
+3620 ShootLaser        285 125 12.0
+3644 ShootLaser        34  125 12.0
+3644 ShootLaser        85  145 12.0
+3644 ShootLaser        234 145 12.0
+3644 ShootLaser        285 125 12.0
+3668 ShootLaser        34  125 12.0
+3668 ShootLaser        85  145 12.0
+3668 ShootLaser        234 145 12.0
+3668 ShootLaser        285 125 12.0
+3692 ShootLaser        34  125 12.0
+3692 ShootLaser        85  145 12.0
+3692 ShootLaser        234 145 12.0
+3692 ShootLaser        285 125 12.0
+3716 ShootLaser        34  125 12.0
+3716 ShootLaser        85  145 12.0
+3716 ShootLaser        234 145 12.0
+3716 ShootLaser        285 125 12.0
+3740 ShootLaser        34  125 12.0
+3740 ShootLaser        85  145 12.0
+3740 ShootLaser        234 145 12.0
+3740 ShootLaser        285 125 12.0
+3764 ShootLaser        34  125 12.0
+3764 ShootLaser        85  145 12.0
+3764 ShootLaser        234 145 12.0
+3764 ShootLaser        285 125 12.0
+3788 ShootLaser        34  125 12.0
+3788 ShootLaser        85  145 12.0
+3788 ShootLaser        234 145 12.0
+3788 ShootLaser        285 125 12.0
+3812 ShootLaser        34  125 12.0
+3812 ShootLaser        85  145 12.0
+3812 ShootLaser        234 145 12.0
+3812 ShootLaser        285 125 12.0
+3836 ShootLaser        34  125 12.0
+3836 ShootLaser        85  145 12.0
+3836 ShootLaser        234 145 12.0
+3836 ShootLaser        285 125 12.0
+3860 ShootLaser        34  125 12.0
+3860 ShootLaser        85  145 12.0
+3860 ShootLaser        234 145 12.0
+3860 ShootLaser        285 125 12.0
+3884 ShootLaser        34  125 12.0
+3884 ShootLaser        85  145 12.0
+3884 ShootLaser        234 145 12.0
+3884 ShootLaser        285 125 12.0
+3908 ShootLaser        34  125 12.0
+3908 ShootLaser        85  145 12.0
+3908 ShootLaser        234 145 12.0
+3908 ShootLaser        285 125 12.0
+3932 ShootLaser        34  125 12.0
+3932 ShootLaser        85  145 12.0
+3932 ShootLaser        234 145 12.0
+3932 ShootLaser        285 125 12.0
+3956 ShootLaser        34  125 12.0
+3956 ShootLaser        85  145 12.0
+3956 ShootLaser        234 145 12.0
+3956 ShootLaser        285 125 12.0
+3980 ShootLaser        34  125 12.0
+3980 ShootLaser        85  145 12.0
+3980 ShootLaser        234 145 12.0
+3980 ShootLaser        285 125 12.0
+4004 ShootLaser        34  125 12.0
+4004 ShootLaser        85  145 12.0
+4004 ShootLaser        234 145 12.0
+4004 ShootLaser        285 125 12.0
+4028 ShootLaser        34  125 12.0
+4028 ShootLaser        85  145 12.0
+4028 ShootLaser        234 145 12.0
+4028 ShootLaser        285 125 12.0
+===========Cmd15==========
+3610 SetVelX           2.0
+
+3620 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3620 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+3680 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3680 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+3740 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3740 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+3800 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3800 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+3860 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3860 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+3920 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3920 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+3980 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+3980 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+4040 ShootToPlayer     160 123 5.0 -48.0 -40.0 -32.0 -24.0 -16.0 -8.0 0.0 8.0 16.0 24.0 32.0 40.0 48.0
+4040 ShootToPlayer     160 123 6.0 -44.0 -36.0 -28.0 -20.0 -12.0 -4.0 4.0 12.0 20.0 28.0 36.0 44.0
+
+===========Cmd16==========
+3610 SetVelX           2.0
+
+3620 ShootFlame        34  125 5.0 0.0
+3620 ShootFlame        285 125 5.0 180.0
+3623 ShootFlame        34  125 5.0 7.0
+3623 ShootFlame        285 125 5.0 173.0
+3626 ShootFlame        34  125 5.0 14.0
+3626 ShootFlame        285 125 5.0 166.0
+3629 ShootFlame        34  125 5.0 21.0
+3629 ShootFlame        285 125 5.0 159.0
+3632 ShootFlame        34  125 5.0 28.0
+3632 ShootFlame        285 125 5.0 152.0
+3635 ShootFlame        34  125 5.0 35.0
+3635 ShootFlame        285 125 5.0 145.0
+3638 ShootFlame        34  125 5.0 42.0
+3638 ShootFlame        285 125 5.0 138.0
+3641 ShootFlame        34  125 5.0 49.0
+3641 ShootFlame        285 125 5.0 131.0
+3644 ShootFlame        34  125 5.0 56.0
+3644 ShootFlame        285 125 5.0 124.0
+3647 ShootFlame        34  125 5.0 63.0
+3647 ShootFlame        285 125 5.0 117.0
+3650 ShootFlame        34  125 5.0 70.0
+3650 ShootFlame        285 125 5.0 110.0
+3653 ShootFlame        34  125 5.0 77.0
+3653 ShootFlame        285 125 5.0 103.0
+3656 ShootFlame        34  125 5.0 84.0
+3656 ShootFlame        285 125 5.0 96.0
+3659 ShootFlame        34  125 5.0 91.0
+3659 ShootFlame        285 125 5.0 89.0
+3662 ShootFlame        34  125 5.0 98.0
+3662 ShootFlame        285 125 5.0 82.0
+3665 ShootFlame        34  125 5.0 105.0
+3665 ShootFlame        285 125 5.0 75.0
+3668 ShootFlame        34  125 5.0 112.0
+3668 ShootFlame        285 125 5.0 68.0
+3671 ShootFlame        34  125 5.0 119.0
+3671 ShootFlame        285 125 5.0 61.0
+3674 ShootFlame        34  125 5.0 126.0
+3674 ShootFlame        285 125 5.0 54.0
+3677 ShootFlame        34  125 5.0 133.0
+3677 ShootFlame        285 125 5.0 47.0
+3680 ShootFlame        34  125 5.0 140.0
+3680 ShootFlame        285 125 5.0 40.0
+3683 ShootFlame        34  125 5.0 147.0
+3683 ShootFlame        285 125 5.0 33.0
+3686 ShootFlame        34  125 5.0 154.0
+3686 ShootFlame        285 125 5.0 26.0
+3689 ShootFlame        34  125 5.0 161.0
+3689 ShootFlame        285 125 5.0 19.0
+3692 ShootFlame        34  125 5.0 168.0
+3692 ShootFlame        285 125 5.0 12.0
+3695 ShootFlame        34  125 5.0 175.0
+3695 ShootFlame        285 125 5.0 5.0
+3698 ShootFlame        34  125 5.0 182.0
+3698 ShootFlame        285 125 5.0 -2.0
+3701 ShootFlame        34  125 5.0 189.0
+3701 ShootFlame        285 125 5.0 -9.0
+3704 ShootFlame        34  125 5.0 196.0
+3704 ShootFlame        285 125 5.0 -16.0
+3707 ShootFlame        34  125 5.0 203.0
+3707 ShootFlame        285 125 5.0 -23.0
+3710 ShootFlame        34  125 5.0 210.0
+3710 ShootFlame        285 125 5.0 -30.0
+3713 ShootFlame        34  125 5.0 217.0
+3713 ShootFlame        285 125 5.0 -37.0
+3716 ShootFlame        34  125 5.0 224.0
+3716 ShootFlame        285 125 5.0 -44.0
+3719 ShootFlame        34  125 5.0 231.0
+3719 ShootFlame        285 125 5.0 -51.0
+3722 ShootFlame        34  125 5.0 238.0
+3722 ShootFlame        285 125 5.0 -58.0
+3725 ShootFlame        34  125 5.0 245.0
+3725 ShootFlame        285 125 5.0 -65.0
+3728 ShootFlame        34  125 5.0 252.0
+3728 ShootFlame        285 125 5.0 -72.0
+3731 ShootFlame        34  125 5.0 259.0
+3731 ShootFlame        285 125 5.0 -79.0
+3734 ShootFlame        34  125 5.0 266.0
+3734 ShootFlame        285 125 5.0 -86.0
+3737 ShootFlame        34  125 5.0 273.0
+3737 ShootFlame        285 125 5.0 -93.0
+3740 ShootFlame        34  125 5.0 280.0
+3740 ShootFlame        285 125 5.0 -100.0
+3743 ShootFlame        34  125 5.0 287.0
+3743 ShootFlame        285 125 5.0 -107.0
+3746 ShootFlame        34  125 5.0 294.0
+3746 ShootFlame        285 125 5.0 -114.0
+3749 ShootFlame        34  125 5.0 301.0
+3749 ShootFlame        285 125 5.0 -121.0
+3752 ShootFlame        34  125 5.0 308.0
+3752 ShootFlame        285 125 5.0 -128.0
+3755 ShootFlame        34  125 5.0 315.0
+3755 ShootFlame        285 125 5.0 -135.0
+3758 ShootFlame        34  125 5.0 322.0
+3758 ShootFlame        285 125 5.0 -142.0
+3761 ShootFlame        34  125 5.0 329.0
+3761 ShootFlame        285 125 5.0 -149.0
+3764 ShootFlame        34  125 5.0 336.0
+3764 ShootFlame        285 125 5.0 -156.0
+3767 ShootFlame        34  125 5.0 343.0
+3767 ShootFlame        285 125 5.0 -163.0
+3770 ShootFlame        34  125 5.0 350.0
+3770 ShootFlame        285 125 5.0 -170.0
+3773 ShootFlame        34  125 5.0 357.0
+3773 ShootFlame        285 125 5.0 -177.0
+3776 ShootFlame        34  125 5.0 364.0
+3776 ShootFlame        285 125 5.0 -184.0
+3779 ShootFlame        34  125 5.0 371.0
+3779 ShootFlame        285 125 5.0 -191.0
+3782 ShootFlame        34  125 5.0 378.0
+3782 ShootFlame        285 125 5.0 -198.0
+3785 ShootFlame        34  125 5.0 385.0
+3785 ShootFlame        285 125 5.0 -205.0
+3788 ShootFlame        34  125 5.0 392.0
+3788 ShootFlame        285 125 5.0 -212.0
+3791 ShootFlame        34  125 5.0 399.0
+3791 ShootFlame        285 125 5.0 -219.0
+3794 ShootFlame        34  125 5.0 406.0
+3794 ShootFlame        285 125 5.0 -226.0
+3797 ShootFlame        34  125 5.0 413.0
+3797 ShootFlame        285 125 5.0 -233.0
+3800 ShootFlame        34  125 5.0 420.0
+3800 ShootFlame        285 125 5.0 -240.0
+3803 ShootFlame        34  125 5.0 427.0
+3803 ShootFlame        285 125 5.0 -247.0
+3806 ShootFlame        34  125 5.0 434.0
+3806 ShootFlame        285 125 5.0 -254.0
+3809 ShootFlame        34  125 5.0 441.0
+3809 ShootFlame        285 125 5.0 -261.0
+3812 ShootFlame        34  125 5.0 448.0
+3812 ShootFlame        285 125 5.0 -268.0
+3815 ShootFlame        34  125 5.0 455.0
+3815 ShootFlame        285 125 5.0 -275.0
+3818 ShootFlame        34  125 5.0 462.0
+3818 ShootFlame        285 125 5.0 -282.0
+3821 ShootFlame        34  125 5.0 469.0
+3821 ShootFlame        285 125 5.0 -289.0
+3824 ShootFlame        34  125 5.0 476.0
+3824 ShootFlame        285 125 5.0 -296.0
+3827 ShootFlame        34  125 5.0 483.0
+3827 ShootFlame        285 125 5.0 -303.0
+3830 ShootFlame        34  125 5.0 490.0
+3830 ShootFlame        285 125 5.0 -310.0
+3833 ShootFlame        34  125 5.0 497.0
+3833 ShootFlame        285 125 5.0 -317.0
+3836 ShootFlame        34  125 5.0 504.0
+3836 ShootFlame        285 125 5.0 -324.0
+3839 ShootFlame        34  125 5.0 511.0
+3839 ShootFlame        285 125 5.0 -331.0
+3842 ShootFlame        34  125 5.0 518.0
+3842 ShootFlame        285 125 5.0 -338.0
+3845 ShootFlame        34  125 5.0 525.0
+3845 ShootFlame        285 125 5.0 -345.0
+3848 ShootFlame        34  125 5.0 532.0
+3848 ShootFlame        285 125 5.0 -352.0
+3851 ShootFlame        34  125 5.0 539.0
+3851 ShootFlame        285 125 5.0 -359.0
+3854 ShootFlame        34  125 5.0 546.0
+3854 ShootFlame        285 125 5.0 -366.0
+3857 ShootFlame        34  125 5.0 553.0
+3857 ShootFlame        285 125 5.0 -373.0
+3860 ShootFlame        34  125 5.0 560.0
+3860 ShootFlame        285 125 5.0 -380.0
+3863 ShootFlame        34  125 5.0 567.0
+3863 ShootFlame        285 125 5.0 -387.0
+3866 ShootFlame        34  125 5.0 574.0
+3866 ShootFlame        285 125 5.0 -394.0
+3869 ShootFlame        34  125 5.0 581.0
+3869 ShootFlame        285 125 5.0 -401.0
+3872 ShootFlame        34  125 5.0 588.0
+3872 ShootFlame        285 125 5.0 -408.0
+3875 ShootFlame        34  125 5.0 595.0
+3875 ShootFlame        285 125 5.0 -415.0
+3878 ShootFlame        34  125 5.0 602.0
+3878 ShootFlame        285 125 5.0 -422.0
+3881 ShootFlame        34  125 5.0 609.0
+3881 ShootFlame        285 125 5.0 -429.0
+3884 ShootFlame        34  125 5.0 616.0
+3884 ShootFlame        285 125 5.0 -436.0
+3887 ShootFlame        34  125 5.0 623.0
+3887 ShootFlame        285 125 5.0 -443.0
+3890 ShootFlame        34  125 5.0 630.0
+3890 ShootFlame        285 125 5.0 -450.0
+3893 ShootFlame        34  125 5.0 637.0
+3893 ShootFlame        285 125 5.0 -457.0
+3896 ShootFlame        34  125 5.0 644.0
+3896 ShootFlame        285 125 5.0 -464.0
+3899 ShootFlame        34  125 5.0 651.0
+3899 ShootFlame        285 125 5.0 -471.0
+3902 ShootFlame        34  125 5.0 658.0
+3902 ShootFlame        285 125 5.0 -478.0
+3905 ShootFlame        34  125 5.0 665.0
+3905 ShootFlame        285 125 5.0 -485.0
+3908 ShootFlame        34  125 5.0 672.0
+3908 ShootFlame        285 125 5.0 -492.0
+3911 ShootFlame        34  125 5.0 679.0
+3911 ShootFlame        285 125 5.0 -499.0
+3914 ShootFlame        34  125 5.0 686.0
+3914 ShootFlame        285 125 5.0 -506.0
+3917 ShootFlame        34  125 5.0 693.0
+3917 ShootFlame        285 125 5.0 -513.0
+3920 ShootFlame        34  125 5.0 700.0
+3920 ShootFlame        285 125 5.0 -520.0
+3923 ShootFlame        34  125 5.0 707.0
+3923 ShootFlame        285 125 5.0 -527.0
+3926 ShootFlame        34  125 5.0 714.0
+3926 ShootFlame        285 125 5.0 -534.0
+3929 ShootFlame        34  125 5.0 721.0
+3929 ShootFlame        285 125 5.0 -541.0
+3932 ShootFlame        34  125 5.0 728.0
+3932 ShootFlame        285 125 5.0 -548.0
+3935 ShootFlame        34  125 5.0 735.0
+3935 ShootFlame        285 125 5.0 -555.0
+3938 ShootFlame        34  125 5.0 742.0
+3938 ShootFlame        285 125 5.0 -562.0
+3941 ShootFlame        34  125 5.0 749.0
+3941 ShootFlame        285 125 5.0 -569.0
+3944 ShootFlame        34  125 5.0 756.0
+3944 ShootFlame        285 125 5.0 -576.0
+3947 ShootFlame        34  125 5.0 763.0
+3947 ShootFlame        285 125 5.0 -583.0
+3950 ShootFlame        34  125 5.0 770.0
+3950 ShootFlame        285 125 5.0 -590.0
+3953 ShootFlame        34  125 5.0 777.0
+3953 ShootFlame        285 125 5.0 -597.0
+3956 ShootFlame        34  125 5.0 784.0
+3956 ShootFlame        285 125 5.0 -604.0
+3959 ShootFlame        34  125 5.0 791.0
+3959 ShootFlame        285 125 5.0 -611.0
+3962 ShootFlame        34  125 5.0 798.0
+3962 ShootFlame        285 125 5.0 -618.0
+3965 ShootFlame        34  125 5.0 805.0
+3965 ShootFlame        285 125 5.0 -625.0
+3968 ShootFlame        34  125 5.0 812.0
+3968 ShootFlame        285 125 5.0 -632.0
+3971 ShootFlame        34  125 5.0 819.0
+3971 ShootFlame        285 125 5.0 -639.0
+3974 ShootFlame        34  125 5.0 826.0
+3974 ShootFlame        285 125 5.0 -646.0
+3977 ShootFlame        34  125 5.0 833.0
+3977 ShootFlame        285 125 5.0 -653.0
+3980 ShootFlame        34  125 5.0 840.0
+3980 ShootFlame        285 125 5.0 -660.0
+3983 ShootFlame        34  125 5.0 847.0
+3983 ShootFlame        285 125 5.0 -667.0
+3986 ShootFlame        34  125 5.0 854.0
+3986 ShootFlame        285 125 5.0 -674.0
+3989 ShootFlame        34  125 5.0 861.0
+3989 ShootFlame        285 125 5.0 -681.0
+3992 ShootFlame        34  125 5.0 868.0
+3992 ShootFlame        285 125 5.0 -688.0
+3995 ShootFlame        34  125 5.0 875.0
+3995 ShootFlame        285 125 5.0 -695.0
+3998 ShootFlame        34  125 5.0 882.0
+3998 ShootFlame        285 125 5.0 -702.0
+4001 ShootFlame        34  125 5.0 889.0
+4001 ShootFlame        285 125 5.0 -709.0
+4004 ShootFlame        34  125 5.0 896.0
+4004 ShootFlame        285 125 5.0 -716.0
+4007 ShootFlame        34  125 5.0 903.0
+4007 ShootFlame        285 125 5.0 -723.0
+4010 ShootFlame        34  125 5.0 910.0
+4010 ShootFlame        285 125 5.0 -730.0
+4013 ShootFlame        34  125 5.0 917.0
+4013 ShootFlame        285 125 5.0 -737.0
+4016 ShootFlame        34  125 5.0 924.0
+4016 ShootFlame        285 125 5.0 -744.0
+4019 ShootFlame        34  125 5.0 931.0
+4019 ShootFlame        285 125 5.0 -751.0
+4022 ShootFlame        34  125 5.0 938.0
+4022 ShootFlame        285 125 5.0 -758.0
+4025 ShootFlame        34  125 5.0 945.0
+4025 ShootFlame        285 125 5.0 -765.0
+4028 ShootFlame        34  125 5.0 952.0
+4028 ShootFlame        285 125 5.0 -772.0
+4031 ShootFlame        34  125 5.0 959.0
+4031 ShootFlame        285 125 5.0 -779.0
+4034 ShootFlame        34  125 5.0 966.0
+4034 ShootFlame        285 125 5.0 -786.0
+4037 ShootFlame        34  125 5.0 973.0
+4037 ShootFlame        285 125 5.0 -793.0
+
+3620 ShootToPlayer     150 123 6.0 0.0
+3620 ShootToPlayer     170 123 6.0 0.0
+3620 ShootToPlayer     150 123 6.5 0.0
+3620 ShootToPlayer     170 123 6.5 0.0
+3620 ShootToPlayer     150 123 7.0 0.0
+3620 ShootToPlayer     170 123 7.0 0.0
+
+3670 ShootToPlayer     150 123 6.0 0.0
+3670 ShootToPlayer     170 123 6.0 0.0
+3670 ShootToPlayer     150 123 6.5 0.0
+3670 ShootToPlayer     170 123 6.5 0.0
+3670 ShootToPlayer     150 123 7.0 0.0
+3670 ShootToPlayer     170 123 7.0 0.0
+
+3720 ShootToPlayer     150 123 6.0 0.0
+3720 ShootToPlayer     170 123 6.0 0.0
+3720 ShootToPlayer     150 123 6.5 0.0
+3720 ShootToPlayer     170 123 6.5 0.0
+3720 ShootToPlayer     150 123 7.0 0.0
+3720 ShootToPlayer     170 123 7.0 0.0
+
+3770 ShootToPlayer     150 123 6.0 0.0
+3770 ShootToPlayer     170 123 6.0 0.0
+3770 ShootToPlayer     150 123 6.5 0.0
+3770 ShootToPlayer     170 123 6.5 0.0
+3770 ShootToPlayer     150 123 7.0 0.0
+3770 ShootToPlayer     170 123 7.0 0.0
+
+3820 ShootToPlayer     150 123 6.0 0.0
+3820 ShootToPlayer     170 123 6.0 0.0
+3820 ShootToPlayer     150 123 6.5 0.0
+3820 ShootToPlayer     170 123 6.5 0.0
+3820 ShootToPlayer     150 123 7.0 0.0
+3820 ShootToPlayer     170 123 7.0 0.0
+
+3870 ShootToPlayer     150 123 6.0 0.0
+3870 ShootToPlayer     170 123 6.0 0.0
+3870 ShootToPlayer     150 123 6.5 0.0
+3870 ShootToPlayer     170 123 6.5 0.0
+3870 ShootToPlayer     150 123 7.0 0.0
+3870 ShootToPlayer     170 123 7.0 0.0
+
+3920 ShootToPlayer     150 123 6.0 0.0
+3920 ShootToPlayer     170 123 6.0 0.0
+3920 ShootToPlayer     150 123 6.5 0.0
+3920 ShootToPlayer     170 123 6.5 0.0
+3920 ShootToPlayer     150 123 7.0 0.0
+3920 ShootToPlayer     170 123 7.0 0.0
+
+3970 ShootToPlayer     150 123 6.0 0.0
+3970 ShootToPlayer     170 123 6.0 0.0
+3970 ShootToPlayer     150 123 6.5 0.0
+3970 ShootToPlayer     170 123 6.5 0.0
+3970 ShootToPlayer     150 123 7.0 0.0
+3970 ShootToPlayer     170 123 7.0 0.0
+===========Cmd17==========
+4160 SetVelX           0.0
+4160 SetVelY           0.0
+4160 Charge            0
+
+4200 ShootToPlayer     15  75  16.0 68.0
+4200 ShootToPlayer     34  125 16.0 -68.0
+4200 ShootToPlayer     285 125 16.0 68.0
+4200 ShootToPlayer     304 75  16.0 -68.0
+4204 ShootToPlayer     15  75  16.0 66.0
+4204 ShootToPlayer     34  125 16.0 -66.0
+4204 ShootToPlayer     285 125 16.0 66.0
+4204 ShootToPlayer     304 75  16.0 -66.0
+4208 ShootToPlayer     15  75  16.0 64.0
+4208 ShootToPlayer     34  125 16.0 -64.0
+4208 ShootToPlayer     285 125 16.0 64.0
+4208 ShootToPlayer     304 75  16.0 -64.0
+4212 ShootToPlayer     15  75  16.0 62.0
+4212 ShootToPlayer     34  125 16.0 -62.0
+4212 ShootToPlayer     285 125 16.0 62.0
+4212 ShootToPlayer     304 75  16.0 -62.0
+4216 ShootToPlayer     15  75  16.0 60.0
+4216 ShootToPlayer     34  125 16.0 -60.0
+4216 ShootToPlayer     285 125 16.0 60.0
+4216 ShootToPlayer     304 75  16.0 -60.0
+4220 ShootToPlayer     15  75  16.0 58.0
+4220 ShootToPlayer     34  125 16.0 -58.0
+4220 ShootToPlayer     285 125 16.0 58.0
+4220 ShootToPlayer     304 75  16.0 -58.0
+4224 ShootToPlayer     15  75  16.0 56.0
+4224 ShootToPlayer     34  125 16.0 -56.0
+4224 ShootToPlayer     285 125 16.0 56.0
+4224 ShootToPlayer     304 75  16.0 -56.0
+4228 ShootToPlayer     15  75  16.0 54.0
+4228 ShootToPlayer     34  125 16.0 -54.0
+4228 ShootToPlayer     285 125 16.0 54.0
+4228 ShootToPlayer     304 75  16.0 -54.0
+4232 ShootToPlayer     15  75  16.0 52.0
+4232 ShootToPlayer     34  125 16.0 -52.0
+4232 ShootToPlayer     285 125 16.0 52.0
+4232 ShootToPlayer     304 75  16.0 -52.0
+4236 ShootToPlayer     15  75  16.0 50.0
+4236 ShootToPlayer     34  125 16.0 -50.0
+4236 ShootToPlayer     285 125 16.0 50.0
+4236 ShootToPlayer     304 75  16.0 -50.0
+4240 ShootToPlayer     15  75  16.0 48.0
+4240 ShootToPlayer     34  125 16.0 -48.0
+4240 ShootToPlayer     285 125 16.0 48.0
+4240 ShootToPlayer     304 75  16.0 -48.0
+4244 ShootToPlayer     15  75  16.0 46.0
+4244 ShootToPlayer     34  125 16.0 -46.0
+4244 ShootToPlayer     285 125 16.0 46.0
+4244 ShootToPlayer     304 75  16.0 -46.0
+4248 ShootToPlayer     15  75  16.0 44.0
+4248 ShootToPlayer     34  125 16.0 -44.0
+4248 ShootToPlayer     285 125 16.0 44.0
+4248 ShootToPlayer     304 75  16.0 -44.0
+4252 ShootToPlayer     15  75  16.0 42.0
+4252 ShootToPlayer     34  125 16.0 -42.0
+4252 ShootToPlayer     285 125 16.0 42.0
+4252 ShootToPlayer     304 75  16.0 -42.0
+4256 ShootToPlayer     15  75  16.0 40.0
+4256 ShootToPlayer     34  125 16.0 -40.0
+4256 ShootToPlayer     285 125 16.0 40.0
+4256 ShootToPlayer     304 75  16.0 -40.0
+4260 ShootToPlayer     15  75  16.0 38.0
+4260 ShootToPlayer     34  125 16.0 -38.0
+4260 ShootToPlayer     285 125 16.0 38.0
+4260 ShootToPlayer     304 75  16.0 -38.0
+4264 ShootToPlayer     15  75  16.0 36.0
+4264 ShootToPlayer     34  125 16.0 -36.0
+4264 ShootToPlayer     285 125 16.0 36.0
+4264 ShootToPlayer     304 75  16.0 -36.0
+4268 ShootToPlayer     15  75  16.0 34.0
+4268 ShootToPlayer     34  125 16.0 -34.0
+4268 ShootToPlayer     285 125 16.0 34.0
+4268 ShootToPlayer     304 75  16.0 -34.0
+4272 ShootToPlayer     15  75  16.0 32.0
+4272 ShootToPlayer     34  125 16.0 -32.0
+4272 ShootToPlayer     285 125 16.0 32.0
+4272 ShootToPlayer     304 75  16.0 -32.0
+4276 ShootToPlayer     15  75  16.0 30.0
+4276 ShootToPlayer     34  125 16.0 -30.0
+4276 ShootToPlayer     285 125 16.0 30.0
+4276 ShootToPlayer     304 75  16.0 -30.0
+4280 ShootToPlayer     15  75  16.0 28.0
+4280 ShootToPlayer     34  125 16.0 -28.0
+4280 ShootToPlayer     285 125 16.0 28.0
+4280 ShootToPlayer     304 75  16.0 -28.0
+4284 ShootToPlayer     15  75  16.0 26.0
+4284 ShootToPlayer     34  125 16.0 -26.0
+4284 ShootToPlayer     285 125 16.0 26.0
+4284 ShootToPlayer     304 75  16.0 -26.0
+4288 ShootToPlayer     15  75  16.0 24.0
+4288 ShootToPlayer     34  125 16.0 -24.0
+4288 ShootToPlayer     285 125 16.0 24.0
+4288 ShootToPlayer     304 75  16.0 -24.0
+4292 ShootToPlayer     15  75  16.0 22.0
+4292 ShootToPlayer     34  125 16.0 -22.0
+4292 ShootToPlayer     285 125 16.0 22.0
+4292 ShootToPlayer     304 75  16.0 -22.0
+4296 ShootToPlayer     15  75  16.0 20.0
+4296 ShootToPlayer     34  125 16.0 -20.0
+4296 ShootToPlayer     285 125 16.0 20.0
+4296 ShootToPlayer     304 75  16.0 -20.0
+4300 ShootToPlayer     15  75  16.0 18.0
+4300 ShootToPlayer     34  125 16.0 -18.0
+4300 ShootToPlayer     285 125 16.0 18.0
+4300 ShootToPlayer     304 75  16.0 -18.0
+4304 ShootToPlayer     15  75  16.0 16.0
+4304 ShootToPlayer     34  125 16.0 -16.0
+4304 ShootToPlayer     285 125 16.0 16.0
+4304 ShootToPlayer     304 75  16.0 -16.0
+4308 ShootToPlayer     15  75  16.0 14.0
+4308 ShootToPlayer     34  125 16.0 -14.0
+4308 ShootToPlayer     285 125 16.0 14.0
+4308 ShootToPlayer     304 75  16.0 -14.0
+4312 ShootToPlayer     15  75  16.0 12.0
+4312 ShootToPlayer     34  125 16.0 -12.0
+4312 ShootToPlayer     285 125 16.0 12.0
+4312 ShootToPlayer     304 75  16.0 -12.0
+4316 ShootToPlayer     15  75  16.0 10.0
+4316 ShootToPlayer     34  125 16.0 -10.0
+4316 ShootToPlayer     285 125 16.0 10.0
+4316 ShootToPlayer     304 75  16.0 -10.0
+
+4320 ShootToPlayer     15  75  16.0 8.0
+4320 ShootToPlayer     34  125 16.0 -8.0
+4320 ShootToPlayer     285 125 16.0 8.0
+4320 ShootToPlayer     304 75  16.0 -8.0
+4324 ShootToPlayer     15  75  16.0 8.0
+4324 ShootToPlayer     34  125 16.0 -8.0
+4324 ShootToPlayer     285 125 16.0 8.0
+4324 ShootToPlayer     304 75  16.0 -8.0
+4328 ShootToPlayer     15  75  16.0 8.0
+4328 ShootToPlayer     34  125 16.0 -8.0
+4328 ShootToPlayer     285 125 16.0 8.0
+4328 ShootToPlayer     304 75  16.0 -8.0
+4332 ShootToPlayer     15  75  16.0 8.0
+4332 ShootToPlayer     34  125 16.0 -8.0
+4332 ShootToPlayer     285 125 16.0 8.0
+4332 ShootToPlayer     304 75  16.0 -8.0
+4336 ShootToPlayer     15  75  16.0 8.0
+4336 ShootToPlayer     34  125 16.0 -8.0
+4336 ShootToPlayer     285 125 16.0 8.0
+4336 ShootToPlayer     304 75  16.0 -8.0
+4340 ShootToPlayer     15  75  16.0 8.0
+4340 ShootToPlayer     34  125 16.0 -8.0
+4340 ShootToPlayer     285 125 16.0 8.0
+4340 ShootToPlayer     304 75  16.0 -8.0
+4344 ShootToPlayer     15  75  16.0 8.0
+4344 ShootToPlayer     34  125 16.0 -8.0
+4344 ShootToPlayer     285 125 16.0 8.0
+4344 ShootToPlayer     304 75  16.0 -8.0
+4348 ShootToPlayer     15  75  16.0 8.0
+4348 ShootToPlayer     34  125 16.0 -8.0
+4348 ShootToPlayer     285 125 16.0 8.0
+4348 ShootToPlayer     304 75  16.0 -8.0
+4352 ShootToPlayer     15  75  16.0 8.0
+4352 ShootToPlayer     34  125 16.0 -8.0
+4352 ShootToPlayer     285 125 16.0 8.0
+4352 ShootToPlayer     304 75  16.0 -8.0
+4356 ShootToPlayer     15  75  16.0 8.0
+4356 ShootToPlayer     34  125 16.0 -8.0
+4356 ShootToPlayer     285 125 16.0 8.0
+4356 ShootToPlayer     304 75  16.0 -8.0
+4360 ShootToPlayer     15  75  16.0 8.0
+4360 ShootToPlayer     34  125 16.0 -8.0
+4360 ShootToPlayer     285 125 16.0 8.0
+4360 ShootToPlayer     304 75  16.0 -8.0
+4364 ShootToPlayer     15  75  16.0 8.0
+4364 ShootToPlayer     34  125 16.0 -8.0
+4364 ShootToPlayer     285 125 16.0 8.0
+4364 ShootToPlayer     304 75  16.0 -8.0
+4368 ShootToPlayer     15  75  16.0 8.0
+4368 ShootToPlayer     34  125 16.0 -8.0
+4368 ShootToPlayer     285 125 16.0 8.0
+4368 ShootToPlayer     304 75  16.0 -8.0
+4372 ShootToPlayer     15  75  16.0 8.0
+4372 ShootToPlayer     34  125 16.0 -8.0
+4372 ShootToPlayer     285 125 16.0 8.0
+4372 ShootToPlayer     304 75  16.0 -8.0
+4376 ShootToPlayer     15  75  16.0 8.0
+4376 ShootToPlayer     34  125 16.0 -8.0
+4376 ShootToPlayer     285 125 16.0 8.0
+4376 ShootToPlayer     304 75  16.0 -8.0
+4380 ShootToPlayer     15  75  16.0 8.0
+4380 ShootToPlayer     34  125 16.0 -8.0
+4380 ShootToPlayer     285 125 16.0 8.0
+4380 ShootToPlayer     304 75  16.0 -8.0
+4384 ShootToPlayer     15  75  16.0 8.0
+4384 ShootToPlayer     34  125 16.0 -8.0
+4384 ShootToPlayer     285 125 16.0 8.0
+4384 ShootToPlayer     304 75  16.0 -8.0
+4388 ShootToPlayer     15  75  16.0 8.0
+4388 ShootToPlayer     34  125 16.0 -8.0
+4388 ShootToPlayer     285 125 16.0 8.0
+4388 ShootToPlayer     304 75  16.0 -8.0
+4392 ShootToPlayer     15  75  16.0 8.0
+4392 ShootToPlayer     34  125 16.0 -8.0
+4392 ShootToPlayer     285 125 16.0 8.0
+4392 ShootToPlayer     304 75  16.0 -8.0
+4396 ShootToPlayer     15  75  16.0 8.0
+4396 ShootToPlayer     34  125 16.0 -8.0
+4396 ShootToPlayer     285 125 16.0 8.0
+4396 ShootToPlayer     304 75  16.0 -8.0
+4400 ShootToPlayer     15  75  16.0 8.0
+4400 ShootToPlayer     34  125 16.0 -8.0
+4400 ShootToPlayer     285 125 16.0 8.0
+4400 ShootToPlayer     304 75  16.0 -8.0
+4404 ShootToPlayer     15  75  16.0 8.0
+4404 ShootToPlayer     34  125 16.0 -8.0
+4404 ShootToPlayer     285 125 16.0 8.0
+4404 ShootToPlayer     304 75  16.0 -8.0
+4408 ShootToPlayer     15  75  16.0 8.0
+4408 ShootToPlayer     34  125 16.0 -8.0
+4408 ShootToPlayer     285 125 16.0 8.0
+4408 ShootToPlayer     304 75  16.0 -8.0
+4412 ShootToPlayer     15  75  16.0 8.0
+4412 ShootToPlayer     34  125 16.0 -8.0
+4412 ShootToPlayer     285 125 16.0 8.0
+4412 ShootToPlayer     304 75  16.0 -8.0
+4416 ShootToPlayer     15  75  16.0 8.0
+4416 ShootToPlayer     34  125 16.0 -8.0
+4416 ShootToPlayer     285 125 16.0 8.0
+4416 ShootToPlayer     304 75  16.0 -8.0
+4420 ShootToPlayer     15  75  16.0 8.0
+4420 ShootToPlayer     34  125 16.0 -8.0
+4420 ShootToPlayer     285 125 16.0 8.0
+4420 ShootToPlayer     304 75  16.0 -8.0
+4424 ShootToPlayer     15  75  16.0 8.0
+4424 ShootToPlayer     34  125 16.0 -8.0
+4424 ShootToPlayer     285 125 16.0 8.0
+4424 ShootToPlayer     304 75  16.0 -8.0
+4428 ShootToPlayer     15  75  16.0 8.0
+4428 ShootToPlayer     34  125 16.0 -8.0
+4428 ShootToPlayer     285 125 16.0 8.0
+4428 ShootToPlayer     304 75  16.0 -8.0
+4432 ShootToPlayer     15  75  16.0 8.0
+4432 ShootToPlayer     34  125 16.0 -8.0
+4432 ShootToPlayer     285 125 16.0 8.0
+4432 ShootToPlayer     304 75  16.0 -8.0
+4436 ShootToPlayer     15  75  16.0 8.0
+4436 ShootToPlayer     34  125 16.0 -8.0
+4436 ShootToPlayer     285 125 16.0 8.0
+4436 ShootToPlayer     304 75  16.0 -8.0
+4440 ShootToPlayer     15  75  16.0 8.0
+4440 ShootToPlayer     34  125 16.0 -8.0
+4440 ShootToPlayer     285 125 16.0 8.0
+4440 ShootToPlayer     304 75  16.0 -8.0
+4444 ShootToPlayer     15  75  16.0 8.0
+4444 ShootToPlayer     34  125 16.0 -8.0
+4444 ShootToPlayer     285 125 16.0 8.0
+4444 ShootToPlayer     304 75  16.0 -8.0
+4448 ShootToPlayer     15  75  16.0 8.0
+4448 ShootToPlayer     34  125 16.0 -8.0
+4448 ShootToPlayer     285 125 16.0 8.0
+4448 ShootToPlayer     304 75  16.0 -8.0
+4452 ShootToPlayer     15  75  16.0 8.0
+4452 ShootToPlayer     34  125 16.0 -8.0
+4452 ShootToPlayer     285 125 16.0 8.0
+4452 ShootToPlayer     304 75  16.0 -8.0
+4456 ShootToPlayer     15  75  16.0 8.0
+4456 ShootToPlayer     34  125 16.0 -8.0
+4456 ShootToPlayer     285 125 16.0 8.0
+4456 ShootToPlayer     304 75  16.0 -8.0
+4460 ShootToPlayer     15  75  16.0 8.0
+4460 ShootToPlayer     34  125 16.0 -8.0
+4460 ShootToPlayer     285 125 16.0 8.0
+4460 ShootToPlayer     304 75  16.0 -8.0
+4464 ShootToPlayer     15  75  16.0 8.0
+4464 ShootToPlayer     34  125 16.0 -8.0
+4464 ShootToPlayer     285 125 16.0 8.0
+4464 ShootToPlayer     304 75  16.0 -8.0
+4468 ShootToPlayer     15  75  16.0 8.0
+4468 ShootToPlayer     34  125 16.0 -8.0
+4468 ShootToPlayer     285 125 16.0 8.0
+4468 ShootToPlayer     304 75  16.0 -8.0
+4472 ShootToPlayer     15  75  16.0 8.0
+4472 ShootToPlayer     34  125 16.0 -8.0
+4472 ShootToPlayer     285 125 16.0 8.0
+4472 ShootToPlayer     304 75  16.0 -8.0
+4476 ShootToPlayer     15  75  16.0 8.0
+4476 ShootToPlayer     34  125 16.0 -8.0
+4476 ShootToPlayer     285 125 16.0 8.0
+4476 ShootToPlayer     304 75  16.0 -8.0
+4480 ShootToPlayer     15  75  16.0 8.0
+4480 ShootToPlayer     34  125 16.0 -8.0
+4480 ShootToPlayer     285 125 16.0 8.0
+4480 ShootToPlayer     304 75  16.0 -8.0
+4484 ShootToPlayer     15  75  16.0 8.0
+4484 ShootToPlayer     34  125 16.0 -8.0
+4484 ShootToPlayer     285 125 16.0 8.0
+4484 ShootToPlayer     304 75  16.0 -8.0
+4488 ShootToPlayer     15  75  16.0 8.0
+4488 ShootToPlayer     34  125 16.0 -8.0
+4488 ShootToPlayer     285 125 16.0 8.0
+4488 ShootToPlayer     304 75  16.0 -8.0
+4492 ShootToPlayer     15  75  16.0 8.0
+4492 ShootToPlayer     34  125 16.0 -8.0
+4492 ShootToPlayer     285 125 16.0 8.0
+4492 ShootToPlayer     304 75  16.0 -8.0
+4496 ShootToPlayer     15  75  16.0 8.0
+4496 ShootToPlayer     34  125 16.0 -8.0
+4496 ShootToPlayer     285 125 16.0 8.0
+4496 ShootToPlayer     304 75  16.0 -8.0
+4500 ShootToPlayer     15  75  16.0 8.0
+4500 ShootToPlayer     34  125 16.0 -8.0
+4500 ShootToPlayer     285 125 16.0 8.0
+4500 ShootToPlayer     304 75  16.0 -8.0
+4504 ShootToPlayer     15  75  16.0 8.0
+4504 ShootToPlayer     34  125 16.0 -8.0
+4504 ShootToPlayer     285 125 16.0 8.0
+4504 ShootToPlayer     304 75  16.0 -8.0
+4508 ShootToPlayer     15  75  16.0 8.0
+4508 ShootToPlayer     34  125 16.0 -8.0
+4508 ShootToPlayer     285 125 16.0 8.0
+4508 ShootToPlayer     304 75  16.0 -8.0
+4512 ShootToPlayer     15  75  16.0 8.0
+4512 ShootToPlayer     34  125 16.0 -8.0
+4512 ShootToPlayer     285 125 16.0 8.0
+4512 ShootToPlayer     304 75  16.0 -8.0
+4516 ShootToPlayer     15  75  16.0 8.0
+4516 ShootToPlayer     34  125 16.0 -8.0
+4516 ShootToPlayer     285 125 16.0 8.0
+4516 ShootToPlayer     304 75  16.0 -8.0
+4520 ShootToPlayer     15  75  16.0 8.0
+4520 ShootToPlayer     34  125 16.0 -8.0
+4520 ShootToPlayer     285 125 16.0 8.0
+4520 ShootToPlayer     304 75  16.0 -8.0
+4524 ShootToPlayer     15  75  16.0 8.0
+4524 ShootToPlayer     34  125 16.0 -8.0
+4524 ShootToPlayer     285 125 16.0 8.0
+4524 ShootToPlayer     304 75  16.0 -8.0
+4528 ShootToPlayer     15  75  16.0 8.0
+4528 ShootToPlayer     34  125 16.0 -8.0
+4528 ShootToPlayer     285 125 16.0 8.0
+4528 ShootToPlayer     304 75  16.0 -8.0
+4532 ShootToPlayer     15  75  16.0 8.0
+4532 ShootToPlayer     34  125 16.0 -8.0
+4532 ShootToPlayer     285 125 16.0 8.0
+4532 ShootToPlayer     304 75  16.0 -8.0
+4536 ShootToPlayer     15  75  16.0 8.0
+4536 ShootToPlayer     34  125 16.0 -8.0
+4536 ShootToPlayer     285 125 16.0 8.0
+4536 ShootToPlayer     304 75  16.0 -8.0
+4540 ShootToPlayer     15  75  16.0 8.0
+4540 ShootToPlayer     34  125 16.0 -8.0
+4540 ShootToPlayer     285 125 16.0 8.0
+4540 ShootToPlayer     304 75  16.0 -8.0
+4544 ShootToPlayer     15  75  16.0 8.0
+4544 ShootToPlayer     34  125 16.0 -8.0
+4544 ShootToPlayer     285 125 16.0 8.0
+4544 ShootToPlayer     304 75  16.0 -8.0
+4548 ShootToPlayer     15  75  16.0 8.0
+4548 ShootToPlayer     34  125 16.0 -8.0
+4548 ShootToPlayer     285 125 16.0 8.0
+4548 ShootToPlayer     304 75  16.0 -8.0
+4552 ShootToPlayer     15  75  16.0 8.0
+4552 ShootToPlayer     34  125 16.0 -8.0
+4552 ShootToPlayer     285 125 16.0 8.0
+4552 ShootToPlayer     304 75  16.0 -8.0
+4556 ShootToPlayer     15  75  16.0 8.0
+4556 ShootToPlayer     34  125 16.0 -8.0
+4556 ShootToPlayer     285 125 16.0 8.0
+4556 ShootToPlayer     304 75  16.0 -8.0
+4560 ShootToPlayer     15  75  16.0 8.0
+4560 ShootToPlayer     34  125 16.0 -8.0
+4560 ShootToPlayer     285 125 16.0 8.0
+4560 ShootToPlayer     304 75  16.0 -8.0
+4564 ShootToPlayer     15  75  16.0 8.0
+4564 ShootToPlayer     34  125 16.0 -8.0
+4564 ShootToPlayer     285 125 16.0 8.0
+4564 ShootToPlayer     304 75  16.0 -8.0
+4568 ShootToPlayer     15  75  16.0 8.0
+4568 ShootToPlayer     34  125 16.0 -8.0
+4568 ShootToPlayer     285 125 16.0 8.0
+4568 ShootToPlayer     304 75  16.0 -8.0
+4572 ShootToPlayer     15  75  16.0 8.0
+4572 ShootToPlayer     34  125 16.0 -8.0
+4572 ShootToPlayer     285 125 16.0 8.0
+4572 ShootToPlayer     304 75  16.0 -8.0
+4576 ShootToPlayer     15  75  16.0 8.0
+4576 ShootToPlayer     34  125 16.0 -8.0
+4576 ShootToPlayer     285 125 16.0 8.0
+4576 ShootToPlayer     304 75  16.0 -8.0
+4580 ShootToPlayer     15  75  16.0 8.0
+4580 ShootToPlayer     34  125 16.0 -8.0
+4580 ShootToPlayer     285 125 16.0 8.0
+4580 ShootToPlayer     304 75  16.0 -8.0
+4584 ShootToPlayer     15  75  16.0 8.0
+4584 ShootToPlayer     34  125 16.0 -8.0
+4584 ShootToPlayer     285 125 16.0 8.0
+4584 ShootToPlayer     304 75  16.0 -8.0
+4588 ShootToPlayer     15  75  16.0 8.0
+4588 ShootToPlayer     34  125 16.0 -8.0
+4588 ShootToPlayer     285 125 16.0 8.0
+4588 ShootToPlayer     304 75  16.0 -8.0
+4592 ShootToPlayer     15  75  16.0 8.0
+4592 ShootToPlayer     34  125 16.0 -8.0
+4592 ShootToPlayer     285 125 16.0 8.0
+4592 ShootToPlayer     304 75  16.0 -8.0
+4596 ShootToPlayer     15  75  16.0 8.0
+4596 ShootToPlayer     34  125 16.0 -8.0
+4596 ShootToPlayer     285 125 16.0 8.0
+4596 ShootToPlayer     304 75  16.0 -8.0
+4600 ShootToPlayer     15  75  16.0 8.0
+4600 ShootToPlayer     34  125 16.0 -8.0
+4600 ShootToPlayer     285 125 16.0 8.0
+4600 ShootToPlayer     304 75  16.0 -8.0
+4604 ShootToPlayer     15  75  16.0 8.0
+4604 ShootToPlayer     34  125 16.0 -8.0
+4604 ShootToPlayer     285 125 16.0 8.0
+4604 ShootToPlayer     304 75  16.0 -8.0
+4608 ShootToPlayer     15  75  16.0 8.0
+4608 ShootToPlayer     34  125 16.0 -8.0
+4608 ShootToPlayer     285 125 16.0 8.0
+4608 ShootToPlayer     304 75  16.0 -8.0
+4612 ShootToPlayer     15  75  16.0 8.0
+4612 ShootToPlayer     34  125 16.0 -8.0
+4612 ShootToPlayer     285 125 16.0 8.0
+4612 ShootToPlayer     304 75  16.0 -8.0
+4616 ShootToPlayer     15  75  16.0 8.0
+4616 ShootToPlayer     34  125 16.0 -8.0
+4616 ShootToPlayer     285 125 16.0 8.0
+4616 ShootToPlayer     304 75  16.0 -8.0
+4620 ShootToPlayer     15  75  16.0 8.0
+4620 ShootToPlayer     34  125 16.0 -8.0
+4620 ShootToPlayer     285 125 16.0 8.0
+4620 ShootToPlayer     304 75  16.0 -8.0
+4624 ShootToPlayer     15  75  16.0 8.0
+4624 ShootToPlayer     34  125 16.0 -8.0
+4624 ShootToPlayer     285 125 16.0 8.0
+4624 ShootToPlayer     304 75  16.0 -8.0
+4628 ShootToPlayer     15  75  16.0 8.0
+4628 ShootToPlayer     34  125 16.0 -8.0
+4628 ShootToPlayer     285 125 16.0 8.0
+4628 ShootToPlayer     304 75  16.0 -8.0
+4632 ShootToPlayer     15  75  16.0 8.0
+4632 ShootToPlayer     34  125 16.0 -8.0
+4632 ShootToPlayer     285 125 16.0 8.0
+4632 ShootToPlayer     304 75  16.0 -8.0
+4636 ShootToPlayer     15  75  16.0 8.0
+4636 ShootToPlayer     34  125 16.0 -8.0
+4636 ShootToPlayer     285 125 16.0 8.0
+4636 ShootToPlayer     304 75  16.0 -8.0
+4640 ShootToPlayer     15  75  16.0 8.0
+4640 ShootToPlayer     34  125 16.0 -8.0
+4640 ShootToPlayer     285 125 16.0 8.0
+4640 ShootToPlayer     304 75  16.0 -8.0
+4644 ShootToPlayer     15  75  16.0 8.0
+4644 ShootToPlayer     34  125 16.0 -8.0
+4644 ShootToPlayer     285 125 16.0 8.0
+4644 ShootToPlayer     304 75  16.0 -8.0
+4648 ShootToPlayer     15  75  16.0 8.0
+4648 ShootToPlayer     34  125 16.0 -8.0
+4648 ShootToPlayer     285 125 16.0 8.0
+4648 ShootToPlayer     304 75  16.0 -8.0
+4652 ShootToPlayer     15  75  16.0 8.0
+4652 ShootToPlayer     34  125 16.0 -8.0
+4652 ShootToPlayer     285 125 16.0 8.0
+4652 ShootToPlayer     304 75  16.0 -8.0
+4656 ShootToPlayer     15  75  16.0 8.0
+4656 ShootToPlayer     34  125 16.0 -8.0
+4656 ShootToPlayer     285 125 16.0 8.0
+4656 ShootToPlayer     304 75  16.0 -8.0
+4660 ShootToPlayer     15  75  16.0 8.0
+4660 ShootToPlayer     34  125 16.0 -8.0
+4660 ShootToPlayer     285 125 16.0 8.0
+4660 ShootToPlayer     304 75  16.0 -8.0
+4664 ShootToPlayer     15  75  16.0 8.0
+4664 ShootToPlayer     34  125 16.0 -8.0
+4664 ShootToPlayer     285 125 16.0 8.0
+4664 ShootToPlayer     304 75  16.0 -8.0
+4668 ShootToPlayer     15  75  16.0 8.0
+4668 ShootToPlayer     34  125 16.0 -8.0
+4668 ShootToPlayer     285 125 16.0 8.0
+4668 ShootToPlayer     304 75  16.0 -8.0
+4672 ShootToPlayer     15  75  16.0 8.0
+4672 ShootToPlayer     34  125 16.0 -8.0
+4672 ShootToPlayer     285 125 16.0 8.0
+4672 ShootToPlayer     304 75  16.0 -8.0
+4676 ShootToPlayer     15  75  16.0 8.0
+4676 ShootToPlayer     34  125 16.0 -8.0
+4676 ShootToPlayer     285 125 16.0 8.0
+4676 ShootToPlayer     304 75  16.0 -8.0
+4680 ShootToPlayer     15  75  16.0 8.0
+4680 ShootToPlayer     34  125 16.0 -8.0
+4680 ShootToPlayer     285 125 16.0 8.0
+4680 ShootToPlayer     304 75  16.0 -8.0
+4684 ShootToPlayer     15  75  16.0 8.0
+4684 ShootToPlayer     34  125 16.0 -8.0
+4684 ShootToPlayer     285 125 16.0 8.0
+4684 ShootToPlayer     304 75  16.0 -8.0
+4688 ShootToPlayer     15  75  16.0 8.0
+4688 ShootToPlayer     34  125 16.0 -8.0
+4688 ShootToPlayer     285 125 16.0 8.0
+4688 ShootToPlayer     304 75  16.0 -8.0
+4692 ShootToPlayer     15  75  16.0 8.0
+4692 ShootToPlayer     34  125 16.0 -8.0
+4692 ShootToPlayer     285 125 16.0 8.0
+4692 ShootToPlayer     304 75  16.0 -8.0
+4696 ShootToPlayer     15  75  16.0 8.0
+4696 ShootToPlayer     34  125 16.0 -8.0
+4696 ShootToPlayer     285 125 16.0 8.0
+4696 ShootToPlayer     304 75  16.0 -8.0
+4700 ShootToPlayer     15  75  16.0 8.0
+4700 ShootToPlayer     34  125 16.0 -8.0
+4700 ShootToPlayer     285 125 16.0 8.0
+4700 ShootToPlayer     304 75  16.0 -8.0
+4704 ShootToPlayer     15  75  16.0 8.0
+4704 ShootToPlayer     34  125 16.0 -8.0
+4704 ShootToPlayer     285 125 16.0 8.0
+4704 ShootToPlayer     304 75  16.0 -8.0
+4708 ShootToPlayer     15  75  16.0 8.0
+4708 ShootToPlayer     34  125 16.0 -8.0
+4708 ShootToPlayer     285 125 16.0 8.0
+4708 ShootToPlayer     304 75  16.0 -8.0
+4712 ShootToPlayer     15  75  16.0 8.0
+4712 ShootToPlayer     34  125 16.0 -8.0
+4712 ShootToPlayer     285 125 16.0 8.0
+4712 ShootToPlayer     304 75  16.0 -8.0
+4716 ShootToPlayer     15  75  16.0 8.0
+4716 ShootToPlayer     34  125 16.0 -8.0
+4716 ShootToPlayer     285 125 16.0 8.0
+4716 ShootToPlayer     304 75  16.0 -8.0
+4720 ShootToPlayer     15  75  16.0 8.0
+4720 ShootToPlayer     34  125 16.0 -8.0
+4720 ShootToPlayer     285 125 16.0 8.0
+4720 ShootToPlayer     304 75  16.0 -8.0
+4724 ShootToPlayer     15  75  16.0 8.0
+4724 ShootToPlayer     34  125 16.0 -8.0
+4724 ShootToPlayer     285 125 16.0 8.0
+4724 ShootToPlayer     304 75  16.0 -8.0
+4728 ShootToPlayer     15  75  16.0 8.0
+4728 ShootToPlayer     34  125 16.0 -8.0
+4728 ShootToPlayer     285 125 16.0 8.0
+4728 ShootToPlayer     304 75  16.0 -8.0
+4732 ShootToPlayer     15  75  16.0 8.0
+4732 ShootToPlayer     34  125 16.0 -8.0
+4732 ShootToPlayer     285 125 16.0 8.0
+4732 ShootToPlayer     304 75  16.0 -8.0
+4736 ShootToPlayer     15  75  16.0 8.0
+4736 ShootToPlayer     34  125 16.0 -8.0
+4736 ShootToPlayer     285 125 16.0 8.0
+4736 ShootToPlayer     304 75  16.0 -8.0
+4740 ShootToPlayer     15  75  16.0 8.0
+4740 ShootToPlayer     34  125 16.0 -8.0
+4740 ShootToPlayer     285 125 16.0 8.0
+4740 ShootToPlayer     304 75  16.0 -8.0
+4744 ShootToPlayer     15  75  16.0 8.0
+4744 ShootToPlayer     34  125 16.0 -8.0
+4744 ShootToPlayer     285 125 16.0 8.0
+4744 ShootToPlayer     304 75  16.0 -8.0
+4748 ShootToPlayer     15  75  16.0 8.0
+4748 ShootToPlayer     34  125 16.0 -8.0
+4748 ShootToPlayer     285 125 16.0 8.0
+4748 ShootToPlayer     304 75  16.0 -8.0
+4752 ShootToPlayer     15  75  16.0 8.0
+4752 ShootToPlayer     34  125 16.0 -8.0
+4752 ShootToPlayer     285 125 16.0 8.0
+4752 ShootToPlayer     304 75  16.0 -8.0
+4756 ShootToPlayer     15  75  16.0 8.0
+4756 ShootToPlayer     34  125 16.0 -8.0
+4756 ShootToPlayer     285 125 16.0 8.0
+4756 ShootToPlayer     304 75  16.0 -8.0
+4760 ShootToPlayer     15  75  16.0 8.0
+4760 ShootToPlayer     34  125 16.0 -8.0
+4760 ShootToPlayer     285 125 16.0 8.0
+4760 ShootToPlayer     304 75  16.0 -8.0
+4764 ShootToPlayer     15  75  16.0 8.0
+4764 ShootToPlayer     34  125 16.0 -8.0
+4764 ShootToPlayer     285 125 16.0 8.0
+4764 ShootToPlayer     304 75  16.0 -8.0
+4768 ShootToPlayer     15  75  16.0 8.0
+4768 ShootToPlayer     34  125 16.0 -8.0
+4768 ShootToPlayer     285 125 16.0 8.0
+4768 ShootToPlayer     304 75  16.0 -8.0
+4772 ShootToPlayer     15  75  16.0 8.0
+4772 ShootToPlayer     34  125 16.0 -8.0
+4772 ShootToPlayer     285 125 16.0 8.0
+4772 ShootToPlayer     304 75  16.0 -8.0
+4776 ShootToPlayer     15  75  16.0 8.0
+4776 ShootToPlayer     34  125 16.0 -8.0
+4776 ShootToPlayer     285 125 16.0 8.0
+4776 ShootToPlayer     304 75  16.0 -8.0
+4780 ShootToPlayer     15  75  16.0 8.0
+4780 ShootToPlayer     34  125 16.0 -8.0
+4780 ShootToPlayer     285 125 16.0 8.0
+4780 ShootToPlayer     304 75  16.0 -8.0
+4784 ShootToPlayer     15  75  16.0 8.0
+4784 ShootToPlayer     34  125 16.0 -8.0
+4784 ShootToPlayer     285 125 16.0 8.0
+4784 ShootToPlayer     304 75  16.0 -8.0
+4788 ShootToPlayer     15  75  16.0 8.0
+4788 ShootToPlayer     34  125 16.0 -8.0
+4788 ShootToPlayer     285 125 16.0 8.0
+4788 ShootToPlayer     304 75  16.0 -8.0
+4792 ShootToPlayer     15  75  16.0 8.0
+4792 ShootToPlayer     34  125 16.0 -8.0
+4792 ShootToPlayer     285 125 16.0 8.0
+4792 ShootToPlayer     304 75  16.0 -8.0
+4796 ShootToPlayer     15  75  16.0 8.0
+4796 ShootToPlayer     34  125 16.0 -8.0
+4796 ShootToPlayer     285 125 16.0 8.0
+4796 ShootToPlayer     304 75  16.0 -8.0
+
+4230 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4270 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4310 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4350 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4390 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4430 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4470 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4510 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4550 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4590 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4630 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4670 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4710 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4750 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+4790 ShootToPlayer     160 123 6.0 -60.0 -52.5 -45.0 -37.5 -30.0 -22.5 -15.0 -7.5 0.0 7.5 15.0 22.5 30.0 37.5 45.0 52.5 60.0
+
+
+
+       
+///////////////////////////////////////

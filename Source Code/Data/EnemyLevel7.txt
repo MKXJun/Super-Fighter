@@ -1,0 +1,1925 @@
+typeID: 3   cmdCount: 1
+MainCmd
+0    SetCmd            0
+=========================
+90   SetVelY           -2.0
+98   ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+106  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+114  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+122  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+130  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+140  SetVelY           4.0
+140  SetVelX           2.0
+200  SetVelY           -2.0
+200  SetVelX           0.0
+208  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+216  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+224  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+232  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+240  ShootToPlayer     95  170 8.0 -70.5 -67.5 -64.5  -48.0 -45.0 -42.0  -25.5 -22.5 -19.5  -3.0 0.0 3.0  19.5 22.5 25.5  42.0 45.0 48.0  64.5 67.5 70.5
+240  SetVelY           4.0
+/////////////////////////
+typeID: 15  cmdCount: 9
+MainCmd
+0    SetCmd            0
+401  SetCmd            1 2 3 4 5 6 7
+850  SetFrame          400 
+
+420  SetFrameIfHPLess  1000 860
+510  SetFrameIfHPLess  1000 860
+600  SetFrameIfHPLess  1000 860
+690  SetFrameIfHPLess  1000 860
+780  SetFrameIfHPLess  1000 860
+
+861  SetCmd            8
+1005 SetFrame          999
+===========Cmd0==========
+0    SetVelX           0.0
+0    SetVelY           0.0
+
+6    MakeLaserRand     0   740 12.0 4
+12   MakeLaserRand     0   740 12.0 4
+18   MakeLaserRand     0   740 12.0 4
+24   MakeLaserRand     0   740 12.0 4
+30   MakeLaserRand     0   740 12.0 4
+36   MakeLaserRand     0   740 12.0 4
+42   MakeLaserRand     0   740 12.0 4
+48   MakeLaserRand     0   740 12.0 4
+54   MakeLaserRand     0   740 12.0 4
+60   MakeLaserRand     0   740 12.0 4
+66   MakeLaserRand     0   740 12.0 4
+72   MakeLaserRand     0   740 12.0 4
+78   MakeLaserRand     0   740 12.0 4
+84   MakeLaserRand     0   740 12.0 4
+90   MakeLaserRand     0   740 12.0 4
+96   MakeLaserRand     0   740 12.0 4
+102  MakeLaserRand     0   740 12.0 4
+108  MakeLaserRand     0   740 12.0 4
+114  MakeLaserRand     0   740 12.0 4
+120  MakeLaserRand     0   740 12.0 4
+126  MakeLaserRand     0   740 12.0 4
+132  MakeLaserRand     0   740 12.0 4
+138  MakeLaserRand     0   740 12.0 4
+144  MakeLaserRand     0   740 12.0 4
+150  MakeLaserRand     0   740 12.0 4
+156  MakeLaserRand     0   740 12.0 4
+162  MakeLaserRand     0   740 12.0 4
+168  MakeLaserRand     0   740 12.0 4
+174  MakeLaserRand     0   740 12.0 4
+180  MakeLaserRand     0   740 12.0 4
+186  MakeLaserRand     0   740 12.0 4
+192  MakeLaserRand     0   740 12.0 4
+198  MakeLaserRand     0   740 12.0 4
+204  MakeLaserRand     0   740 12.0 4
+210  MakeLaserRand     0   740 12.0 4
+216  MakeLaserRand     0   740 12.0 4
+222  MakeLaserRand     0   740 12.0 4
+228  MakeLaserRand     0   740 12.0 4
+234  MakeLaserRand     0   740 12.0 4
+240  MakeLaserRand     0   740 12.0 4
+246  MakeLaserRand     0   740 12.0 4
+252  MakeLaserRand     0   740 12.0 4
+258  MakeLaserRand     0   740 12.0 4
+264  MakeLaserRand     0   740 12.0 4
+270  MakeLaserRand     0   740 12.0 4
+276  MakeLaserRand     0   740 12.0 4
+282  MakeLaserRand     0   740 12.0 4
+288  MakeLaserRand     0   740 12.0 4
+294  MakeLaserRand     0   740 12.0 4
+300  MakeLaserRand     0   740 12.0 4
+306  MakeLaserRand     0   740 12.0 4
+312  MakeLaserRand     0   740 12.0 4
+318  MakeLaserRand     0   740 12.0 4
+324  MakeLaserRand     0   740 12.0 4
+
+
+344  SetVelY           10.0
+394  SetVelY           0.0
+399  SetVelX           8.0
+==========Cmd1===========
+410  Charge            0
+450  ShootLaser        32  70  40.0
+450  ShootLaser        47  70  40.0
+453  ShootLaser        32  70  40.0
+453  ShootLaser        47  70  40.0
+456  ShootLaser        32  70  40.0
+456  ShootLaser        47  70  40.0
+459  ShootLaser        32  70  40.0
+459  ShootLaser        47  70  40.0
+462  ShootLaser        32  70  40.0
+462  ShootLaser        47  70  40.0
+465  ShootLaser        32  70  40.0
+465  ShootLaser        47  70  40.0
+468  ShootLaser        32  70  40.0
+468  ShootLaser        47  70  40.0
+471  ShootLaser        32  70  40.0
+471  ShootLaser        47  70  40.0
+474  ShootLaser        32  70  40.0
+474  ShootLaser        47  70  40.0
+477  ShootLaser        32  70  40.0
+477  ShootLaser        47  70  40.0
+480  ShootToPlayer     39  60  6.0 -60.0 -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 30.0 40.0 50.0 60.0
+480  ShootToPlayer     39  60  7.0 -57.0 -47.0 -37.0 -27.0 -17.0 -7.0 3.0 13.0 23.0 33.0 43.0 53.0 63.0
+480  ShootToPlayer     39  60  8.0 -54.0 -44.0 -34.0 -24.0 -14.0 -4.0 6.0 16.0 26.0 36.0 46.0 56.0 66.0
+
+510  ShootLaser        32  70  40.0
+510  ShootLaser        47  70  40.0
+513  ShootLaser        32  70  40.0
+513  ShootLaser        47  70  40.0
+516  ShootLaser        32  70  40.0
+516  ShootLaser        47  70  40.0
+519  ShootLaser        32  70  40.0
+519  ShootLaser        47  70  40.0
+522  ShootLaser        32  70  40.0
+522  ShootLaser        47  70  40.0
+525  ShootLaser        32  70  40.0
+525  ShootLaser        47  70  40.0
+528  ShootLaser        32  70  40.0
+528  ShootLaser        47  70  40.0
+531  ShootLaser        32  70  40.0
+531  ShootLaser        47  70  40.0
+534  ShootLaser        32  70  40.0
+534  ShootLaser        47  70  40.0
+537  ShootLaser        32  70  40.0
+537  ShootLaser        47  70  40.0
+540  ShootToPlayer     39  60  6.0 -60.0 -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 30.0 40.0 50.0 60.0
+540  ShootToPlayer     39  60  7.0 -57.0 -47.0 -37.0 -27.0 -17.0 -7.0 3.0 13.0 23.0 33.0 43.0 53.0 63.0
+540  ShootToPlayer     39  60  8.0 -54.0 -44.0 -34.0 -24.0 -14.0 -4.0 6.0 16.0 26.0 36.0 46.0 56.0 66.0
+
+570  ShootLaser        32  70  40.0
+570  ShootLaser        47  70  40.0
+573  ShootLaser        32  70  40.0
+573  ShootLaser        47  70  40.0
+576  ShootLaser        32  70  40.0
+576  ShootLaser        47  70  40.0
+579  ShootLaser        32  70  40.0
+579  ShootLaser        47  70  40.0
+582  ShootLaser        32  70  40.0
+582  ShootLaser        47  70  40.0
+585  ShootLaser        32  70  40.0
+585  ShootLaser        47  70  40.0
+588  ShootLaser        32  70  40.0
+588  ShootLaser        47  70  40.0
+591  ShootLaser        32  70  40.0
+591  ShootLaser        47  70  40.0
+594  ShootLaser        32  70  40.0
+594  ShootLaser        47  70  40.0
+597  ShootLaser        32  70  40.0
+597  ShootLaser        47  70  40.0
+600  ShootToPlayer     39  60  6.0 -60.0 -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 30.0 40.0 50.0 60.0
+600  ShootToPlayer     39  60  7.0 -57.0 -47.0 -37.0 -27.0 -17.0 -7.0 3.0 13.0 23.0 33.0 43.0 53.0 63.0
+600  ShootToPlayer     39  60  8.0 -54.0 -44.0 -34.0 -24.0 -14.0 -4.0 6.0 16.0 26.0 36.0 46.0 56.0 66.0
+
+630  ShootLaser        32  70  40.0
+630  ShootLaser        47  70  40.0
+633  ShootLaser        32  70  40.0
+633  ShootLaser        47  70  40.0
+636  ShootLaser        32  70  40.0
+636  ShootLaser        47  70  40.0
+639  ShootLaser        32  70  40.0
+639  ShootLaser        47  70  40.0
+642  ShootLaser        32  70  40.0
+642  ShootLaser        47  70  40.0
+645  ShootLaser        32  70  40.0
+645  ShootLaser        47  70  40.0
+648  ShootLaser        32  70  40.0
+648  ShootLaser        47  70  40.0
+651  ShootLaser        32  70  40.0
+651  ShootLaser        47  70  40.0
+654  ShootLaser        32  70  40.0
+654  ShootLaser        47  70  40.0
+657  ShootLaser        32  70  40.0
+657  ShootLaser        47  70  40.0
+660  ShootToPlayer     39  60  6.0 -60.0 -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 30.0 40.0 50.0 60.0
+660  ShootToPlayer     39  60  7.0 -57.0 -47.0 -37.0 -27.0 -17.0 -7.0 3.0 13.0 23.0 33.0 43.0 53.0 63.0
+660  ShootToPlayer     39  60  8.0 -54.0 -44.0 -34.0 -24.0 -14.0 -4.0 6.0 16.0 26.0 36.0 46.0 56.0 66.0
+
+690  ShootLaser        32  70  40.0
+690  ShootLaser        47  70  40.0
+693  ShootLaser        32  70  40.0
+693  ShootLaser        47  70  40.0
+696  ShootLaser        32  70  40.0
+696  ShootLaser        47  70  40.0
+699  ShootLaser        32  70  40.0
+699  ShootLaser        47  70  40.0
+702  ShootLaser        32  70  40.0
+702  ShootLaser        47  70  40.0
+705  ShootLaser        32  70  40.0
+705  ShootLaser        47  70  40.0
+708  ShootLaser        32  70  40.0
+708  ShootLaser        47  70  40.0
+711  ShootLaser        32  70  40.0
+711  ShootLaser        47  70  40.0
+714  ShootLaser        32  70  40.0
+714  ShootLaser        47  70  40.0
+717  ShootLaser        32  70  40.0
+717  ShootLaser        47  70  40.0
+720  ShootToPlayer     39  60  6.0 -60.0 -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 30.0 40.0 50.0 60.0
+720  ShootToPlayer     39  60  7.0 -57.0 -47.0 -37.0 -27.0 -17.0 -7.0 3.0 13.0 23.0 33.0 43.0 53.0 63.0
+720  ShootToPlayer     39  60  8.0 -54.0 -44.0 -34.0 -24.0 -14.0 -4.0 6.0 16.0 26.0 36.0 46.0 56.0 66.0
+
+750  ShootLaser        32  70  40.0
+750  ShootLaser        47  70  40.0
+753  ShootLaser        32  70  40.0
+753  ShootLaser        47  70  40.0
+756  ShootLaser        32  70  40.0
+756  ShootLaser        47  70  40.0
+759  ShootLaser        32  70  40.0
+759  ShootLaser        47  70  40.0
+762  ShootLaser        32  70  40.0
+762  ShootLaser        47  70  40.0
+765  ShootLaser        32  70  40.0
+765  ShootLaser        47  70  40.0
+768  ShootLaser        32  70  40.0
+768  ShootLaser        47  70  40.0
+771  ShootLaser        32  70  40.0
+771  ShootLaser        47  70  40.0
+774  ShootLaser        32  70  40.0
+774  ShootLaser        47  70  40.0
+777  ShootLaser        32  70  40.0
+777  ShootLaser        47  70  40.0
+780  ShootToPlayer     39  60  6.0 -60.0 -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 30.0 40.0 50.0 60.0
+780  ShootToPlayer     39  60  7.0 -57.0 -47.0 -37.0 -27.0 -17.0 -7.0 3.0 13.0 23.0 33.0 43.0 53.0 63.0
+780  ShootToPlayer     39  60  8.0 -54.0 -44.0 -34.0 -24.0 -14.0 -4.0 6.0 16.0 26.0 36.0 46.0 56.0 66.0
+=========Cmd2============
+410  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+410  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+410  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+416  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+416  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+416  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+422  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+422  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+422  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+428  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+428  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+428  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+434  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+434  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+434  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+440  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+440  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+440  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+446  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+446  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+446  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+452  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+452  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+452  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+458  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+458  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+458  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+464  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+464  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+464  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+470  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+470  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+470  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+476  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+476  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+476  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+482  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+482  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+482  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+488  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+488  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+488  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+494  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+494  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+494  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+500  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+500  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+500  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+506  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+506  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+506  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+512  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+512  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+512  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+518  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+518  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+518  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+524  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+524  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+524  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+530  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+530  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+530  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+536  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+536  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+536  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+542  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+542  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+542  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+548  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+548  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+548  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+554  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+554  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+554  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+560  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+560  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+560  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+566  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+566  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+566  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+572  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+572  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+572  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+578  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+578  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+578  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+584  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+584  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+584  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+590  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+590  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+590  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+596  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+596  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+596  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+602  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+602  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+602  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+608  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+608  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+608  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+614  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+614  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+614  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+620  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+620  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+620  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+626  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+626  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+626  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+632  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+632  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+632  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+638  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+638  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+638  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+644  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+644  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+644  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+650  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+650  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+650  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+656  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+656  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+656  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+662  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+662  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+662  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+668  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+668  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+668  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+674  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+674  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+674  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+680  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+680  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+680  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+686  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+686  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+686  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+692  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+692  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+692  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+698  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+698  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+698  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+704  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+704  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+704  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+710  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+710  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+710  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+716  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+716  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+716  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+722  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+722  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+722  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+728  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+728  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+728  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+734  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+734  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+734  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+740  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+740  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+740  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+746  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+746  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+746  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+752  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+752  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+752  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+758  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+758  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+758  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+764  ShootFlameToPlayerRand    39  60  4.0 75.0 3
+764  ShootFlameToPlayerRand    39  60  6.0 75.0 2
+764  ShootFlameToPlayerRand    39  60  8.0 75.0 2
+========Cmd3============
+401  SetVelX           0.0
+849  SetVelX           8.0
+
+420  ShootFlame        39  60   5.6 180.0 0.0
+423  ShootFlame        39  60   5.6 169.0 11.0
+426  ShootFlame        39  60   5.6 158.0 22.0
+429  ShootFlame        39  60   5.6 147.0 33.0
+432  ShootFlame        39  60   5.6 136.0 44.0
+435  ShootFlame        39  60   5.6 125.0 55.0
+438  ShootFlame        39  60   5.6 114.0 66.0
+441  ShootFlame        39  60   5.6 103.0 77.0
+444  ShootFlame        39  60   5.6 92.0 88.0
+447  ShootFlame        39  60   5.6 81.0 99.0
+450  ShootFlame        39  60   5.6 70.0 110.0
+453  ShootFlame        39  60   5.6 59.0 121.0
+456  ShootFlame        39  60   5.6 48.0 132.0
+459  ShootFlame        39  60   5.6 37.0 143.0
+462  ShootFlame        39  60   5.6 26.0 154.0
+465  ShootFlame        39  60   5.6 15.0 165.0
+468  ShootFlame        39  60   5.6 4.0 176.0
+471  ShootFlame        39  60   5.6 -7.0 187.0
+474  ShootFlame        39  60   5.6 -18.0 198.0
+477  ShootFlame        39  60   5.6 -29.0 209.0
+480  ShootFlame        39  60   5.6 -40.0 220.0
+483  ShootFlame        39  60   5.6 -51.0 231.0
+486  ShootFlame        39  60   5.6 -62.0 242.0
+489  ShootFlame        39  60   5.6 -73.0 253.0
+492  ShootFlame        39  60   5.6 -84.0 264.0
+495  ShootFlame        39  60   5.6 -95.0 275.0
+498  ShootFlame        39  60   5.6 -106.0 286.0
+501  ShootFlame        39  60   5.6 -117.0 297.0
+504  ShootFlame        39  60   5.6 -128.0 308.0
+507  ShootFlame        39  60   5.6 -139.0 319.0
+510  ShootFlame        39  60   5.6 -150.0 330.0
+513  ShootFlame        39  60   5.6 -161.0 341.0
+516  ShootFlame        39  60   5.6 -172.0 352.0
+519  ShootFlame        39  60   5.6 -183.0 363.0
+522  ShootFlame        39  60   5.6 -194.0 374.0
+525  ShootFlame        39  60   5.6 -205.0 385.0
+528  ShootFlame        39  60   5.6 -216.0 396.0
+531  ShootFlame        39  60   5.6 -227.0 407.0
+534  ShootFlame        39  60   5.6 -238.0 418.0
+537  ShootFlame        39  60   5.6 -249.0 429.0
+540  ShootFlame        39  60   5.6 -260.0 440.0
+543  ShootFlame        39  60   5.6 -271.0 451.0
+546  ShootFlame        39  60   5.6 -282.0 462.0
+549  ShootFlame        39  60   5.6 -293.0 473.0
+552  ShootFlame        39  60   5.6 -304.0 484.0
+555  ShootFlame        39  60   5.6 -315.0 495.0
+558  ShootFlame        39  60   5.6 -326.0 506.0
+561  ShootFlame        39  60   5.6 -337.0 517.0
+564  ShootFlame        39  60   5.6 -348.0 528.0
+567  ShootFlame        39  60   5.6 -359.0 539.0
+570  ShootFlame        39  60   5.6 -370.0 550.0
+573  ShootFlame        39  60   5.6 -381.0 561.0
+576  ShootFlame        39  60   5.6 -392.0 572.0
+579  ShootFlame        39  60   5.6 -403.0 583.0
+582  ShootFlame        39  60   5.6 -414.0 594.0
+585  ShootFlame        39  60   5.6 -425.0 605.0
+588  ShootFlame        39  60   5.6 -436.0 616.0
+591  ShootFlame        39  60   5.6 -447.0 627.0
+594  ShootFlame        39  60   5.6 -458.0 638.0
+597  ShootFlame        39  60   5.6 -469.0 649.0
+600  ShootFlame        39  60   5.6 -480.0 660.0
+603  ShootFlame        39  60   5.6 -491.0 671.0
+606  ShootFlame        39  60   5.6 -502.0 682.0
+609  ShootFlame        39  60   5.6 -513.0 693.0
+612  ShootFlame        39  60   5.6 -524.0 704.0
+615  ShootFlame        39  60   5.6 -535.0 715.0
+618  ShootFlame        39  60   5.6 -546.0 726.0
+621  ShootFlame        39  60   5.6 -557.0 737.0
+624  ShootFlame        39  60   5.6 -568.0 748.0
+627  ShootFlame        39  60   5.6 -579.0 759.0
+630  ShootFlame        39  60   5.6 -590.0 770.0
+633  ShootFlame        39  60   5.6 -601.0 781.0
+636  ShootFlame        39  60   5.6 -612.0 792.0
+639  ShootFlame        39  60   5.6 -623.0 803.0
+642  ShootFlame        39  60   5.6 -634.0 814.0
+645  ShootFlame        39  60   5.6 -645.0 825.0
+648  ShootFlame        39  60   5.6 -656.0 836.0
+651  ShootFlame        39  60   5.6 -667.0 847.0
+654  ShootFlame        39  60   5.6 -678.0 858.0
+657  ShootFlame        39  60   5.6 -689.0 869.0
+660  ShootFlame        39  60   5.6 -700.0 880.0
+663  ShootFlame        39  60   5.6 -711.0 891.0
+666  ShootFlame        39  60   5.6 -722.0 902.0
+669  ShootFlame        39  60   5.6 -733.0 913.0
+672  ShootFlame        39  60   5.6 -744.0 924.0
+675  ShootFlame        39  60   5.6 -755.0 935.0
+678  ShootFlame        39  60   5.6 -766.0 946.0
+681  ShootFlame        39  60   5.6 -777.0 957.0
+684  ShootFlame        39  60   5.6 -788.0 968.0
+687  ShootFlame        39  60   5.6 -799.0 979.0
+690  ShootFlame        39  60   5.6 -810.0 990.0
+693  ShootFlame        39  60   5.6 -821.0 1001.0
+696  ShootFlame        39  60   5.6 -832.0 1012.0
+699  ShootFlame        39  60   5.6 -843.0 1023.0
+702  ShootFlame        39  60   5.6 -854.0 1034.0
+705  ShootFlame        39  60   5.6 -865.0 1045.0
+708  ShootFlame        39  60   5.6 -876.0 1056.0
+711  ShootFlame        39  60   5.6 -887.0 1067.0
+714  ShootFlame        39  60   5.6 -898.0 1078.0
+717  ShootFlame        39  60   5.6 -909.0 1089.0
+720  ShootFlame        39  60   5.6 -920.0 1100.0
+723  ShootFlame        39  60   5.6 -931.0 1111.0
+726  ShootFlame        39  60   5.6 -942.0 1122.0
+729  ShootFlame        39  60   5.6 -953.0 1133.0
+732  ShootFlame        39  60   5.6 -964.0 1144.0
+735  ShootFlame        39  60   5.6 -975.0 1155.0
+738  ShootFlame        39  60   5.6 -986.0 1166.0
+741  ShootFlame        39  60   5.6 -997.0 1177.0
+744  ShootFlame        39  60   5.6 -1008.0 1188.0
+747  ShootFlame        39  60   5.6 -1019.0 1199.0
+750  ShootFlame        39  60   5.6 -1030.0 1210.0
+753  ShootFlame        39  60   5.6 -1041.0 1221.0
+756  ShootFlame        39  60   5.6 -1052.0 1232.0
+759  ShootFlame        39  60   5.6 -1063.0 1243.0
+762  ShootFlame        39  60   5.6 -1074.0 1254.0
+765  ShootFlame        39  60   5.6 -1085.0 1265.0
+768  ShootFlame        39  60   5.6 -1096.0 1276.0
+771  ShootFlame        39  60   5.6 -1107.0 1287.0
+774  ShootFlame        39  60   5.6 -1118.0 1298.0
+777  ShootFlame        39  60   5.6 -1129.0 1309.0
+780  ShootFlame        39  60   5.6 -1140.0 1320.0
+783  ShootFlame        39  60   5.6 -1151.0 1331.0
+786  ShootFlame        39  60   5.6 -1162.0 1342.0
+789  ShootFlame        39  60   5.6 -1173.0 1353.0
+792  ShootFlame        39  60   5.6 -1184.0 1364.0
+795  ShootFlame        39  60   5.6 -1195.0 1375.0
+420  ShootFlame        39  60   5.4 178.5 1.5
+423  ShootFlame        39  60   5.4 167.5 12.5
+426  ShootFlame        39  60   5.4 156.5 23.5
+429  ShootFlame        39  60   5.4 145.5 34.5
+432  ShootFlame        39  60   5.4 134.5 45.5
+435  ShootFlame        39  60   5.4 123.5 56.5
+438  ShootFlame        39  60   5.4 112.5 67.5
+441  ShootFlame        39  60   5.4 101.5 78.5
+444  ShootFlame        39  60   5.4 90.5 89.5
+447  ShootFlame        39  60   5.4 79.5 100.5
+450  ShootFlame        39  60   5.4 68.5 111.5
+453  ShootFlame        39  60   5.4 57.5 122.5
+456  ShootFlame        39  60   5.4 46.5 133.5
+459  ShootFlame        39  60   5.4 35.5 144.5
+462  ShootFlame        39  60   5.4 24.5 155.5
+465  ShootFlame        39  60   5.4 13.5 166.5
+468  ShootFlame        39  60   5.4 2.5 177.5
+471  ShootFlame        39  60   5.4 -8.5 188.5
+474  ShootFlame        39  60   5.4 -19.5 199.5
+477  ShootFlame        39  60   5.4 -30.5 210.5
+480  ShootFlame        39  60   5.4 -41.5 221.5
+483  ShootFlame        39  60   5.4 -52.5 232.5
+486  ShootFlame        39  60   5.4 -63.5 243.5
+489  ShootFlame        39  60   5.4 -74.5 254.5
+492  ShootFlame        39  60   5.4 -85.5 265.5
+495  ShootFlame        39  60   5.4 -96.5 276.5
+498  ShootFlame        39  60   5.4 -107.5 287.5
+501  ShootFlame        39  60   5.4 -118.5 298.5
+504  ShootFlame        39  60   5.4 -129.5 309.5
+507  ShootFlame        39  60   5.4 -140.5 320.5
+510  ShootFlame        39  60   5.4 -151.5 331.5
+513  ShootFlame        39  60   5.4 -162.5 342.5
+516  ShootFlame        39  60   5.4 -173.5 353.5
+519  ShootFlame        39  60   5.4 -184.5 364.5
+522  ShootFlame        39  60   5.4 -195.5 375.5
+525  ShootFlame        39  60   5.4 -206.5 386.5
+528  ShootFlame        39  60   5.4 -217.5 397.5
+531  ShootFlame        39  60   5.4 -228.5 408.5
+534  ShootFlame        39  60   5.4 -239.5 419.5
+537  ShootFlame        39  60   5.4 -250.5 430.5
+540  ShootFlame        39  60   5.4 -261.5 441.5
+543  ShootFlame        39  60   5.4 -272.5 452.5
+546  ShootFlame        39  60   5.4 -283.5 463.5
+549  ShootFlame        39  60   5.4 -294.5 474.5
+552  ShootFlame        39  60   5.4 -305.5 485.5
+555  ShootFlame        39  60   5.4 -316.5 496.5
+558  ShootFlame        39  60   5.4 -327.5 507.5
+561  ShootFlame        39  60   5.4 -338.5 518.5
+564  ShootFlame        39  60   5.4 -349.5 529.5
+567  ShootFlame        39  60   5.4 -360.5 540.5
+570  ShootFlame        39  60   5.4 -371.5 551.5
+573  ShootFlame        39  60   5.4 -382.5 562.5
+576  ShootFlame        39  60   5.4 -393.5 573.5
+579  ShootFlame        39  60   5.4 -404.5 584.5
+582  ShootFlame        39  60   5.4 -415.5 595.5
+585  ShootFlame        39  60   5.4 -426.5 606.5
+588  ShootFlame        39  60   5.4 -437.5 617.5
+591  ShootFlame        39  60   5.4 -448.5 628.5
+594  ShootFlame        39  60   5.4 -459.5 639.5
+597  ShootFlame        39  60   5.4 -470.5 650.5
+600  ShootFlame        39  60   5.4 -481.5 661.5
+603  ShootFlame        39  60   5.4 -492.5 672.5
+606  ShootFlame        39  60   5.4 -503.5 683.5
+609  ShootFlame        39  60   5.4 -514.5 694.5
+612  ShootFlame        39  60   5.4 -525.5 705.5
+615  ShootFlame        39  60   5.4 -536.5 716.5
+618  ShootFlame        39  60   5.4 -547.5 727.5
+621  ShootFlame        39  60   5.4 -558.5 738.5
+624  ShootFlame        39  60   5.4 -569.5 749.5
+627  ShootFlame        39  60   5.4 -580.5 760.5
+630  ShootFlame        39  60   5.4 -591.5 771.5
+633  ShootFlame        39  60   5.4 -602.5 782.5
+636  ShootFlame        39  60   5.4 -613.5 793.5
+639  ShootFlame        39  60   5.4 -624.5 804.5
+642  ShootFlame        39  60   5.4 -635.5 815.5
+645  ShootFlame        39  60   5.4 -646.5 826.5
+648  ShootFlame        39  60   5.4 -657.5 837.5
+651  ShootFlame        39  60   5.4 -668.5 848.5
+654  ShootFlame        39  60   5.4 -679.5 859.5
+657  ShootFlame        39  60   5.4 -690.5 870.5
+660  ShootFlame        39  60   5.4 -701.5 881.5
+663  ShootFlame        39  60   5.4 -712.5 892.5
+666  ShootFlame        39  60   5.4 -723.5 903.5
+669  ShootFlame        39  60   5.4 -734.5 914.5
+672  ShootFlame        39  60   5.4 -745.5 925.5
+675  ShootFlame        39  60   5.4 -756.5 936.5
+678  ShootFlame        39  60   5.4 -767.5 947.5
+681  ShootFlame        39  60   5.4 -778.5 958.5
+684  ShootFlame        39  60   5.4 -789.5 969.5
+687  ShootFlame        39  60   5.4 -800.5 980.5
+690  ShootFlame        39  60   5.4 -811.5 991.5
+693  ShootFlame        39  60   5.4 -822.5 1002.5
+696  ShootFlame        39  60   5.4 -833.5 1013.5
+699  ShootFlame        39  60   5.4 -844.5 1024.5
+702  ShootFlame        39  60   5.4 -855.5 1035.5
+705  ShootFlame        39  60   5.4 -866.5 1046.5
+708  ShootFlame        39  60   5.4 -877.5 1057.5
+711  ShootFlame        39  60   5.4 -888.5 1068.5
+714  ShootFlame        39  60   5.4 -899.5 1079.5
+717  ShootFlame        39  60   5.4 -910.5 1090.5
+720  ShootFlame        39  60   5.4 -921.5 1101.5
+723  ShootFlame        39  60   5.4 -932.5 1112.5
+726  ShootFlame        39  60   5.4 -943.5 1123.5
+729  ShootFlame        39  60   5.4 -954.5 1134.5
+732  ShootFlame        39  60   5.4 -965.5 1145.5
+735  ShootFlame        39  60   5.4 -976.5 1156.5
+738  ShootFlame        39  60   5.4 -987.5 1167.5
+741  ShootFlame        39  60   5.4 -998.5 1178.5
+744  ShootFlame        39  60   5.4 -1009.5 1189.5
+747  ShootFlame        39  60   5.4 -1020.5 1200.5
+750  ShootFlame        39  60   5.4 -1031.5 1211.5
+753  ShootFlame        39  60   5.4 -1042.5 1222.5
+756  ShootFlame        39  60   5.4 -1053.5 1233.5
+759  ShootFlame        39  60   5.4 -1064.5 1244.5
+762  ShootFlame        39  60   5.4 -1075.5 1255.5
+765  ShootFlame        39  60   5.4 -1086.5 1266.5
+768  ShootFlame        39  60   5.4 -1097.5 1277.5
+771  ShootFlame        39  60   5.4 -1108.5 1288.5
+774  ShootFlame        39  60   5.4 -1119.5 1299.5
+777  ShootFlame        39  60   5.4 -1130.5 1310.5
+780  ShootFlame        39  60   5.4 -1141.5 1321.5
+783  ShootFlame        39  60   5.4 -1152.5 1332.5
+786  ShootFlame        39  60   5.4 -1163.5 1343.5
+789  ShootFlame        39  60   5.4 -1174.5 1354.5
+792  ShootFlame        39  60   5.4 -1185.5 1365.5
+795  ShootFlame        39  60   5.4 -1196.5 1376.5
+420  ShootFlame        39  60   5.2 177.0 3.0
+423  ShootFlame        39  60   5.2 166.0 14.0
+426  ShootFlame        39  60   5.2 155.0 25.0
+429  ShootFlame        39  60   5.2 144.0 36.0
+432  ShootFlame        39  60   5.2 133.0 47.0
+435  ShootFlame        39  60   5.2 122.0 58.0
+438  ShootFlame        39  60   5.2 111.0 69.0
+441  ShootFlame        39  60   5.2 100.0 80.0
+444  ShootFlame        39  60   5.2 89.0 91.0
+447  ShootFlame        39  60   5.2 78.0 102.0
+450  ShootFlame        39  60   5.2 67.0 113.0
+453  ShootFlame        39  60   5.2 56.0 124.0
+456  ShootFlame        39  60   5.2 45.0 135.0
+459  ShootFlame        39  60   5.2 34.0 146.0
+462  ShootFlame        39  60   5.2 23.0 157.0
+465  ShootFlame        39  60   5.2 12.0 168.0
+468  ShootFlame        39  60   5.2 1.0 179.0
+471  ShootFlame        39  60   5.2 -10.0 190.0
+474  ShootFlame        39  60   5.2 -21.0 201.0
+477  ShootFlame        39  60   5.2 -32.0 212.0
+480  ShootFlame        39  60   5.2 -43.0 223.0
+483  ShootFlame        39  60   5.2 -54.0 234.0
+486  ShootFlame        39  60   5.2 -65.0 245.0
+489  ShootFlame        39  60   5.2 -76.0 256.0
+492  ShootFlame        39  60   5.2 -87.0 267.0
+495  ShootFlame        39  60   5.2 -98.0 278.0
+498  ShootFlame        39  60   5.2 -109.0 289.0
+501  ShootFlame        39  60   5.2 -120.0 300.0
+504  ShootFlame        39  60   5.2 -131.0 311.0
+507  ShootFlame        39  60   5.2 -142.0 322.0
+510  ShootFlame        39  60   5.2 -153.0 333.0
+513  ShootFlame        39  60   5.2 -164.0 344.0
+516  ShootFlame        39  60   5.2 -175.0 355.0
+519  ShootFlame        39  60   5.2 -186.0 366.0
+522  ShootFlame        39  60   5.2 -197.0 377.0
+525  ShootFlame        39  60   5.2 -208.0 388.0
+528  ShootFlame        39  60   5.2 -219.0 399.0
+531  ShootFlame        39  60   5.2 -230.0 410.0
+534  ShootFlame        39  60   5.2 -241.0 421.0
+537  ShootFlame        39  60   5.2 -252.0 432.0
+540  ShootFlame        39  60   5.2 -263.0 443.0
+543  ShootFlame        39  60   5.2 -274.0 454.0
+546  ShootFlame        39  60   5.2 -285.0 465.0
+549  ShootFlame        39  60   5.2 -296.0 476.0
+552  ShootFlame        39  60   5.2 -307.0 487.0
+555  ShootFlame        39  60   5.2 -318.0 498.0
+558  ShootFlame        39  60   5.2 -329.0 509.0
+561  ShootFlame        39  60   5.2 -340.0 520.0
+564  ShootFlame        39  60   5.2 -351.0 531.0
+567  ShootFlame        39  60   5.2 -362.0 542.0
+570  ShootFlame        39  60   5.2 -373.0 553.0
+573  ShootFlame        39  60   5.2 -384.0 564.0
+576  ShootFlame        39  60   5.2 -395.0 575.0
+579  ShootFlame        39  60   5.2 -406.0 586.0
+582  ShootFlame        39  60   5.2 -417.0 597.0
+585  ShootFlame        39  60   5.2 -428.0 608.0
+588  ShootFlame        39  60   5.2 -439.0 619.0
+591  ShootFlame        39  60   5.2 -450.0 630.0
+594  ShootFlame        39  60   5.2 -461.0 641.0
+597  ShootFlame        39  60   5.2 -472.0 652.0
+600  ShootFlame        39  60   5.2 -483.0 663.0
+603  ShootFlame        39  60   5.2 -494.0 674.0
+606  ShootFlame        39  60   5.2 -505.0 685.0
+609  ShootFlame        39  60   5.2 -516.0 696.0
+612  ShootFlame        39  60   5.2 -527.0 707.0
+615  ShootFlame        39  60   5.2 -538.0 718.0
+618  ShootFlame        39  60   5.2 -549.0 729.0
+621  ShootFlame        39  60   5.2 -560.0 740.0
+624  ShootFlame        39  60   5.2 -571.0 751.0
+627  ShootFlame        39  60   5.2 -582.0 762.0
+630  ShootFlame        39  60   5.2 -593.0 773.0
+633  ShootFlame        39  60   5.2 -604.0 784.0
+636  ShootFlame        39  60   5.2 -615.0 795.0
+639  ShootFlame        39  60   5.2 -626.0 806.0
+642  ShootFlame        39  60   5.2 -637.0 817.0
+645  ShootFlame        39  60   5.2 -648.0 828.0
+648  ShootFlame        39  60   5.2 -659.0 839.0
+651  ShootFlame        39  60   5.2 -670.0 850.0
+654  ShootFlame        39  60   5.2 -681.0 861.0
+657  ShootFlame        39  60   5.2 -692.0 872.0
+660  ShootFlame        39  60   5.2 -703.0 883.0
+663  ShootFlame        39  60   5.2 -714.0 894.0
+666  ShootFlame        39  60   5.2 -725.0 905.0
+669  ShootFlame        39  60   5.2 -736.0 916.0
+672  ShootFlame        39  60   5.2 -747.0 927.0
+675  ShootFlame        39  60   5.2 -758.0 938.0
+678  ShootFlame        39  60   5.2 -769.0 949.0
+681  ShootFlame        39  60   5.2 -780.0 960.0
+684  ShootFlame        39  60   5.2 -791.0 971.0
+687  ShootFlame        39  60   5.2 -802.0 982.0
+690  ShootFlame        39  60   5.2 -813.0 993.0
+693  ShootFlame        39  60   5.2 -824.0 1004.0
+696  ShootFlame        39  60   5.2 -835.0 1015.0
+699  ShootFlame        39  60   5.2 -846.0 1026.0
+702  ShootFlame        39  60   5.2 -857.0 1037.0
+705  ShootFlame        39  60   5.2 -868.0 1048.0
+708  ShootFlame        39  60   5.2 -879.0 1059.0
+711  ShootFlame        39  60   5.2 -890.0 1070.0
+714  ShootFlame        39  60   5.2 -901.0 1081.0
+717  ShootFlame        39  60   5.2 -912.0 1092.0
+720  ShootFlame        39  60   5.2 -923.0 1103.0
+723  ShootFlame        39  60   5.2 -934.0 1114.0
+726  ShootFlame        39  60   5.2 -945.0 1125.0
+729  ShootFlame        39  60   5.2 -956.0 1136.0
+732  ShootFlame        39  60   5.2 -967.0 1147.0
+735  ShootFlame        39  60   5.2 -978.0 1158.0
+738  ShootFlame        39  60   5.2 -989.0 1169.0
+741  ShootFlame        39  60   5.2 -1000.0 1180.0
+744  ShootFlame        39  60   5.2 -1011.0 1191.0
+747  ShootFlame        39  60   5.2 -1022.0 1202.0
+750  ShootFlame        39  60   5.2 -1033.0 1213.0
+753  ShootFlame        39  60   5.2 -1044.0 1224.0
+756  ShootFlame        39  60   5.2 -1055.0 1235.0
+759  ShootFlame        39  60   5.2 -1066.0 1246.0
+762  ShootFlame        39  60   5.2 -1077.0 1257.0
+765  ShootFlame        39  60   5.2 -1088.0 1268.0
+768  ShootFlame        39  60   5.2 -1099.0 1279.0
+771  ShootFlame        39  60   5.2 -1110.0 1290.0
+774  ShootFlame        39  60   5.2 -1121.0 1301.0
+777  ShootFlame        39  60   5.2 -1132.0 1312.0
+780  ShootFlame        39  60   5.2 -1143.0 1323.0
+783  ShootFlame        39  60   5.2 -1154.0 1334.0
+786  ShootFlame        39  60   5.2 -1165.0 1345.0
+789  ShootFlame        39  60   5.2 -1176.0 1356.0
+792  ShootFlame        39  60   5.2 -1187.0 1367.0
+795  ShootFlame        39  60   5.2 -1198.0 1378.0
+420  ShootFlame        39  60   5.0 175.5 4.5
+423  ShootFlame        39  60   5.0 164.5 15.5
+426  ShootFlame        39  60   5.0 153.5 26.5
+429  ShootFlame        39  60   5.0 142.5 37.5
+432  ShootFlame        39  60   5.0 131.5 48.5
+435  ShootFlame        39  60   5.0 120.5 59.5
+438  ShootFlame        39  60   5.0 109.5 70.5
+441  ShootFlame        39  60   5.0 98.5 81.5
+444  ShootFlame        39  60   5.0 87.5 92.5
+447  ShootFlame        39  60   5.0 76.5 103.5
+450  ShootFlame        39  60   5.0 65.5 114.5
+453  ShootFlame        39  60   5.0 54.5 125.5
+456  ShootFlame        39  60   5.0 43.5 136.5
+459  ShootFlame        39  60   5.0 32.5 147.5
+462  ShootFlame        39  60   5.0 21.5 158.5
+465  ShootFlame        39  60   5.0 10.5 169.5
+468  ShootFlame        39  60   5.0 -0.5 180.5
+471  ShootFlame        39  60   5.0 -11.5 191.5
+474  ShootFlame        39  60   5.0 -22.5 202.5
+477  ShootFlame        39  60   5.0 -33.5 213.5
+480  ShootFlame        39  60   5.0 -44.5 224.5
+483  ShootFlame        39  60   5.0 -55.5 235.5
+486  ShootFlame        39  60   5.0 -66.5 246.5
+489  ShootFlame        39  60   5.0 -77.5 257.5
+492  ShootFlame        39  60   5.0 -88.5 268.5
+495  ShootFlame        39  60   5.0 -99.5 279.5
+498  ShootFlame        39  60   5.0 -110.5 290.5
+501  ShootFlame        39  60   5.0 -121.5 301.5
+504  ShootFlame        39  60   5.0 -132.5 312.5
+507  ShootFlame        39  60   5.0 -143.5 323.5
+510  ShootFlame        39  60   5.0 -154.5 334.5
+513  ShootFlame        39  60   5.0 -165.5 345.5
+516  ShootFlame        39  60   5.0 -176.5 356.5
+519  ShootFlame        39  60   5.0 -187.5 367.5
+522  ShootFlame        39  60   5.0 -198.5 378.5
+525  ShootFlame        39  60   5.0 -209.5 389.5
+528  ShootFlame        39  60   5.0 -220.5 400.5
+531  ShootFlame        39  60   5.0 -231.5 411.5
+534  ShootFlame        39  60   5.0 -242.5 422.5
+537  ShootFlame        39  60   5.0 -253.5 433.5
+540  ShootFlame        39  60   5.0 -264.5 444.5
+543  ShootFlame        39  60   5.0 -275.5 455.5
+546  ShootFlame        39  60   5.0 -286.5 466.5
+549  ShootFlame        39  60   5.0 -297.5 477.5
+552  ShootFlame        39  60   5.0 -308.5 488.5
+555  ShootFlame        39  60   5.0 -319.5 499.5
+558  ShootFlame        39  60   5.0 -330.5 510.5
+561  ShootFlame        39  60   5.0 -341.5 521.5
+564  ShootFlame        39  60   5.0 -352.5 532.5
+567  ShootFlame        39  60   5.0 -363.5 543.5
+570  ShootFlame        39  60   5.0 -374.5 554.5
+573  ShootFlame        39  60   5.0 -385.5 565.5
+576  ShootFlame        39  60   5.0 -396.5 576.5
+579  ShootFlame        39  60   5.0 -407.5 587.5
+582  ShootFlame        39  60   5.0 -418.5 598.5
+585  ShootFlame        39  60   5.0 -429.5 609.5
+588  ShootFlame        39  60   5.0 -440.5 620.5
+591  ShootFlame        39  60   5.0 -451.5 631.5
+594  ShootFlame        39  60   5.0 -462.5 642.5
+597  ShootFlame        39  60   5.0 -473.5 653.5
+600  ShootFlame        39  60   5.0 -484.5 664.5
+603  ShootFlame        39  60   5.0 -495.5 675.5
+606  ShootFlame        39  60   5.0 -506.5 686.5
+609  ShootFlame        39  60   5.0 -517.5 697.5
+612  ShootFlame        39  60   5.0 -528.5 708.5
+615  ShootFlame        39  60   5.0 -539.5 719.5
+618  ShootFlame        39  60   5.0 -550.5 730.5
+621  ShootFlame        39  60   5.0 -561.5 741.5
+624  ShootFlame        39  60   5.0 -572.5 752.5
+627  ShootFlame        39  60   5.0 -583.5 763.5
+630  ShootFlame        39  60   5.0 -594.5 774.5
+633  ShootFlame        39  60   5.0 -605.5 785.5
+636  ShootFlame        39  60   5.0 -616.5 796.5
+639  ShootFlame        39  60   5.0 -627.5 807.5
+642  ShootFlame        39  60   5.0 -638.5 818.5
+645  ShootFlame        39  60   5.0 -649.5 829.5
+648  ShootFlame        39  60   5.0 -660.5 840.5
+651  ShootFlame        39  60   5.0 -671.5 851.5
+654  ShootFlame        39  60   5.0 -682.5 862.5
+657  ShootFlame        39  60   5.0 -693.5 873.5
+660  ShootFlame        39  60   5.0 -704.5 884.5
+663  ShootFlame        39  60   5.0 -715.5 895.5
+666  ShootFlame        39  60   5.0 -726.5 906.5
+669  ShootFlame        39  60   5.0 -737.5 917.5
+672  ShootFlame        39  60   5.0 -748.5 928.5
+675  ShootFlame        39  60   5.0 -759.5 939.5
+678  ShootFlame        39  60   5.0 -770.5 950.5
+681  ShootFlame        39  60   5.0 -781.5 961.5
+684  ShootFlame        39  60   5.0 -792.5 972.5
+687  ShootFlame        39  60   5.0 -803.5 983.5
+690  ShootFlame        39  60   5.0 -814.5 994.5
+693  ShootFlame        39  60   5.0 -825.5 1005.5
+696  ShootFlame        39  60   5.0 -836.5 1016.5
+699  ShootFlame        39  60   5.0 -847.5 1027.5
+702  ShootFlame        39  60   5.0 -858.5 1038.5
+705  ShootFlame        39  60   5.0 -869.5 1049.5
+708  ShootFlame        39  60   5.0 -880.5 1060.5
+711  ShootFlame        39  60   5.0 -891.5 1071.5
+714  ShootFlame        39  60   5.0 -902.5 1082.5
+717  ShootFlame        39  60   5.0 -913.5 1093.5
+720  ShootFlame        39  60   5.0 -924.5 1104.5
+723  ShootFlame        39  60   5.0 -935.5 1115.5
+726  ShootFlame        39  60   5.0 -946.5 1126.5
+729  ShootFlame        39  60   5.0 -957.5 1137.5
+732  ShootFlame        39  60   5.0 -968.5 1148.5
+735  ShootFlame        39  60   5.0 -979.5 1159.5
+738  ShootFlame        39  60   5.0 -990.5 1170.5
+741  ShootFlame        39  60   5.0 -1001.5 1181.5
+744  ShootFlame        39  60   5.0 -1012.5 1192.5
+747  ShootFlame        39  60   5.0 -1023.5 1203.5
+750  ShootFlame        39  60   5.0 -1034.5 1214.5
+753  ShootFlame        39  60   5.0 -1045.5 1225.5
+756  ShootFlame        39  60   5.0 -1056.5 1236.5
+759  ShootFlame        39  60   5.0 -1067.5 1247.5
+762  ShootFlame        39  60   5.0 -1078.5 1258.5
+765  ShootFlame        39  60   5.0 -1089.5 1269.5
+768  ShootFlame        39  60   5.0 -1100.5 1280.5
+771  ShootFlame        39  60   5.0 -1111.5 1291.5
+774  ShootFlame        39  60   5.0 -1122.5 1302.5
+777  ShootFlame        39  60   5.0 -1133.5 1313.5
+780  ShootFlame        39  60   5.0 -1144.5 1324.5
+783  ShootFlame        39  60   5.0 -1155.5 1335.5
+786  ShootFlame        39  60   5.0 -1166.5 1346.5
+789  ShootFlame        39  60   5.0 -1177.5 1357.5
+792  ShootFlame        39  60   5.0 -1188.5 1368.5
+795  ShootFlame        39  60   5.0 -1199.5 1379.5
+
+========Cmd4=============
+
+420  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+435  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+450  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+465  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+480  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+495  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+510  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+525  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+540  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+555  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+570  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+585  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+600  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+615  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+630  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+645  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+660  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+675  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+690  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+705  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+720  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+735  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+750  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+765  ShootToPlayer     39  60  8.0 8.0 14.0 20.0 26.0 32.0 38.0 44.0 50.0 56.0 62.0 68.0 74.0 80.0 86.0 -8.0 -14.0 -20.0 -26.0 -32.0 -38.0 -44.0 -50.0 -56.0 -62.0 -68.0 -74.0 -80.0 -86.0 
+420  MakeFlameRand     0   740 5.0 3
+420  MakeFlameRand     0   740 7.0 3
+420  MakeFlameRand     0   740 9.0 3
+435  MakeFlameRand     0   740 5.0 3
+435  MakeFlameRand     0   740 7.0 3
+435  MakeFlameRand     0   740 9.0 3
+450  MakeFlameRand     0   740 5.0 3
+450  MakeFlameRand     0   740 7.0 3
+450  MakeFlameRand     0   740 9.0 3
+465  MakeFlameRand     0   740 5.0 3
+465  MakeFlameRand     0   740 7.0 3
+465  MakeFlameRand     0   740 9.0 3
+480  MakeFlameRand     0   740 5.0 3
+480  MakeFlameRand     0   740 7.0 3
+480  MakeFlameRand     0   740 9.0 3
+495  MakeFlameRand     0   740 5.0 3
+495  MakeFlameRand     0   740 7.0 3
+495  MakeFlameRand     0   740 9.0 3
+510  MakeFlameRand     0   740 5.0 3
+510  MakeFlameRand     0   740 7.0 3
+510  MakeFlameRand     0   740 9.0 3
+525  MakeFlameRand     0   740 5.0 3
+525  MakeFlameRand     0   740 7.0 3
+525  MakeFlameRand     0   740 9.0 3
+540  MakeFlameRand     0   740 5.0 3
+540  MakeFlameRand     0   740 7.0 3
+540  MakeFlameRand     0   740 9.0 3
+555  MakeFlameRand     0   740 5.0 3
+555  MakeFlameRand     0   740 7.0 3
+555  MakeFlameRand     0   740 9.0 3
+570  MakeFlameRand     0   740 5.0 3
+570  MakeFlameRand     0   740 7.0 3
+570  MakeFlameRand     0   740 9.0 3
+585  MakeFlameRand     0   740 5.0 3
+585  MakeFlameRand     0   740 7.0 3
+585  MakeFlameRand     0   740 9.0 3
+600  MakeFlameRand     0   740 5.0 3
+600  MakeFlameRand     0   740 7.0 3
+600  MakeFlameRand     0   740 9.0 3
+615  MakeFlameRand     0   740 5.0 3
+615  MakeFlameRand     0   740 7.0 3
+615  MakeFlameRand     0   740 9.0 3
+630  MakeFlameRand     0   740 5.0 3
+630  MakeFlameRand     0   740 7.0 3
+630  MakeFlameRand     0   740 9.0 3
+645  MakeFlameRand     0   740 5.0 3
+645  MakeFlameRand     0   740 7.0 3
+645  MakeFlameRand     0   740 9.0 3
+660  MakeFlameRand     0   740 5.0 3
+660  MakeFlameRand     0   740 7.0 3
+660  MakeFlameRand     0   740 9.0 3
+675  MakeFlameRand     0   740 5.0 3
+675  MakeFlameRand     0   740 7.0 3
+675  MakeFlameRand     0   740 9.0 3
+690  MakeFlameRand     0   740 5.0 3
+690  MakeFlameRand     0   740 7.0 3
+690  MakeFlameRand     0   740 9.0 3
+705  MakeFlameRand     0   740 5.0 3
+705  MakeFlameRand     0   740 7.0 3
+705  MakeFlameRand     0   740 9.0 3
+720  MakeFlameRand     0   740 5.0 3
+720  MakeFlameRand     0   740 7.0 3
+720  MakeFlameRand     0   740 9.0 3
+735  MakeFlameRand     0   740 5.0 3
+735  MakeFlameRand     0   740 7.0 3
+735  MakeFlameRand     0   740 9.0 3
+750  MakeFlameRand     0   740 5.0 3
+750  MakeFlameRand     0   740 7.0 3
+750  MakeFlameRand     0   740 9.0 3
+765  MakeFlameRand     0   740 5.0 3
+765  MakeFlameRand     0   740 7.0 3
+765  MakeFlameRand     0   740 9.0 3
+
+
+=======Cmd5==============
+420  Shoot             39  60   4.0 180.0 0.0
+420  Shoot             39  60   5.0 180.0 0.0
+420  Shoot             39  60   6.0 180.0 0.0
+420  Shoot             39  60   7.0 180.0 0.0
+420  Shoot             39  60   8.0 180.0 0.0
+423  Shoot             39  60   4.0 173.0 7.0
+423  Shoot             39  60   5.0 173.0 7.0
+423  Shoot             39  60   6.0 173.0 7.0
+423  Shoot             39  60   7.0 173.0 7.0
+423  Shoot             39  60   8.0 173.0 7.0
+426  Shoot             39  60   4.0 166.0 14.0
+426  Shoot             39  60   5.0 166.0 14.0
+426  Shoot             39  60   6.0 166.0 14.0
+426  Shoot             39  60   7.0 166.0 14.0
+426  Shoot             39  60   8.0 166.0 14.0
+429  Shoot             39  60   4.0 159.0 21.0
+429  Shoot             39  60   5.0 159.0 21.0
+429  Shoot             39  60   6.0 159.0 21.0
+429  Shoot             39  60   7.0 159.0 21.0
+429  Shoot             39  60   8.0 159.0 21.0
+432  Shoot             39  60   4.0 152.0 28.0
+432  Shoot             39  60   5.0 152.0 28.0
+432  Shoot             39  60   6.0 152.0 28.0
+432  Shoot             39  60   7.0 152.0 28.0
+432  Shoot             39  60   8.0 152.0 28.0
+435  Shoot             39  60   4.0 145.0 35.0
+435  Shoot             39  60   5.0 145.0 35.0
+435  Shoot             39  60   6.0 145.0 35.0
+435  Shoot             39  60   7.0 145.0 35.0
+435  Shoot             39  60   8.0 145.0 35.0
+438  Shoot             39  60   4.0 138.0 42.0
+438  Shoot             39  60   5.0 138.0 42.0
+438  Shoot             39  60   6.0 138.0 42.0
+438  Shoot             39  60   7.0 138.0 42.0
+438  Shoot             39  60   8.0 138.0 42.0
+441  Shoot             39  60   4.0 131.0 49.0
+441  Shoot             39  60   5.0 131.0 49.0
+441  Shoot             39  60   6.0 131.0 49.0
+441  Shoot             39  60   7.0 131.0 49.0
+441  Shoot             39  60   8.0 131.0 49.0
+444  Shoot             39  60   4.0 124.0 56.0
+444  Shoot             39  60   5.0 124.0 56.0
+444  Shoot             39  60   6.0 124.0 56.0
+444  Shoot             39  60   7.0 124.0 56.0
+444  Shoot             39  60   8.0 124.0 56.0
+447  Shoot             39  60   4.0 117.0 63.0
+447  Shoot             39  60   5.0 117.0 63.0
+447  Shoot             39  60   6.0 117.0 63.0
+447  Shoot             39  60   7.0 117.0 63.0
+447  Shoot             39  60   8.0 117.0 63.0
+450  Shoot             39  60   4.0 110.0 70.0
+450  Shoot             39  60   5.0 110.0 70.0
+450  Shoot             39  60   6.0 110.0 70.0
+450  Shoot             39  60   7.0 110.0 70.0
+450  Shoot             39  60   8.0 110.0 70.0
+453  Shoot             39  60   4.0 103.0 77.0
+453  Shoot             39  60   5.0 103.0 77.0
+453  Shoot             39  60   6.0 103.0 77.0
+453  Shoot             39  60   7.0 103.0 77.0
+453  Shoot             39  60   8.0 103.0 77.0
+456  Shoot             39  60   4.0 96.0 84.0
+456  Shoot             39  60   5.0 96.0 84.0
+456  Shoot             39  60   6.0 96.0 84.0
+456  Shoot             39  60   7.0 96.0 84.0
+456  Shoot             39  60   8.0 96.0 84.0
+459  Shoot             39  60   4.0 89.0 91.0
+459  Shoot             39  60   5.0 89.0 91.0
+459  Shoot             39  60   6.0 89.0 91.0
+459  Shoot             39  60   7.0 89.0 91.0
+459  Shoot             39  60   8.0 89.0 91.0
+462  Shoot             39  60   4.0 82.0 98.0
+462  Shoot             39  60   5.0 82.0 98.0
+462  Shoot             39  60   6.0 82.0 98.0
+462  Shoot             39  60   7.0 82.0 98.0
+462  Shoot             39  60   8.0 82.0 98.0
+465  Shoot             39  60   4.0 75.0 105.0
+465  Shoot             39  60   5.0 75.0 105.0
+465  Shoot             39  60   6.0 75.0 105.0
+465  Shoot             39  60   7.0 75.0 105.0
+465  Shoot             39  60   8.0 75.0 105.0
+468  Shoot             39  60   4.0 68.0 112.0
+468  Shoot             39  60   5.0 68.0 112.0
+468  Shoot             39  60   6.0 68.0 112.0
+468  Shoot             39  60   7.0 68.0 112.0
+468  Shoot             39  60   8.0 68.0 112.0
+471  Shoot             39  60   4.0 61.0 119.0
+471  Shoot             39  60   5.0 61.0 119.0
+471  Shoot             39  60   6.0 61.0 119.0
+471  Shoot             39  60   7.0 61.0 119.0
+471  Shoot             39  60   8.0 61.0 119.0
+474  Shoot             39  60   4.0 54.0 126.0
+474  Shoot             39  60   5.0 54.0 126.0
+474  Shoot             39  60   6.0 54.0 126.0
+474  Shoot             39  60   7.0 54.0 126.0
+474  Shoot             39  60   8.0 54.0 126.0
+477  Shoot             39  60   4.0 47.0 133.0
+477  Shoot             39  60   5.0 47.0 133.0
+477  Shoot             39  60   6.0 47.0 133.0
+477  Shoot             39  60   7.0 47.0 133.0
+477  Shoot             39  60   8.0 47.0 133.0
+480  Shoot             39  60   4.0 40.0 140.0
+480  Shoot             39  60   5.0 40.0 140.0
+480  Shoot             39  60   6.0 40.0 140.0
+480  Shoot             39  60   7.0 40.0 140.0
+480  Shoot             39  60   8.0 40.0 140.0
+483  Shoot             39  60   4.0 33.0 147.0
+483  Shoot             39  60   5.0 33.0 147.0
+483  Shoot             39  60   6.0 33.0 147.0
+483  Shoot             39  60   7.0 33.0 147.0
+483  Shoot             39  60   8.0 33.0 147.0
+486  Shoot             39  60   4.0 26.0 154.0
+486  Shoot             39  60   5.0 26.0 154.0
+486  Shoot             39  60   6.0 26.0 154.0
+486  Shoot             39  60   7.0 26.0 154.0
+486  Shoot             39  60   8.0 26.0 154.0
+489  Shoot             39  60   4.0 19.0 161.0
+489  Shoot             39  60   5.0 19.0 161.0
+489  Shoot             39  60   6.0 19.0 161.0
+489  Shoot             39  60   7.0 19.0 161.0
+489  Shoot             39  60   8.0 19.0 161.0
+492  Shoot             39  60   4.0 12.0 168.0
+492  Shoot             39  60   5.0 12.0 168.0
+492  Shoot             39  60   6.0 12.0 168.0
+492  Shoot             39  60   7.0 12.0 168.0
+492  Shoot             39  60   8.0 12.0 168.0
+495  Shoot             39  60   4.0 5.0 175.0
+495  Shoot             39  60   5.0 5.0 175.0
+495  Shoot             39  60   6.0 5.0 175.0
+495  Shoot             39  60   7.0 5.0 175.0
+495  Shoot             39  60   8.0 5.0 175.0
+498  Shoot             39  60   4.0 -2.0 182.0
+498  Shoot             39  60   5.0 -2.0 182.0
+498  Shoot             39  60   6.0 -2.0 182.0
+498  Shoot             39  60   7.0 -2.0 182.0
+498  Shoot             39  60   8.0 -2.0 182.0
+501  Shoot             39  60   4.0 -9.0 189.0
+501  Shoot             39  60   5.0 -9.0 189.0
+501  Shoot             39  60   6.0 -9.0 189.0
+501  Shoot             39  60   7.0 -9.0 189.0
+501  Shoot             39  60   8.0 -9.0 189.0
+504  Shoot             39  60   4.0 -16.0 196.0
+504  Shoot             39  60   5.0 -16.0 196.0
+504  Shoot             39  60   6.0 -16.0 196.0
+504  Shoot             39  60   7.0 -16.0 196.0
+504  Shoot             39  60   8.0 -16.0 196.0
+507  Shoot             39  60   4.0 -23.0 203.0
+507  Shoot             39  60   5.0 -23.0 203.0
+507  Shoot             39  60   6.0 -23.0 203.0
+507  Shoot             39  60   7.0 -23.0 203.0
+507  Shoot             39  60   8.0 -23.0 203.0
+510  Shoot             39  60   4.0 -30.0 210.0
+510  Shoot             39  60   5.0 -30.0 210.0
+510  Shoot             39  60   6.0 -30.0 210.0
+510  Shoot             39  60   7.0 -30.0 210.0
+510  Shoot             39  60   8.0 -30.0 210.0
+513  Shoot             39  60   4.0 -37.0 217.0
+513  Shoot             39  60   5.0 -37.0 217.0
+513  Shoot             39  60   6.0 -37.0 217.0
+513  Shoot             39  60   7.0 -37.0 217.0
+513  Shoot             39  60   8.0 -37.0 217.0
+516  Shoot             39  60   4.0 -44.0 224.0
+516  Shoot             39  60   5.0 -44.0 224.0
+516  Shoot             39  60   6.0 -44.0 224.0
+516  Shoot             39  60   7.0 -44.0 224.0
+516  Shoot             39  60   8.0 -44.0 224.0
+519  Shoot             39  60   4.0 -51.0 231.0
+519  Shoot             39  60   5.0 -51.0 231.0
+519  Shoot             39  60   6.0 -51.0 231.0
+519  Shoot             39  60   7.0 -51.0 231.0
+519  Shoot             39  60   8.0 -51.0 231.0
+522  Shoot             39  60   4.0 -58.0 238.0
+522  Shoot             39  60   5.0 -58.0 238.0
+522  Shoot             39  60   6.0 -58.0 238.0
+522  Shoot             39  60   7.0 -58.0 238.0
+522  Shoot             39  60   8.0 -58.0 238.0
+525  Shoot             39  60   4.0 -65.0 245.0
+525  Shoot             39  60   5.0 -65.0 245.0
+525  Shoot             39  60   6.0 -65.0 245.0
+525  Shoot             39  60   7.0 -65.0 245.0
+525  Shoot             39  60   8.0 -65.0 245.0
+528  Shoot             39  60   4.0 -72.0 252.0
+528  Shoot             39  60   5.0 -72.0 252.0
+528  Shoot             39  60   6.0 -72.0 252.0
+528  Shoot             39  60   7.0 -72.0 252.0
+528  Shoot             39  60   8.0 -72.0 252.0
+531  Shoot             39  60   4.0 -79.0 259.0
+531  Shoot             39  60   5.0 -79.0 259.0
+531  Shoot             39  60   6.0 -79.0 259.0
+531  Shoot             39  60   7.0 -79.0 259.0
+531  Shoot             39  60   8.0 -79.0 259.0
+534  Shoot             39  60   4.0 -86.0 266.0
+534  Shoot             39  60   5.0 -86.0 266.0
+534  Shoot             39  60   6.0 -86.0 266.0
+534  Shoot             39  60   7.0 -86.0 266.0
+534  Shoot             39  60   8.0 -86.0 266.0
+537  Shoot             39  60   4.0 -93.0 273.0
+537  Shoot             39  60   5.0 -93.0 273.0
+537  Shoot             39  60   6.0 -93.0 273.0
+537  Shoot             39  60   7.0 -93.0 273.0
+537  Shoot             39  60   8.0 -93.0 273.0
+540  Shoot             39  60   4.0 -100.0 280.0
+540  Shoot             39  60   5.0 -100.0 280.0
+540  Shoot             39  60   6.0 -100.0 280.0
+540  Shoot             39  60   7.0 -100.0 280.0
+540  Shoot             39  60   8.0 -100.0 280.0
+543  Shoot             39  60   4.0 -107.0 287.0
+543  Shoot             39  60   5.0 -107.0 287.0
+543  Shoot             39  60   6.0 -107.0 287.0
+543  Shoot             39  60   7.0 -107.0 287.0
+543  Shoot             39  60   8.0 -107.0 287.0
+546  Shoot             39  60   4.0 -114.0 294.0
+546  Shoot             39  60   5.0 -114.0 294.0
+546  Shoot             39  60   6.0 -114.0 294.0
+546  Shoot             39  60   7.0 -114.0 294.0
+546  Shoot             39  60   8.0 -114.0 294.0
+549  Shoot             39  60   4.0 -121.0 301.0
+549  Shoot             39  60   5.0 -121.0 301.0
+549  Shoot             39  60   6.0 -121.0 301.0
+549  Shoot             39  60   7.0 -121.0 301.0
+549  Shoot             39  60   8.0 -121.0 301.0
+552  Shoot             39  60   4.0 -128.0 308.0
+552  Shoot             39  60   5.0 -128.0 308.0
+552  Shoot             39  60   6.0 -128.0 308.0
+552  Shoot             39  60   7.0 -128.0 308.0
+552  Shoot             39  60   8.0 -128.0 308.0
+555  Shoot             39  60   4.0 -135.0 315.0
+555  Shoot             39  60   5.0 -135.0 315.0
+555  Shoot             39  60   6.0 -135.0 315.0
+555  Shoot             39  60   7.0 -135.0 315.0
+555  Shoot             39  60   8.0 -135.0 315.0
+558  Shoot             39  60   4.0 -142.0 322.0
+558  Shoot             39  60   5.0 -142.0 322.0
+558  Shoot             39  60   6.0 -142.0 322.0
+558  Shoot             39  60   7.0 -142.0 322.0
+558  Shoot             39  60   8.0 -142.0 322.0
+561  Shoot             39  60   4.0 -149.0 329.0
+561  Shoot             39  60   5.0 -149.0 329.0
+561  Shoot             39  60   6.0 -149.0 329.0
+561  Shoot             39  60   7.0 -149.0 329.0
+561  Shoot             39  60   8.0 -149.0 329.0
+564  Shoot             39  60   4.0 -156.0 336.0
+564  Shoot             39  60   5.0 -156.0 336.0
+564  Shoot             39  60   6.0 -156.0 336.0
+564  Shoot             39  60   7.0 -156.0 336.0
+564  Shoot             39  60   8.0 -156.0 336.0
+567  Shoot             39  60   4.0 -163.0 343.0
+567  Shoot             39  60   5.0 -163.0 343.0
+567  Shoot             39  60   6.0 -163.0 343.0
+567  Shoot             39  60   7.0 -163.0 343.0
+567  Shoot             39  60   8.0 -163.0 343.0
+570  Shoot             39  60   4.0 -170.0 350.0
+570  Shoot             39  60   5.0 -170.0 350.0
+570  Shoot             39  60   6.0 -170.0 350.0
+570  Shoot             39  60   7.0 -170.0 350.0
+570  Shoot             39  60   8.0 -170.0 350.0
+573  Shoot             39  60   4.0 -177.0 357.0
+573  Shoot             39  60   5.0 -177.0 357.0
+573  Shoot             39  60   6.0 -177.0 357.0
+573  Shoot             39  60   7.0 -177.0 357.0
+573  Shoot             39  60   8.0 -177.0 357.0
+576  Shoot             39  60   4.0 -184.0 364.0
+576  Shoot             39  60   5.0 -184.0 364.0
+576  Shoot             39  60   6.0 -184.0 364.0
+576  Shoot             39  60   7.0 -184.0 364.0
+576  Shoot             39  60   8.0 -184.0 364.0
+579  Shoot             39  60   4.0 -191.0 371.0
+579  Shoot             39  60   5.0 -191.0 371.0
+579  Shoot             39  60   6.0 -191.0 371.0
+579  Shoot             39  60   7.0 -191.0 371.0
+579  Shoot             39  60   8.0 -191.0 371.0
+582  Shoot             39  60   4.0 -198.0 378.0
+582  Shoot             39  60   5.0 -198.0 378.0
+582  Shoot             39  60   6.0 -198.0 378.0
+582  Shoot             39  60   7.0 -198.0 378.0
+582  Shoot             39  60   8.0 -198.0 378.0
+585  Shoot             39  60   4.0 -205.0 385.0
+585  Shoot             39  60   5.0 -205.0 385.0
+585  Shoot             39  60   6.0 -205.0 385.0
+585  Shoot             39  60   7.0 -205.0 385.0
+585  Shoot             39  60   8.0 -205.0 385.0
+588  Shoot             39  60   4.0 -212.0 392.0
+588  Shoot             39  60   5.0 -212.0 392.0
+588  Shoot             39  60   6.0 -212.0 392.0
+588  Shoot             39  60   7.0 -212.0 392.0
+588  Shoot             39  60   8.0 -212.0 392.0
+591  Shoot             39  60   4.0 -219.0 399.0
+591  Shoot             39  60   5.0 -219.0 399.0
+591  Shoot             39  60   6.0 -219.0 399.0
+591  Shoot             39  60   7.0 -219.0 399.0
+591  Shoot             39  60   8.0 -219.0 399.0
+594  Shoot             39  60   4.0 -226.0 406.0
+594  Shoot             39  60   5.0 -226.0 406.0
+594  Shoot             39  60   6.0 -226.0 406.0
+594  Shoot             39  60   7.0 -226.0 406.0
+594  Shoot             39  60   8.0 -226.0 406.0
+597  Shoot             39  60   4.0 -233.0 413.0
+597  Shoot             39  60   5.0 -233.0 413.0
+597  Shoot             39  60   6.0 -233.0 413.0
+597  Shoot             39  60   7.0 -233.0 413.0
+597  Shoot             39  60   8.0 -233.0 413.0
+600  Shoot             39  60   4.0 -240.0 420.0
+600  Shoot             39  60   5.0 -240.0 420.0
+600  Shoot             39  60   6.0 -240.0 420.0
+600  Shoot             39  60   7.0 -240.0 420.0
+600  Shoot             39  60   8.0 -240.0 420.0
+603  Shoot             39  60   4.0 -247.0 427.0
+603  Shoot             39  60   5.0 -247.0 427.0
+603  Shoot             39  60   6.0 -247.0 427.0
+603  Shoot             39  60   7.0 -247.0 427.0
+603  Shoot             39  60   8.0 -247.0 427.0
+606  Shoot             39  60   4.0 -254.0 434.0
+606  Shoot             39  60   5.0 -254.0 434.0
+606  Shoot             39  60   6.0 -254.0 434.0
+606  Shoot             39  60   7.0 -254.0 434.0
+606  Shoot             39  60   8.0 -254.0 434.0
+609  Shoot             39  60   4.0 -261.0 441.0
+609  Shoot             39  60   5.0 -261.0 441.0
+609  Shoot             39  60   6.0 -261.0 441.0
+609  Shoot             39  60   7.0 -261.0 441.0
+609  Shoot             39  60   8.0 -261.0 441.0
+612  Shoot             39  60   4.0 -268.0 448.0
+612  Shoot             39  60   5.0 -268.0 448.0
+612  Shoot             39  60   6.0 -268.0 448.0
+612  Shoot             39  60   7.0 -268.0 448.0
+612  Shoot             39  60   8.0 -268.0 448.0
+615  Shoot             39  60   4.0 -275.0 455.0
+615  Shoot             39  60   5.0 -275.0 455.0
+615  Shoot             39  60   6.0 -275.0 455.0
+615  Shoot             39  60   7.0 -275.0 455.0
+615  Shoot             39  60   8.0 -275.0 455.0
+618  Shoot             39  60   4.0 -282.0 462.0
+618  Shoot             39  60   5.0 -282.0 462.0
+618  Shoot             39  60   6.0 -282.0 462.0
+618  Shoot             39  60   7.0 -282.0 462.0
+618  Shoot             39  60   8.0 -282.0 462.0
+621  Shoot             39  60   4.0 -289.0 469.0
+621  Shoot             39  60   5.0 -289.0 469.0
+621  Shoot             39  60   6.0 -289.0 469.0
+621  Shoot             39  60   7.0 -289.0 469.0
+621  Shoot             39  60   8.0 -289.0 469.0
+624  Shoot             39  60   4.0 -296.0 476.0
+624  Shoot             39  60   5.0 -296.0 476.0
+624  Shoot             39  60   6.0 -296.0 476.0
+624  Shoot             39  60   7.0 -296.0 476.0
+624  Shoot             39  60   8.0 -296.0 476.0
+627  Shoot             39  60   4.0 -303.0 483.0
+627  Shoot             39  60   5.0 -303.0 483.0
+627  Shoot             39  60   6.0 -303.0 483.0
+627  Shoot             39  60   7.0 -303.0 483.0
+627  Shoot             39  60   8.0 -303.0 483.0
+630  Shoot             39  60   4.0 -310.0 490.0
+630  Shoot             39  60   5.0 -310.0 490.0
+630  Shoot             39  60   6.0 -310.0 490.0
+630  Shoot             39  60   7.0 -310.0 490.0
+630  Shoot             39  60   8.0 -310.0 490.0
+633  Shoot             39  60   4.0 -317.0 497.0
+633  Shoot             39  60   5.0 -317.0 497.0
+633  Shoot             39  60   6.0 -317.0 497.0
+633  Shoot             39  60   7.0 -317.0 497.0
+633  Shoot             39  60   8.0 -317.0 497.0
+636  Shoot             39  60   4.0 -324.0 504.0
+636  Shoot             39  60   5.0 -324.0 504.0
+636  Shoot             39  60   6.0 -324.0 504.0
+636  Shoot             39  60   7.0 -324.0 504.0
+636  Shoot             39  60   8.0 -324.0 504.0
+639  Shoot             39  60   4.0 -331.0 511.0
+639  Shoot             39  60   5.0 -331.0 511.0
+639  Shoot             39  60   6.0 -331.0 511.0
+639  Shoot             39  60   7.0 -331.0 511.0
+639  Shoot             39  60   8.0 -331.0 511.0
+642  Shoot             39  60   4.0 -338.0 518.0
+642  Shoot             39  60   5.0 -338.0 518.0
+642  Shoot             39  60   6.0 -338.0 518.0
+642  Shoot             39  60   7.0 -338.0 518.0
+642  Shoot             39  60   8.0 -338.0 518.0
+645  Shoot             39  60   4.0 -345.0 525.0
+645  Shoot             39  60   5.0 -345.0 525.0
+645  Shoot             39  60   6.0 -345.0 525.0
+645  Shoot             39  60   7.0 -345.0 525.0
+645  Shoot             39  60   8.0 -345.0 525.0
+648  Shoot             39  60   4.0 -352.0 532.0
+648  Shoot             39  60   5.0 -352.0 532.0
+648  Shoot             39  60   6.0 -352.0 532.0
+648  Shoot             39  60   7.0 -352.0 532.0
+648  Shoot             39  60   8.0 -352.0 532.0
+651  Shoot             39  60   4.0 -359.0 539.0
+651  Shoot             39  60   5.0 -359.0 539.0
+651  Shoot             39  60   6.0 -359.0 539.0
+651  Shoot             39  60   7.0 -359.0 539.0
+651  Shoot             39  60   8.0 -359.0 539.0
+654  Shoot             39  60   4.0 -366.0 546.0
+654  Shoot             39  60   5.0 -366.0 546.0
+654  Shoot             39  60   6.0 -366.0 546.0
+654  Shoot             39  60   7.0 -366.0 546.0
+654  Shoot             39  60   8.0 -366.0 546.0
+657  Shoot             39  60   4.0 -373.0 553.0
+657  Shoot             39  60   5.0 -373.0 553.0
+657  Shoot             39  60   6.0 -373.0 553.0
+657  Shoot             39  60   7.0 -373.0 553.0
+657  Shoot             39  60   8.0 -373.0 553.0
+660  Shoot             39  60   4.0 -380.0 560.0
+660  Shoot             39  60   5.0 -380.0 560.0
+660  Shoot             39  60   6.0 -380.0 560.0
+660  Shoot             39  60   7.0 -380.0 560.0
+660  Shoot             39  60   8.0 -380.0 560.0
+663  Shoot             39  60   4.0 -387.0 567.0
+663  Shoot             39  60   5.0 -387.0 567.0
+663  Shoot             39  60   6.0 -387.0 567.0
+663  Shoot             39  60   7.0 -387.0 567.0
+663  Shoot             39  60   8.0 -387.0 567.0
+666  Shoot             39  60   4.0 -394.0 574.0
+666  Shoot             39  60   5.0 -394.0 574.0
+666  Shoot             39  60   6.0 -394.0 574.0
+666  Shoot             39  60   7.0 -394.0 574.0
+666  Shoot             39  60   8.0 -394.0 574.0
+669  Shoot             39  60   4.0 -401.0 581.0
+669  Shoot             39  60   5.0 -401.0 581.0
+669  Shoot             39  60   6.0 -401.0 581.0
+669  Shoot             39  60   7.0 -401.0 581.0
+669  Shoot             39  60   8.0 -401.0 581.0
+672  Shoot             39  60   4.0 -408.0 588.0
+672  Shoot             39  60   5.0 -408.0 588.0
+672  Shoot             39  60   6.0 -408.0 588.0
+672  Shoot             39  60   7.0 -408.0 588.0
+672  Shoot             39  60   8.0 -408.0 588.0
+675  Shoot             39  60   4.0 -415.0 595.0
+675  Shoot             39  60   5.0 -415.0 595.0
+675  Shoot             39  60   6.0 -415.0 595.0
+675  Shoot             39  60   7.0 -415.0 595.0
+675  Shoot             39  60   8.0 -415.0 595.0
+678  Shoot             39  60   4.0 -422.0 602.0
+678  Shoot             39  60   5.0 -422.0 602.0
+678  Shoot             39  60   6.0 -422.0 602.0
+678  Shoot             39  60   7.0 -422.0 602.0
+678  Shoot             39  60   8.0 -422.0 602.0
+681  Shoot             39  60   4.0 -429.0 609.0
+681  Shoot             39  60   5.0 -429.0 609.0
+681  Shoot             39  60   6.0 -429.0 609.0
+681  Shoot             39  60   7.0 -429.0 609.0
+681  Shoot             39  60   8.0 -429.0 609.0
+684  Shoot             39  60   4.0 -436.0 616.0
+684  Shoot             39  60   5.0 -436.0 616.0
+684  Shoot             39  60   6.0 -436.0 616.0
+684  Shoot             39  60   7.0 -436.0 616.0
+684  Shoot             39  60   8.0 -436.0 616.0
+687  Shoot             39  60   4.0 -443.0 623.0
+687  Shoot             39  60   5.0 -443.0 623.0
+687  Shoot             39  60   6.0 -443.0 623.0
+687  Shoot             39  60   7.0 -443.0 623.0
+687  Shoot             39  60   8.0 -443.0 623.0
+690  Shoot             39  60   4.0 -450.0 630.0
+690  Shoot             39  60   5.0 -450.0 630.0
+690  Shoot             39  60   6.0 -450.0 630.0
+690  Shoot             39  60   7.0 -450.0 630.0
+690  Shoot             39  60   8.0 -450.0 630.0
+693  Shoot             39  60   4.0 -457.0 637.0
+693  Shoot             39  60   5.0 -457.0 637.0
+693  Shoot             39  60   6.0 -457.0 637.0
+693  Shoot             39  60   7.0 -457.0 637.0
+693  Shoot             39  60   8.0 -457.0 637.0
+696  Shoot             39  60   4.0 -464.0 644.0
+696  Shoot             39  60   5.0 -464.0 644.0
+696  Shoot             39  60   6.0 -464.0 644.0
+696  Shoot             39  60   7.0 -464.0 644.0
+696  Shoot             39  60   8.0 -464.0 644.0
+699  Shoot             39  60   4.0 -471.0 651.0
+699  Shoot             39  60   5.0 -471.0 651.0
+699  Shoot             39  60   6.0 -471.0 651.0
+699  Shoot             39  60   7.0 -471.0 651.0
+699  Shoot             39  60   8.0 -471.0 651.0
+702  Shoot             39  60   4.0 -478.0 658.0
+702  Shoot             39  60   5.0 -478.0 658.0
+702  Shoot             39  60   6.0 -478.0 658.0
+702  Shoot             39  60   7.0 -478.0 658.0
+702  Shoot             39  60   8.0 -478.0 658.0
+705  Shoot             39  60   4.0 -485.0 665.0
+705  Shoot             39  60   5.0 -485.0 665.0
+705  Shoot             39  60   6.0 -485.0 665.0
+705  Shoot             39  60   7.0 -485.0 665.0
+705  Shoot             39  60   8.0 -485.0 665.0
+708  Shoot             39  60   4.0 -492.0 672.0
+708  Shoot             39  60   5.0 -492.0 672.0
+708  Shoot             39  60   6.0 -492.0 672.0
+708  Shoot             39  60   7.0 -492.0 672.0
+708  Shoot             39  60   8.0 -492.0 672.0
+711  Shoot             39  60   4.0 -499.0 679.0
+711  Shoot             39  60   5.0 -499.0 679.0
+711  Shoot             39  60   6.0 -499.0 679.0
+711  Shoot             39  60   7.0 -499.0 679.0
+711  Shoot             39  60   8.0 -499.0 679.0
+714  Shoot             39  60   4.0 -506.0 686.0
+714  Shoot             39  60   5.0 -506.0 686.0
+714  Shoot             39  60   6.0 -506.0 686.0
+714  Shoot             39  60   7.0 -506.0 686.0
+714  Shoot             39  60   8.0 -506.0 686.0
+717  Shoot             39  60   4.0 -513.0 693.0
+717  Shoot             39  60   5.0 -513.0 693.0
+717  Shoot             39  60   6.0 -513.0 693.0
+717  Shoot             39  60   7.0 -513.0 693.0
+717  Shoot             39  60   8.0 -513.0 693.0
+720  Shoot             39  60   4.0 -520.0 700.0
+720  Shoot             39  60   5.0 -520.0 700.0
+720  Shoot             39  60   6.0 -520.0 700.0
+720  Shoot             39  60   7.0 -520.0 700.0
+720  Shoot             39  60   8.0 -520.0 700.0
+723  Shoot             39  60   4.0 -527.0 707.0
+723  Shoot             39  60   5.0 -527.0 707.0
+723  Shoot             39  60   6.0 -527.0 707.0
+723  Shoot             39  60   7.0 -527.0 707.0
+723  Shoot             39  60   8.0 -527.0 707.0
+726  Shoot             39  60   4.0 -534.0 714.0
+726  Shoot             39  60   5.0 -534.0 714.0
+726  Shoot             39  60   6.0 -534.0 714.0
+726  Shoot             39  60   7.0 -534.0 714.0
+726  Shoot             39  60   8.0 -534.0 714.0
+729  Shoot             39  60   4.0 -541.0 721.0
+729  Shoot             39  60   5.0 -541.0 721.0
+729  Shoot             39  60   6.0 -541.0 721.0
+729  Shoot             39  60   7.0 -541.0 721.0
+729  Shoot             39  60   8.0 -541.0 721.0
+732  Shoot             39  60   4.0 -548.0 728.0
+732  Shoot             39  60   5.0 -548.0 728.0
+732  Shoot             39  60   6.0 -548.0 728.0
+732  Shoot             39  60   7.0 -548.0 728.0
+732  Shoot             39  60   8.0 -548.0 728.0
+735  Shoot             39  60   4.0 -555.0 735.0
+735  Shoot             39  60   5.0 -555.0 735.0
+735  Shoot             39  60   6.0 -555.0 735.0
+735  Shoot             39  60   7.0 -555.0 735.0
+735  Shoot             39  60   8.0 -555.0 735.0
+738  Shoot             39  60   4.0 -562.0 742.0
+738  Shoot             39  60   5.0 -562.0 742.0
+738  Shoot             39  60   6.0 -562.0 742.0
+738  Shoot             39  60   7.0 -562.0 742.0
+738  Shoot             39  60   8.0 -562.0 742.0
+741  Shoot             39  60   4.0 -569.0 749.0
+741  Shoot             39  60   5.0 -569.0 749.0
+741  Shoot             39  60   6.0 -569.0 749.0
+741  Shoot             39  60   7.0 -569.0 749.0
+741  Shoot             39  60   8.0 -569.0 749.0
+744  Shoot             39  60   4.0 -576.0 756.0
+744  Shoot             39  60   5.0 -576.0 756.0
+744  Shoot             39  60   6.0 -576.0 756.0
+744  Shoot             39  60   7.0 -576.0 756.0
+744  Shoot             39  60   8.0 -576.0 756.0
+747  Shoot             39  60   4.0 -583.0 763.0
+747  Shoot             39  60   5.0 -583.0 763.0
+747  Shoot             39  60   6.0 -583.0 763.0
+747  Shoot             39  60   7.0 -583.0 763.0
+747  Shoot             39  60   8.0 -583.0 763.0
+750  Shoot             39  60   4.0 -590.0 770.0
+750  Shoot             39  60   5.0 -590.0 770.0
+750  Shoot             39  60   6.0 -590.0 770.0
+750  Shoot             39  60   7.0 -590.0 770.0
+750  Shoot             39  60   8.0 -590.0 770.0
+753  Shoot             39  60   4.0 -597.0 777.0
+753  Shoot             39  60   5.0 -597.0 777.0
+753  Shoot             39  60   6.0 -597.0 777.0
+753  Shoot             39  60   7.0 -597.0 777.0
+753  Shoot             39  60   8.0 -597.0 777.0
+756  Shoot             39  60   4.0 -604.0 784.0
+756  Shoot             39  60   5.0 -604.0 784.0
+756  Shoot             39  60   6.0 -604.0 784.0
+756  Shoot             39  60   7.0 -604.0 784.0
+756  Shoot             39  60   8.0 -604.0 784.0
+759  Shoot             39  60   4.0 -611.0 791.0
+759  Shoot             39  60   5.0 -611.0 791.0
+759  Shoot             39  60   6.0 -611.0 791.0
+759  Shoot             39  60   7.0 -611.0 791.0
+759  Shoot             39  60   8.0 -611.0 791.0
+762  Shoot             39  60   4.0 -618.0 798.0
+762  Shoot             39  60   5.0 -618.0 798.0
+762  Shoot             39  60   6.0 -618.0 798.0
+762  Shoot             39  60   7.0 -618.0 798.0
+762  Shoot             39  60   8.0 -618.0 798.0
+765  Shoot             39  60   4.0 -625.0 805.0
+765  Shoot             39  60   5.0 -625.0 805.0
+765  Shoot             39  60   6.0 -625.0 805.0
+765  Shoot             39  60   7.0 -625.0 805.0
+765  Shoot             39  60   8.0 -625.0 805.0
+768  Shoot             39  60   4.0 -632.0 812.0
+768  Shoot             39  60   5.0 -632.0 812.0
+768  Shoot             39  60   6.0 -632.0 812.0
+768  Shoot             39  60   7.0 -632.0 812.0
+768  Shoot             39  60   8.0 -632.0 812.0
+771  Shoot             39  60   4.0 -639.0 819.0
+771  Shoot             39  60   5.0 -639.0 819.0
+771  Shoot             39  60   6.0 -639.0 819.0
+771  Shoot             39  60   7.0 -639.0 819.0
+771  Shoot             39  60   8.0 -639.0 819.0
+774  Shoot             39  60   4.0 -646.0 826.0
+774  Shoot             39  60   5.0 -646.0 826.0
+774  Shoot             39  60   6.0 -646.0 826.0
+774  Shoot             39  60   7.0 -646.0 826.0
+774  Shoot             39  60   8.0 -646.0 826.0
+777  Shoot             39  60   4.0 -653.0 833.0
+777  Shoot             39  60   5.0 -653.0 833.0
+777  Shoot             39  60   6.0 -653.0 833.0
+777  Shoot             39  60   7.0 -653.0 833.0
+777  Shoot             39  60   8.0 -653.0 833.0
+780  Shoot             39  60   4.0 -660.0 840.0
+780  Shoot             39  60   5.0 -660.0 840.0
+780  Shoot             39  60   6.0 -660.0 840.0
+780  Shoot             39  60   7.0 -660.0 840.0
+780  Shoot             39  60   8.0 -660.0 840.0
+783  Shoot             39  60   4.0 -667.0 847.0
+783  Shoot             39  60   5.0 -667.0 847.0
+783  Shoot             39  60   6.0 -667.0 847.0
+783  Shoot             39  60   7.0 -667.0 847.0
+783  Shoot             39  60   8.0 -667.0 847.0
+786  Shoot             39  60   4.0 -674.0 854.0
+786  Shoot             39  60   5.0 -674.0 854.0
+786  Shoot             39  60   6.0 -674.0 854.0
+786  Shoot             39  60   7.0 -674.0 854.0
+786  Shoot             39  60   8.0 -674.0 854.0
+789  Shoot             39  60   4.0 -681.0 861.0
+789  Shoot             39  60   5.0 -681.0 861.0
+789  Shoot             39  60   6.0 -681.0 861.0
+789  Shoot             39  60   7.0 -681.0 861.0
+789  Shoot             39  60   8.0 -681.0 861.0
+792  Shoot             39  60   4.0 -688.0 868.0
+792  Shoot             39  60   5.0 -688.0 868.0
+792  Shoot             39  60   6.0 -688.0 868.0
+792  Shoot             39  60   7.0 -688.0 868.0
+792  Shoot             39  60   8.0 -688.0 868.0
+795  Shoot             39  60   4.0 -695.0 875.0
+795  Shoot             39  60   5.0 -695.0 875.0
+795  Shoot             39  60   6.0 -695.0 875.0
+795  Shoot             39  60   7.0 -695.0 875.0
+795  Shoot             39  60   8.0 -695.0 875.0
+========Cmd6============
+401  SetVelX           0.0
+420  ShootFlameRand    39  60   4.0 0 180 6
+420  ShootFlameRand    39  60   6.0 0 180 6
+420  ShootFlameRand    39  60   8.0 0 180 6
+426  ShootFlameRand    39  60   4.0 0 180 6
+426  ShootFlameRand    39  60   6.0 0 180 6
+426  ShootFlameRand    39  60   8.0 0 180 6
+432  ShootFlameRand    39  60   4.0 0 180 6
+432  ShootFlameRand    39  60   6.0 0 180 6
+432  ShootFlameRand    39  60   8.0 0 180 6
+438  ShootFlameRand    39  60   4.0 0 180 6
+438  ShootFlameRand    39  60   6.0 0 180 6
+438  ShootFlameRand    39  60   8.0 0 180 6
+444  ShootFlameRand    39  60   4.0 0 180 6
+444  ShootFlameRand    39  60   6.0 0 180 6
+444  ShootFlameRand    39  60   8.0 0 180 6
+450  ShootFlameRand    39  60   4.0 0 180 6
+450  ShootFlameRand    39  60   6.0 0 180 6
+450  ShootFlameRand    39  60   8.0 0 180 6
+456  ShootFlameRand    39  60   4.0 0 180 6
+456  ShootFlameRand    39  60   6.0 0 180 6
+456  ShootFlameRand    39  60   8.0 0 180 6
+462  ShootFlameRand    39  60   4.0 0 180 6
+462  ShootFlameRand    39  60   6.0 0 180 6
+462  ShootFlameRand    39  60   8.0 0 180 6
+468  ShootFlameRand    39  60   4.0 0 180 6
+468  ShootFlameRand    39  60   6.0 0 180 6
+468  ShootFlameRand    39  60   8.0 0 180 6
+474  ShootFlameRand    39  60   4.0 0 180 6
+474  ShootFlameRand    39  60   6.0 0 180 6
+474  ShootFlameRand    39  60   8.0 0 180 6
+480  ShootFlameRand    39  60   4.0 0 180 6
+480  ShootFlameRand    39  60   6.0 0 180 6
+480  ShootFlameRand    39  60   8.0 0 180 6
+486  ShootFlameRand    39  60   4.0 0 180 6
+486  ShootFlameRand    39  60   6.0 0 180 6
+486  ShootFlameRand    39  60   8.0 0 180 6
+492  ShootFlameRand    39  60   4.0 0 180 6
+492  ShootFlameRand    39  60   6.0 0 180 6
+492  ShootFlameRand    39  60   8.0 0 180 6
+498  ShootFlameRand    39  60   4.0 0 180 6
+498  ShootFlameRand    39  60   6.0 0 180 6
+498  ShootFlameRand    39  60   8.0 0 180 6
+504  ShootFlameRand    39  60   4.0 0 180 6
+504  ShootFlameRand    39  60   6.0 0 180 6
+504  ShootFlameRand    39  60   8.0 0 180 6
+510  ShootFlameRand    39  60   4.0 0 180 6
+510  ShootFlameRand    39  60   6.0 0 180 6
+510  ShootFlameRand    39  60   8.0 0 180 6
+516  ShootFlameRand    39  60   4.0 0 180 6
+516  ShootFlameRand    39  60   6.0 0 180 6
+516  ShootFlameRand    39  60   8.0 0 180 6
+522  ShootFlameRand    39  60   4.0 0 180 6
+522  ShootFlameRand    39  60   6.0 0 180 6
+522  ShootFlameRand    39  60   8.0 0 180 6
+528  ShootFlameRand    39  60   4.0 0 180 6
+528  ShootFlameRand    39  60   6.0 0 180 6
+528  ShootFlameRand    39  60   8.0 0 180 6
+534  ShootFlameRand    39  60   4.0 0 180 6
+534  ShootFlameRand    39  60   6.0 0 180 6
+534  ShootFlameRand    39  60   8.0 0 180 6
+540  ShootFlameRand    39  60   4.0 0 180 6
+540  ShootFlameRand    39  60   6.0 0 180 6
+540  ShootFlameRand    39  60   8.0 0 180 6
+546  ShootFlameRand    39  60   4.0 0 180 6
+546  ShootFlameRand    39  60   6.0 0 180 6
+546  ShootFlameRand    39  60   8.0 0 180 6
+552  ShootFlameRand    39  60   4.0 0 180 6
+552  ShootFlameRand    39  60   6.0 0 180 6
+552  ShootFlameRand    39  60   8.0 0 180 6
+558  ShootFlameRand    39  60   4.0 0 180 6
+558  ShootFlameRand    39  60   6.0 0 180 6
+558  ShootFlameRand    39  60   8.0 0 180 6
+564  ShootFlameRand    39  60   4.0 0 180 6
+564  ShootFlameRand    39  60   6.0 0 180 6
+564  ShootFlameRand    39  60   8.0 0 180 6
+570  ShootFlameRand    39  60   4.0 0 180 6
+570  ShootFlameRand    39  60   6.0 0 180 6
+570  ShootFlameRand    39  60   8.0 0 180 6
+576  ShootFlameRand    39  60   4.0 0 180 6
+576  ShootFlameRand    39  60   6.0 0 180 6
+576  ShootFlameRand    39  60   8.0 0 180 6
+582  ShootFlameRand    39  60   4.0 0 180 6
+582  ShootFlameRand    39  60   6.0 0 180 6
+582  ShootFlameRand    39  60   8.0 0 180 6
+588  ShootFlameRand    39  60   4.0 0 180 6
+588  ShootFlameRand    39  60   6.0 0 180 6
+588  ShootFlameRand    39  60   8.0 0 180 6
+594  ShootFlameRand    39  60   4.0 0 180 6
+594  ShootFlameRand    39  60   6.0 0 180 6
+594  ShootFlameRand    39  60   8.0 0 180 6
+600  ShootFlameRand    39  60   4.0 0 180 6
+600  ShootFlameRand    39  60   6.0 0 180 6
+600  ShootFlameRand    39  60   8.0 0 180 6
+606  ShootFlameRand    39  60   4.0 0 180 6
+606  ShootFlameRand    39  60   6.0 0 180 6
+606  ShootFlameRand    39  60   8.0 0 180 6
+612  ShootFlameRand    39  60   4.0 0 180 6
+612  ShootFlameRand    39  60   6.0 0 180 6
+612  ShootFlameRand    39  60   8.0 0 180 6
+618  ShootFlameRand    39  60   4.0 0 180 6
+618  ShootFlameRand    39  60   6.0 0 180 6
+618  ShootFlameRand    39  60   8.0 0 180 6
+624  ShootFlameRand    39  60   4.0 0 180 6
+624  ShootFlameRand    39  60   6.0 0 180 6
+624  ShootFlameRand    39  60   8.0 0 180 6
+630  ShootFlameRand    39  60   4.0 0 180 6
+630  ShootFlameRand    39  60   6.0 0 180 6
+630  ShootFlameRand    39  60   8.0 0 180 6
+636  ShootFlameRand    39  60   4.0 0 180 6
+636  ShootFlameRand    39  60   6.0 0 180 6
+636  ShootFlameRand    39  60   8.0 0 180 6
+642  ShootFlameRand    39  60   4.0 0 180 6
+642  ShootFlameRand    39  60   6.0 0 180 6
+642  ShootFlameRand    39  60   8.0 0 180 6
+648  ShootFlameRand    39  60   4.0 0 180 6
+648  ShootFlameRand    39  60   6.0 0 180 6
+648  ShootFlameRand    39  60   8.0 0 180 6
+654  ShootFlameRand    39  60   4.0 0 180 6
+654  ShootFlameRand    39  60   6.0 0 180 6
+654  ShootFlameRand    39  60   8.0 0 180 6
+660  ShootFlameRand    39  60   4.0 0 180 6
+660  ShootFlameRand    39  60   6.0 0 180 6
+660  ShootFlameRand    39  60   8.0 0 180 6
+666  ShootFlameRand    39  60   4.0 0 180 6
+666  ShootFlameRand    39  60   6.0 0 180 6
+666  ShootFlameRand    39  60   8.0 0 180 6
+672  ShootFlameRand    39  60   4.0 0 180 6
+672  ShootFlameRand    39  60   6.0 0 180 6
+672  ShootFlameRand    39  60   8.0 0 180 6
+678  ShootFlameRand    39  60   4.0 0 180 6
+678  ShootFlameRand    39  60   6.0 0 180 6
+678  ShootFlameRand    39  60   8.0 0 180 6
+684  ShootFlameRand    39  60   4.0 0 180 6
+684  ShootFlameRand    39  60   6.0 0 180 6
+684  ShootFlameRand    39  60   8.0 0 180 6
+690  ShootFlameRand    39  60   4.0 0 180 6
+690  ShootFlameRand    39  60   6.0 0 180 6
+690  ShootFlameRand    39  60   8.0 0 180 6
+696  ShootFlameRand    39  60   4.0 0 180 6
+696  ShootFlameRand    39  60   6.0 0 180 6
+696  ShootFlameRand    39  60   8.0 0 180 6
+702  ShootFlameRand    39  60   4.0 0 180 6
+702  ShootFlameRand    39  60   6.0 0 180 6
+702  ShootFlameRand    39  60   8.0 0 180 6
+708  ShootFlameRand    39  60   4.0 0 180 6
+708  ShootFlameRand    39  60   6.0 0 180 6
+708  ShootFlameRand    39  60   8.0 0 180 6
+714  ShootFlameRand    39  60   4.0 0 180 6
+714  ShootFlameRand    39  60   6.0 0 180 6
+714  ShootFlameRand    39  60   8.0 0 180 6
+720  ShootFlameRand    39  60   4.0 0 180 6
+720  ShootFlameRand    39  60   6.0 0 180 6
+720  ShootFlameRand    39  60   8.0 0 180 6
+726  ShootFlameRand    39  60   4.0 0 180 6
+726  ShootFlameRand    39  60   6.0 0 180 6
+726  ShootFlameRand    39  60   8.0 0 180 6
+732  ShootFlameRand    39  60   4.0 0 180 6
+732  ShootFlameRand    39  60   6.0 0 180 6
+732  ShootFlameRand    39  60   8.0 0 180 6
+738  ShootFlameRand    39  60   4.0 0 180 6
+738  ShootFlameRand    39  60   6.0 0 180 6
+738  ShootFlameRand    39  60   8.0 0 180 6
+744  ShootFlameRand    39  60   4.0 0 180 6
+744  ShootFlameRand    39  60   6.0 0 180 6
+744  ShootFlameRand    39  60   8.0 0 180 6
+750  ShootFlameRand    39  60   4.0 0 180 6
+750  ShootFlameRand    39  60   6.0 0 180 6
+750  ShootFlameRand    39  60   8.0 0 180 6
+756  ShootFlameRand    39  60   4.0 0 180 6
+756  ShootFlameRand    39  60   6.0 0 180 6
+756  ShootFlameRand    39  60   8.0 0 180 6
+762  ShootFlameRand    39  60   4.0 0 180 6
+762  ShootFlameRand    39  60   6.0 0 180 6
+762  ShootFlameRand    39  60   8.0 0 180 6
+768  ShootFlameRand    39  60   4.0 0 180 6
+768  ShootFlameRand    39  60   6.0 0 180 6
+768  ShootFlameRand    39  60   8.0 0 180 6
+774  ShootFlameRand    39  60   4.0 0 180 6
+774  ShootFlameRand    39  60   6.0 0 180 6
+774  ShootFlameRand    39  60   8.0 0 180 6
+
+
+849  SetVelX           8.0
+========Cmd7============
+420  MakeLaserRand    0  740 12.0 4
+426  MakeLaserRand    0  740 12.0 4
+432  MakeLaserRand    0  740 12.0 4
+438  MakeLaserRand    0  740 12.0 4
+444  MakeLaserRand    0  740 12.0 4
+450  MakeLaserRand    0  740 12.0 4
+456  MakeLaserRand    0  740 12.0 4
+462  MakeLaserRand    0  740 12.0 4
+468  MakeLaserRand    0  740 12.0 4
+474  MakeLaserRand    0  740 12.0 4
+480  MakeLaserRand    0  740 12.0 4
+486  MakeLaserRand    0  740 12.0 4
+492  MakeLaserRand    0  740 12.0 4
+498  MakeLaserRand    0  740 12.0 4
+504  MakeLaserRand    0  740 12.0 4
+510  MakeLaserRand    0  740 12.0 4
+516  MakeLaserRand    0  740 12.0 4
+522  MakeLaserRand    0  740 12.0 4
+528  MakeLaserRand    0  740 12.0 4
+534  MakeLaserRand    0  740 12.0 4
+540  MakeLaserRand    0  740 12.0 4
+546  MakeLaserRand    0  740 12.0 4
+552  MakeLaserRand    0  740 12.0 4
+558  MakeLaserRand    0  740 12.0 4
+564  MakeLaserRand    0  740 12.0 4
+570  MakeLaserRand    0  740 12.0 4
+576  MakeLaserRand    0  740 12.0 4
+582  MakeLaserRand    0  740 12.0 4
+588  MakeLaserRand    0  740 12.0 4
+594  MakeLaserRand    0  740 12.0 4
+600  MakeLaserRand    0  740 12.0 4
+606  MakeLaserRand    0  740 12.0 4
+612  MakeLaserRand    0  740 12.0 4
+618  MakeLaserRand    0  740 12.0 4
+624  MakeLaserRand    0  740 12.0 4
+630  MakeLaserRand    0  740 12.0 4
+636  MakeLaserRand    0  740 12.0 4
+642  MakeLaserRand    0  740 12.0 4
+648  MakeLaserRand    0  740 12.0 4
+654  MakeLaserRand    0  740 12.0 4
+660  MakeLaserRand    0  740 12.0 4
+666  MakeLaserRand    0  740 12.0 4
+672  MakeLaserRand    0  740 12.0 4
+678  MakeLaserRand    0  740 12.0 4
+684  MakeLaserRand    0  740 12.0 4
+690  MakeLaserRand    0  740 12.0 4
+696  MakeLaserRand    0  740 12.0 4
+702  MakeLaserRand    0  740 12.0 4
+708  MakeLaserRand    0  740 12.0 4
+714  MakeLaserRand    0  740 12.0 4
+720  MakeLaserRand    0  740 12.0 4
+726  MakeLaserRand    0  740 12.0 4
+732  MakeLaserRand    0  740 12.0 4
+738  MakeLaserRand    0  740 12.0 4
+744  MakeLaserRand    0  740 12.0 4
+750  MakeLaserRand    0  740 12.0 4
+756  MakeLaserRand    0  740 12.0 4
+762  MakeLaserRand    0  740 12.0 4
+768  MakeLaserRand    0  740 12.0 4
+774  MakeLaserRand    0  740 12.0 4
+=======Cmd8=============
+870  SetVelX          0.0
+998  SetVelX          2.0
+1000 ShootFlameRand    39  60  12.0 0 18 3
+1000 ShootFlameRand    39  60  12.0 36 18 3
+1000 ShootFlameRand    39  60  12.0 72 18 3
+1000 ShootFlameRand    39  60  12.0 108 18 3
+1000 ShootFlameRand    39  60  12.0 144 18 3
+1000 ShootFlameRand    39  60  12.0 180 18 3
+1000 ShootFlameRand    39  60  12.0 216 18 3
+1000 ShootFlameRand    39  60  12.0 252 18 3
+1000 ShootFlameRand    39  60  12.0 288 18 3
+1000 ShootFlameRand    39  60  12.0 324 18 3
+
+========================

@@ -1,0 +1,255 @@
+enemy_plane1
+typeID:     1
+HP:         4
+score:      640
+penalty:    2
+minscore:   200
+velX:       0.0
+velY:       10.0
+posY:       -200.0
+width:      100
+height:     100
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST1
+texName:    enemy_plane1
+////////////////////////////
+enemy_plane2
+typeID:     2
+HP:         50
+score:      5400
+penalty:    10
+minscore:   2500
+velX:       0.0
+velY:       5.0
+posY:       -200.0
+width:      162
+height:     180
+follow:     1
+inside:     0
+isRotating: 0
+deathsnd:   BLAST3
+texName:    enemy_plane2
+////////////////////////////
+enemy_plane3
+typeID:     3
+HP:         80
+score:      10000
+penalty:    20
+minscore:   4000
+velX:       0.0
+velY:       4.0
+posY:       -200.0
+width:      190
+height:     180
+follow:     1
+inside:     0
+isRotating: 0
+deathsnd:   BLAST3
+texName:    enemy_plane3
+////////////////////////////
+enemy_plane4
+typeID:     4
+HP:         4
+score:      640
+penalty:    2
+minscore:   200
+velX:       0.0
+velY:       7.5
+posY:       -150.0
+width:      50
+height:     100
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST1
+texName:    enemy_plane4
+////////////////////////////
+enemy_plane5
+typeID:     5
+HP:         4
+score:      640
+penalty:    2
+minscore:   200
+velX:       0.0
+velY:       10.0
+posY:       -200.0
+width:      100
+height:     100
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST1
+texName:    enemy_plane5
+////////////////////////////
+enemy_plane6
+typeID:     6
+HP:         50
+score:      5200
+penalty:    10
+minscore:   2500
+velX:       0.0
+velY:       6.0
+posY:       -120.0
+width:      140
+height:     196
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST3
+texName:    enemy_plane6
+////////////////////////////
+enemy_plane7
+typeID:     7
+HP:         20
+score:      2400
+penalty:    10
+minscore:   1000
+velX:       2.0
+velY:       5.0
+posY:       -150.0
+width:      112
+height:     100
+follow:     1
+inside:     0
+isRotating: 1
+deathsnd:   BLAST2
+texName:    enemy_plane7
+////////////////////////////
+enemy_plane8
+typeID:     8
+HP:         4
+score:      640
+penalty:    2
+minscore:   200
+velX:       0.0
+velY:       8.0
+posY:       -160.0
+width:      75
+height:     100
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST1
+texName:    enemy_plane8
+////////////////////////////
+enemy_plane9
+typeID:     9
+HP:         100
+score:      10600
+penalty:    20
+minscore:   6000
+velX:       0.0
+velY:       10.0
+posY:       -300.0
+width:      225
+height:     250
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST3
+texName:    enemy_plane9
+////////////////////////////
+enemy_plane9
+typeID:     10
+HP:         125
+score:      13100
+penalty:    20
+minscore:   6000
+velX:       0.5
+velY:       1.5
+posY:       -240.0
+width:      240
+height:     205
+follow:     1
+inside:     0
+isRotating: 0
+deathsnd:   BLAST3
+texName:    enemy_plane10
+////////////////////////////
+enemy_plane9_1
+typeID:     11
+HP:         90
+score:      10600
+penalty:    20
+minscore:   6000
+velX:       0.0
+velY:       10.0
+posY:       -300.0
+width:      225
+height:     250
+follow:     0
+inside:     0
+isRotating: 0
+deathsnd:   BLAST3
+texName:    enemy_plane9
+////////////////////////////
+boss1
+typeID:     12
+HP:         2500
+score:      310000
+penalty:    25
+minscore:   150000
+velX:       0.0
+velY:       4.0
+posY:       -400.0
+width:      250
+height:     300
+follow:     0
+inside:     1
+isRotating: 0
+deathsnd:   BLAST4
+texName:    boss1
+////////////////////////////
+boss2
+typeID:     13
+HP:         3750
+score:      460000
+penalty:    30
+minscore:   225000
+velX:       0.0
+velY:       4.0
+posY:       -400.0
+width:      500
+height:     225
+follow:     0
+inside:     1
+isRotating: 0
+deathsnd:   BLAST4
+texName:    boss2
+////////////////////////////
+boss3
+typeID:     14
+HP:         6250
+score:      610000
+penalty:    35
+minscore:   300000
+velX:       0.0
+velY:       4.0
+posY:       -400.0
+width:      320
+height:     272
+follow:     0
+inside:     1
+isRotating: 0
+deathsnd:   BLAST4
+texName:    boss3
+////////////////////////////
+boss4
+typeID:     15
+HP:         3000
+score:      1010000
+penalty:    25
+minscore:   500000
+velX:       0.0
+velY:       0.0
+posY:       -400.0
+width:      80
+height:     100
+follow:     0
+inside:     1
+isRotating: 0
+deathsnd:   BLAST4
+texName:    boss4
+////////////////////////////

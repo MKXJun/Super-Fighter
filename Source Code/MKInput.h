@@ -1,10 +1,11 @@
 #pragma once
 #define DIRECTINPUT_VERSION 0x0800
-
+#define CORRECT_THUMBY 256	// ×ó¹öÂÖĞŞÕıÖµ
 #include <d3d11.h>
 #include <dinput.h>
+#include <Xinput.h>
 #pragma comment(lib, "dinput8.lib")
-
+#pragma comment(lib, "Xinput.lib")
 enum class MKMouse { 
 	LEFT,	//Êó±êÓÒ¼ü
 	RIGHT	//Êó±ê×ó¼ü
@@ -39,7 +40,12 @@ public:
 	int GetMouseLRoll() const { return m_MouseState.lZ / 120; }
 	// ¼ì²â¼üÅÌ°´¼ü
 	bool Key_Down(int key) const { return (bool)(m_keys[key] & 0x80); }
-
+	// ¼ì²âXboxÊÖ±ú°´¼ü
+	bool XBoxHandle_ButtonDown(int key) const { return (bool)(m_XinputState.Gamepad.wButtons & key); }
+	// ¼ì²âXboxÊÖ±úLX
+	SHORT XBoxHandle_ThumbLX() const { return m_XinputState.Gamepad.sThumbLX; }
+	// ¼ì²âXboxÊÖ±úLY
+	SHORT XBoxHandle_ThumbLY() const { return m_XinputState.Gamepad.sThumbLY + CORRECT_THUMBY; };
 private:
 	MKInput() {}
 	~MKInput() {}
@@ -50,7 +56,7 @@ private:
 	static LPDIRECTINPUTDEVICE8		m_pKeyboard;
 	static LPDIRECTINPUTDEVICE8		m_pMouse;
 	static IDXGISwapChain*			m_pSwapChain;
-
+	static XINPUT_STATE				m_XinputState;
 
 	char							m_keys[256];
 

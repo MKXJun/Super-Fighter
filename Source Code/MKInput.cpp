@@ -6,6 +6,7 @@ LPDIRECTINPUTDEVICE8 MKInput::m_pKeyboard = nullptr;
 LPDIRECTINPUTDEVICE8 MKInput::m_pMouse = nullptr;
 HWND MKInput::m_hWnd = nullptr;
 IDXGISwapChain*	MKInput::m_pSwapChain = nullptr;
+XINPUT_STATE	MKInput::m_XinputState;
 
 void MKInput::Initialize(HWND hWnd, IDXGISwapChain*	pSwapChain)
 {
@@ -70,6 +71,7 @@ void MKInput::Update()
 		m_pKeyboard->Acquire();
 	}
 
+	// 更新鼠标
 	m_pMouse->Poll();
 	ZeroMemory(&m_MouseState, sizeof(DIMOUSESTATE));
 	if (m_pMouse->GetDeviceState(sizeof(DIMOUSESTATE), &m_MouseState) < 0)
@@ -77,6 +79,10 @@ void MKInput::Update()
 		//鼠标设备丢失，尝试重新获取
 		m_pMouse->Acquire();
 	}
+
+	// 更新XBox手柄
+	ZeroMemory(&m_XinputState, sizeof m_XinputState);
+	XInputGetState(0, &m_XinputState);
 
 	/*	
 		更新鼠标位置和按键

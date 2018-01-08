@@ -719,29 +719,29 @@ void UserPlane::Update(MKInput * pIn)
 		else
 		{
 			unsigned short record[2]{};		//帧记录
-			if (pIn->Key_Down(DIK_UPARROW))
+			if (pIn->Key_Down(DIK_UPARROW) || pIn->XBoxHandle_ThumbLY() > 10000 || pIn->XBoxHandle_ButtonDown(XINPUT_GAMEPAD_DPAD_UP))
 			{
 				Move(0, -1);
 				record[1] |= REPLAY_UP;
 			}
-			if (pIn->Key_Down(DIK_DOWNARROW))
+			if (pIn->Key_Down(DIK_DOWNARROW) || pIn->XBoxHandle_ThumbLY() < -10000 || pIn->XBoxHandle_ButtonDown(XINPUT_GAMEPAD_DPAD_DOWN))
 			{
 				Move(0, 1);
 				record[1] |= REPLAY_DOWN;
 			}
-			if (pIn->Key_Down(DIK_LEFTARROW))
+			if (pIn->Key_Down(DIK_LEFTARROW) || pIn->XBoxHandle_ThumbLX() < -10000 || pIn->XBoxHandle_ButtonDown(XINPUT_GAMEPAD_DPAD_LEFT))
 			{
 				Move(-1, 0);
 				record[1] |= REPLAY_LEFT;
 			}
-			if (pIn->Key_Down(DIK_RIGHTARROW))
+			if (pIn->Key_Down(DIK_RIGHTARROW) || pIn->XBoxHandle_ThumbLX() > 10000 || pIn->XBoxHandle_ButtonDown(XINPUT_GAMEPAD_DPAD_RIGHT))
 			{
 				Move(1, 0);
 				record[1] |= REPLAY_RIGHT;
 			}
 
 			// 限速射击
-			if (!m_BombFrameCnt && pIn->Key_Down(DIK_Z) &&
+			if (!m_BombFrameCnt && (pIn->Key_Down(DIK_Z) || pIn->XBoxHandle_ButtonDown(XINPUT_GAMEPAD_X)) &&
 				PlaneManager::totalFrameCnt - m_ShootFrameCnt > m_ShootSpeed)
 			{
 				Shoot();
@@ -749,7 +749,7 @@ void UserPlane::Update(MKInput * pIn)
 				record[1] |= REPLAY_Z;
 			}
 			// 使用炸弹
-			if (!m_BombFrameCnt && pIn->Key_Down(DIK_X) && m_Bombs)
+			if (!m_BombFrameCnt && (pIn->Key_Down(DIK_X) || pIn->XBoxHandle_ButtonDown(XINPUT_GAMEPAD_A)) && m_Bombs)
 			{
 				m_BombFrameCnt = PlaneManager::totalFrameCnt;
 				m_Bombs--;
