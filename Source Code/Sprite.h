@@ -23,7 +23,7 @@ protected:
 	static IDXGISwapChain* GetSwapChain() { return m_pSwapChain; }
 	static HWND GetWindow() { return m_hWnd; }
 	static void InitSprite(HWND hWnd, ID3D11DeviceContext* devContext, IDXGISwapChain* pSwapChain, ID3DX11Effect* pFX);
-	static void Release() { m_pDevice = nullptr; m_pDeviceContext = nullptr; }
+	static void Release() { ReleaseCOM(m_pDevice); m_pDeviceContext = nullptr; }
 	static bool IsFullScreen() { BOOL fullscreen; m_pSwapChain->GetFullscreenState(&fullscreen, nullptr); return fullscreen; }
 private:
 	static ID3D11Device*					m_pDevice;			// D3D…Ë±∏

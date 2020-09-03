@@ -16,12 +16,17 @@
 #include "d3dUtil.h"
 #include "GameTimer.h"
 
+#if defined(_DEBUG) | defined(DEBUG)
+#pragma comment(lib, "d3dx11d.lib")
+#else
+#pragma comment(lib, "d3dx11.lib")
+#endif
+
 #pragma comment(lib, "dsound.lib")
 #pragma comment(lib, "winmm.lib")
 #pragma comment(lib, "d2d1.lib")
 #pragma comment(lib, "dwrite.lib")
 #pragma comment(lib, "d3d11.lib")
-#pragma comment(lib, "d3dx11.lib")
 #pragma comment(lib, "D3DCompiler.lib")
 #pragma comment(lib, "Effects11.lib")
 #pragma comment(lib, "dxerr.lib")
