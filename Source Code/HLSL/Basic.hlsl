@@ -29,8 +29,8 @@ TECH(Sprite2D)
 {
     pass P0
     {
-        SetVertexShader(CompileShader(vs_5_0, VS_2D()));
+        SetVertexShader(CompileShader(vs_4_0, VS_2D()));
         SetGeometryShader(NULL);
-        SetPixelShader(CompileShader(ps_5_0, PS_2D()));
+        SetPixelShader(CompileShader(ps_4_0, PS_2D()));
     }
 }

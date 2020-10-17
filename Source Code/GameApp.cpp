@@ -122,15 +122,11 @@ void GameApp::DrawScene()
 {
 	assert(m_pD3DImmediateContext);
 	assert(m_pSwapChain);
-	// **************************************
-	// ** TODO：设置底色                  ***
-	// **************************************
+
 	m_pD3DImmediateContext->ClearRenderTargetView(m_pRenderTargetView, reinterpret_cast<const float*>(&Colors::Silver));		//底色
 	m_pD3DImmediateContext->ClearDepthStencilView(m_pDepthStencilView, D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0);
 
-	// ******************************************
-	// *** TODO：进行绘制                     ***
-	// ******************************************
+
 	// 按图层顺序反向绘制
 	DrawGameSence();
 	DrawBackground();

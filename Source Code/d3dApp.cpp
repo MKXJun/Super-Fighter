@@ -382,13 +382,19 @@ bool D3DApp::InitDirect3D()
     createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
 #endif
 
+	D3D_FEATURE_LEVEL featureLevels[] = {
+		D3D_FEATURE_LEVEL_11_0,
+		D3D_FEATURE_LEVEL_10_1,
+		D3D_FEATURE_LEVEL_10_0
+	};
 	D3D_FEATURE_LEVEL featureLevel;
+
 	HRESULT hr = D3D11CreateDevice(
 			0,                 // 默认适配器
 			m_d3dDriverType,
 			0,                 // 无软件设备
 			createDeviceFlags | D3D11_CREATE_DEVICE_BGRA_SUPPORT, 
-			0, 0,              // 默认特性等级数组
+			featureLevels, ARRAYSIZE(featureLevels),
 			D3D11_SDK_VERSION,
 			&m_pD3DDevice,
 			&featureLevel,
@@ -399,18 +405,6 @@ bool D3DApp::InitDirect3D()
 		MessageBox(0, L"D3D11CreateDevice Failed.", 0, 0);
 		return false;
 	}
-
-	if( featureLevel != D3D_FEATURE_LEVEL_11_0 )
-	{
-		MessageBox(0, L"Direct3D Feature Level 11 unsupported.", 0, 0);
-		return false;
-	}
-
-	// 检测 MSAA支持的质量等级
-
-	HR(m_pD3DDevice->CheckMultisampleQualityLevels(
-		DXGI_FORMAT_R8G8B8A8_UNORM, 4, &m_4xMsaaQuality));
-	assert( m_4xMsaaQuality > 0 );
 
 	// 填充DXGI_SWAP_CHAIN_DESC用以描述交换链
 
